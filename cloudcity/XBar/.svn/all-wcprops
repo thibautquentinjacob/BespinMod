@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/cloudcity/!svn/ver/1304/XBar
+END
+menubar.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/cloudcity/!svn/ver/1149/XBar/menubar.h
+END
+xbar.katesessions.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/cloudcity/!svn/ver/1044/XBar/xbar.katesessions.sh
+END
+plasma-applet-xbar.desktop
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/cloudcity/!svn/ver/192/XBar/plasma-applet-xbar.desktop
+END
+xbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/cloudcity/!svn/ver/1203/XBar/xbar.h
+END
+dbus.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/cloudcity/!svn/ver/192/XBar/dbus.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/cloudcity/!svn/ver/192/XBar/main.cpp
+END
+MainMenu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/cloudcity/!svn/ver/1044/XBar/MainMenu.xml
+END
+menubar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/cloudcity/!svn/ver/1080/XBar/menubar.cpp
+END
+xbar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/cloudcity/!svn/ver/393/XBar/xbar.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/cloudcity/!svn/ver/1203/XBar/CMakeLists.txt
+END
+xbar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/cloudcity/!svn/ver/1304/XBar/xbar.cpp
+END

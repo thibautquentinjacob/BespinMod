@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ "$1" = "on" ]; then cmd="activate";
+elif [ "$1" = "off" ]; then cmd="deactivate";
+else echo -e "Usage:\n$0 on|off"; exit; fi
+kdialog --passivepopup "<qt><h1>MacMenu</h1>Click window to switch top menuabr usage<center><h1>$1</h1></center></qt>" 20 &
+d_pid=$!
+pid=$(xprop | grep _NET_WM_PID)
+qdbus org.kde.XBar-${pid#* = } /XBarClient $cmd
+kill $d_pid > /dev/null 2>&1

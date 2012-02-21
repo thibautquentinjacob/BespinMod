@@ -1,0 +1,51 @@
+.TH "BESPIN" "1" "january 25, 2008" "" ""
+.SH "NAME"
+bespin \- the Bespin style configurator
+.SH "SYNOPSIS"
+.B bespin presets | demo [style] | show <some_preset> | try <some_config.bespin> | sshot <some_file.png> [preset] [width]  | load <some_preset> | import <some_config.bespin> | update <some_config.bespin> | export <some_preset> <some_config.bespin> | listStyles
+.SH "DESCRIPTION"
+This manual page briefly documents the
+.B bespin
+command.
+.PP 
+\fBbespin\fP is a program to configure the Bespin Qt4 widget style or manage the presets w/o GUI.
+.SH "FUNCTION LETTERS"
+.TP 
+.B [config]
+Configure the Bespin Style
+.TP 
+.B presets
+List the available Presets
+.TP 
+.B demo [style]
+Launch a demo, you can pass other stylenames
+.TP 
+.B show <some_preset>
+Open demo dialog with a preset
+.TP 
+.B try <some_config.bespin>
+Try out an exported setting
+.TP 
+.B sshot <some_file.png> [preset] [width]
+Save a screenshot
+.TP 
+.B load <some_preset>
+Load a preset to current settings
+.TP 
+.B import <some_config.bespin>
+Import an exported setting
+.TP
+.B update <some_config.bespin>
+Like import, but overrides existing
+.TP 
+.B export <some_preset> <some_config.bespin>
+Export an imported setting
+.TP 
+.B listStyles
+List all Qt UI styles installed on this System
+.SH "AUTHOR"
+bespin was written by Thomas L\[:u]bking
+.PP 
+This manual page was written by Guillaume Martres <smarter@ubuntu.com>
+from the output of bespin \-h by Thomas Lübking <baghira-style@gmx.net>
+for the Debian project (but may be used by others).

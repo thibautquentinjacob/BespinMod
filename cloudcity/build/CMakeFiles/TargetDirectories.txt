@@ -1,0 +1,11 @@
+/home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir
+/home/thibaut/Downloads/cloudcity/build/config/CMakeFiles/bespin.dir
+/home/thibaut/Downloads/cloudcity/build/config/CMakeFiles/kstyle_bespin_config.dir
+/home/thibaut/Downloads/cloudcity/build/config/CMakeFiles/kstyle_bespin_config_automoc.dir
+/home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir
+/home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/kwin3_bespin_automoc.dir
+/home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/kwin_bespin_config.dir
+/home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/kwin_bespin_config_automoc.dir
+/home/thibaut/Downloads/cloudcity/build/XBar/CMakeFiles/plasma_applet_xbar.dir
+/home/thibaut/Downloads/cloudcity/build/XBar/CMakeFiles/plasma_applet_xbar_automoc.dir
+/home/thibaut/Downloads/cloudcity/build/CMakeFiles/uninstall.dir

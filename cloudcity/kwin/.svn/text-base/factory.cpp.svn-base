@@ -1,0 +1,838 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// -------------------
+// Bespin window decoration for KDE.
+// -------------------
+// Copyright (c) 2008/2009 Thomas Lübking <baghira-style@gmx.net>
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to
+// deal in the Software without restriction, including without limitation the
+// rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+// sell copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+// IN THE SOFTWARE.
+//////////////////////////////////////////////////////////////////////////////
+
+#include <QCoreApplication>
+#include <QDBusConnection>
+#include <QDBusMessage>
+// #include <QDir>
+#include <QFontMetrics>
+#include <QLabel>
+#include <QMenu>
+#include <QPainter>
+#include <QSettings>
+#include <QWidgetAction>
+#include <QStyleOptionHeader>
+#include <QTextBrowser>
+#include <QVBoxLayout>
+#include <QX11Info>
+#include <KGlobal>
+#include <KSharedConfig>
+#include <KConfigGroup>
+#include <kwindowsystem.h>
+#include <kdeversion.h>
+#include "../blib/FX.h"
+#include "../blib/shadows.h"
+#include "../config.defaults"
+// #include "button.h"
+#include "client.h"
+#include "factory.h"
+#include "dbus.h"
+
+#include <QtDebug>
+
+#include <kdemacros.h>
+
+extern "C"
+{ KDE_EXPORT KDecorationFactory* create_factory() { return new Bespin::Factory(); } }
+
+using namespace Bespin;
+
+bool Factory::weAreInitialized = false;
+bool Factory::weAreComposited = true; // just guessing, kwin isn't up yet ... :(
+bool Factory::weAreCompiz = false; // just guessing, isn't up yet ... :(
+Config Factory::ourConfig =
+    { false, false, false, true, true, false, true, 0, Qt::AlignHCenter,
+      { {Gradients::None, Gradients::Button}, {Gradients::None, Gradients::None} },
+      Gradients::None, QStringList() };
+Qt::KeyboardModifier Factory::ourCommandKey = Qt::AltModifier;
+int Factory::ourButtonSize[2] = {-1, -1};
+int Factory::ourBorderSize[2] = {4,4};
+int Factory::ourTitleSize[2] = {18,16};
+int Factory::ourBgMode = 1;
+QVector<Button::Type> Factory::ourMultiButton(0);
+QMenu *Factory::ourDesktopMenu = 0;
+QMenu *Factory::ourWindowList = 0;
+QTextBrowser *Factory::ourWindowInfo = 0;
+QHash<qint64, WindowData*> Factory::ourDecoInfos;
+QHash<qint64, BgSet*> Factory::ourBgSets;
+QList<Preset*> Factory::ourPresets;
+QPixmap Factory::mask;
+
+static short int _verticalTitle = 0;
+
+typedef QHash<QString, QHash<NET::WindowType, WindowData*> > DoubleHash;
+
+Factory::Factory() : QObject(), KDecorationFactory()
+{
+    weAreCompiz = QCoreApplication::applicationName() != "kwin";
+    readConfig();
+    //-------------
+    Gradients::init();
+
+    mask = QPixmap(17,17);
+    mask.fill(Qt::transparent);
+    QPainter p(&mask);
+    p.setPen(Qt::NoPen); p.setBrush(Qt::black);
+    p.setRenderHint(QPainter::Antialiasing);
+    p.drawEllipse(mask.rect());
+    p.end();
+
+    connect (qApp, SIGNAL(aboutToQuit()), SLOT(cleanUp()));
+    connect (KWindowSystem::self(), SIGNAL(compositingChanged(bool)), SLOT(updateCompositingState(bool)));
+    weAreInitialized = true;
+    new BespinDecoAdaptor(this);
+//     QDBusConnection::sessionBus().registerService("org.kde.XBar");
+    QDBusConnection::sessionBus().registerObject("/BespinDeco", this);
+    connect (KWindowSystem::self(), SIGNAL(compositingChanged(bool)), SLOT(updateCompositingState(bool)));
+    QMetaObject::invokeMethod( this, "postInit", Qt::QueuedConnection);
+}
+
+void Factory::postInit() {
+    updateCompositingState(FX::compositingActive());
+}
+
+void Factory::cleanUp() {
+    weAreInitialized = false;
+    Gradients::wipe();
+    XProperty::remove(QX11Info::appRootWindow(), XProperty::bespinShadow[0]);
+    XProperty::remove(QX11Info::appRootWindow(), XProperty::bespinShadow[1]);
+    Shadows::cleanUp();
+}
+
+Factory::~Factory() { cleanUp(); }
+
+KDecoration* Factory::createDecoration(KDecorationBridge* b)
+{
+    return new Client(b, this);
+}
+
+//////////////////////////////////////////////////////////////////////////////
+// Reset the handler. Returns true if decorations need to be remade, false if
+// only a repaint is necessary
+
+bool Factory::reset(unsigned long changed)
+{
+    weAreInitialized = false;
+    const bool configChanged = readConfig();
+    weAreInitialized = true;
+
+    bool ret = configChanged || (changed & (SettingDecoration | SettingButtons | SettingBorder));
+
+    bool wasComposited = weAreComposited;
+    weAreComposited = FX::compositingActive();
+    if (wasComposited != weAreComposited)
+        ret = false;
+
+    if (!ret)
+    {
+        if (wasComposited != weAreComposited)
+        {
+            resetDecorations(changed | SettingBorder);
+            QDBusConnection::sessionBus().send( QDBusMessage::createMethodCall( "org.kde.kwin", "/KWin", "org.kde.KWin", "reconfigure" ) );
+        }
+        else
+            resetDecorations(changed);
+    }
+
+    return ret;
+}
+
+static void
+multiVector(const QString & string, QVector<Button::Type> &vector)
+{
+    Button::Type type; vector.clear();
+    for (int i = 0; i < string.length(); ++i)
+    {
+        switch (string.at(i).toAscii())
+        {
+        case 'M': type = Button::Menu; break;
+        case 'S': type = Button::Stick; break;
+        case 'H': type = Button::Help; break;
+        case 'F': type = Button::Above; break;
+        case 'B': type = Button::Below; break;
+        case 'L': type = Button::Shade; break;
+        case 'E': type = Button::Exposee; break;
+        case '!': type = Button::Info; break;
+        case 'I': type = Button::Min; break;
+        case 'A': type = Button::Max; break;
+        case 'X': type = Button::Close; break;
+        default: continue;
+        }
+        vector.append(type);
+    }
+}
+
+static QString
+multiString(const QVector<Button::Type> &vector)
+{
+    QString string; char c;
+    for (int i = 0; i < vector.size(); ++i)
+    {
+        switch (vector.at(i))
+        {
+        case Button::Menu: c = 'M'; break;
+        case Button::Stick: c = 'S'; break;
+        case Button::Help: c = 'H'; break;
+        case Button::Above: c = 'F'; break;
+        case Button::Below: c = 'B'; break;
+        case Button::Shade: c = 'L'; break;
+        case Button::Exposee: c = 'E'; break;
+        case Button::Info: c = '!'; break;
+        case Button::Min: c = 'I'; break;
+        case Button::Max: c = 'A'; break;
+        case Button::Close: c = 'X'; break;
+        default: continue;
+        }
+        string.append(c);
+    }
+    return string;
+}
+
+static void
+setupWindowData(Preset *preset, const QSettings &settings)
+{
+    preset->data.inactiveWindow = settings.value("InactiveColor", 0).toUInt();
+    preset->data.activeWindow = settings.value("ActiveColor", 0).toUInt();
+    preset->data.inactiveDeco = settings.value("InactiveColor2", 0).toUInt();
+    preset->data.activeDeco = settings.value("ActiveColor2", 0).toUInt();
+    preset->data.inactiveText = settings.value("InactiveText", 0).toUInt();
+    preset->data.activeText = settings.value("ActiveText", 0).toUInt();
+    preset->data.inactiveButton = settings.value("InactiveButtons", 0).toUInt();
+    preset->data.activeButton = settings.value("ActiveButtons", 0).toUInt();
+    int mode = settings.value("ActiveGradient", 0).toInt();
+    if (mode < 0)
+    {
+        mode = (mode == 0xff) ? 1 : -(mode+1);
+        preset->data.style =  ( ((mode & 0xff) << 16) |
+                                ((settings.value("InactiveGradient2", 0).toInt() & 0xff) << 8) |
+                                (settings.value("ActiveGradient2", 0).toInt() & 0xff) );
+    }
+    else
+        preset->data.style =  ( ((0xff & 0xff) << 16) |
+                                ((settings.value("InactiveGradient", 0).toInt() & 0xff) << 8) |
+                                (mode & 0xff) );
+}
+
+
+static NET::WindowType
+string2winType(const QString &string)
+{
+    if (!string.compare("Dialog", Qt::CaseInsensitive))
+        return NET::Dialog;
+    if (!string.compare("Utility", Qt::CaseInsensitive))
+        return NET::Utility;
+    if (!string.compare("Normal", Qt::CaseInsensitive))
+        return NET::Normal;
+    return NET::Unknown;
+}
+
+#if 0 // wine settings
+QSettings winecfg(QDir::homePath() + "/.wine/user.reg", QSettings::IniFormat);
+qDebug() << "BESPIN" << winecfg.childGroups();
+winecfg.beginGroup("Control Panel");//Colors");//Colors");
+winecfg.beginGroup(" ");
+//     winecfg.beginGroup("");
+//     winecfg.beginGroup("");
+qDebug() << "BESPIN" << winecfg.childGroups();
+winecfg.beginGroup("Colors");
+qDebug() << "BESPIN" << winecfg.childKeys();
+//     qDebug() << "BESPIN" << winecfg.value("Control Panel//Colors/\"ButtonFace\"").toString();
+"Control Panel//Colors/"ActiveBorder"",
+"Control Panel//Colors/"ActiveTitle"",
+"Control Panel//Colors/"AppWorkSpace"",
+"Control Panel//Colors/"Background"",
+"Control Panel//Colors/"ButtonAlternateFace"",
+"Control Panel//Colors/"ButtonDkShadow"",
+"Control Panel//Colors/"ButtonHilight"",
+"Control Panel//Colors/"ButtonLight"",
+"Control Panel//Colors/"ButtonShadow"",
+"Control Panel//Colors/"ButtonText"",
+"Control Panel//Colors/"GradientActiveTitle"",
+"Control Panel//Colors/"GradientInactiveTitle"",
+"Control Panel//Colors/"GrayText"",
+"Control Panel//Colors/"Hilight"",
+"Control Panel//Colors/"HilightText"",
+"Control Panel//Colors/"HotTrackingColor"",
+"Control Panel//Colors/"InactiveBorder"",
+"Control Panel//Colors/"InactiveTitle"",
+"Control Panel//Colors/"InactiveTitleText"",
+"Control Panel//Colors/"InfoText"",
+"Control Panel//Colors/"InfoWindow"",
+"Control Panel//Colors/"Menu"",
+"Control Panel//Colors/"MenuBar"",
+"Control Panel//Colors/"MenuHilight"",
+"Control Panel//Colors/"MenuText"",
+"Control Panel//Colors/"Scrollbar"",
+"Control Panel//Colors/"TitleText"",
+"Control Panel//Colors/"Window"",
+"Control Panel//Colors/"WindowFrame"",
+"Control Panel//Colors/"WindowText""
+#endif
+
+bool Factory::readConfig()
+{
+    ourCommandKey = KConfigGroup( KGlobal::config(), "Windows" ).readEntry("CommandAllKey","Alt") == "Meta" ? Qt::MetaModifier : Qt::AltModifier;
+
+    bool ret = false;
+    bool oldBool;
+    QString oldString;
+    Gradients::Type oldgradient;
+
+    QSettings settings("Bespin", "Style");
+    settings.beginGroup("Deco");
+
+    Shadows::setSize( settings.value(SHADOW_SIZE_INACTIVE).toInt(), settings.value(SHADOW_SIZE_ACTIVE).toInt() );
+    const bool halo = settings.value(SHADOW_IS_HALO).toBool();
+    Shadows::setColor( halo ? settings.value(SHADOW_COLOR).value<QColor>() : QColor(0,0,0,255) );
+    Shadows::setHalo( halo );
+    Shadows::cleanUp();
+    // get rid of old stuff (even w/o config: kwin sometimes crashes on --replace)
+    XProperty::remove(QX11Info::appRootWindow(), XProperty::bespinShadow[0]);
+    XProperty::remove(QX11Info::appRootWindow(), XProperty::bespinShadow[1]);
+
+    oldString = ourConfig.smallTitleClasses.join(",");
+    QString smallTitleClasses = settings.value("SmallTitleClasses", "").toString().replace(QRegExp("\\s*,\\s*"), ",");
+    if (oldString != smallTitleClasses)
+    {
+        ret = true;
+        ourConfig.smallTitleClasses =  smallTitleClasses.split(',', QString::SkipEmptyParts);
+    }
+
+    oldBool = ourConfig.forceUserColors;
+    ourConfig.forceUserColors = settings.value("ForceUserColors", false).toBool();
+    if (oldBool != ourConfig.forceUserColors) ret = true;
+
+    oldBool = ourConfig.trimmCaption;
+    ourConfig.trimmCaption = settings.value("TrimmCaption", true).toBool();
+    if (oldBool != ourConfig.trimmCaption) ret = true;
+
+    oldBool = ourConfig.hideInactiveButtons;
+    ourConfig.hideInactiveButtons = !settings.value("InactiveButtons", false).toBool();
+    if (oldBool != ourConfig.hideInactiveButtons) ret = true;
+
+    oldBool = ourConfig.roundCorners;
+    ourConfig.roundCorners = settings.value("RoundCorners", true).toBool();
+    if (oldBool != ourConfig.roundCorners) ret = true;
+
+    int oldInt = ourConfig.slickButtons;
+    ourConfig.slickButtons = settings.value("SlickButtons", 0).toInt();
+    if (oldInt != ourConfig.slickButtons) ret = true;
+
+    oldInt = ourConfig.titleAlign;
+    ourConfig.titleAlign = settings.value("TitleAlign", Qt::AlignHCenter).toInt();
+    if (oldInt != ourConfig.titleAlign) ret = true;
+
+    oldBool = ourConfig.variableShadowSizes;
+    ourConfig.variableShadowSizes = settings.value("VariableShadows", true).toBool();
+    if (oldBool != ourConfig.variableShadowSizes) ret = true;
+
+    oldBool = ourConfig.verticalTitle;
+    ourConfig.verticalTitle =  _verticalTitle ? bool(_verticalTitle-1) : settings.value("VerticalTitlebar", false).toBool();
+    if (oldBool != ourConfig.verticalTitle) ret = true;
+
+    oldBool = ourConfig.resizeCorner;
+    ourConfig.resizeCorner = settings.value("ResizeCorner", false).toBool();
+    if (oldBool != ourConfig.resizeCorner) ret = true;
+
+    oldgradient = ourConfig.gradient[0][0];
+    ourConfig.gradient[0][0] = (Gradients::Type)(settings.value("InactiveGradient", 0).toInt());
+    if (ourConfig.gradient[0][0] < 0)
+    {
+        ourBgMode = -(ourConfig.gradient[0][0]+1);
+        ourConfig.gradient[0][0] = Gradients::None;
+    }
+    else
+        ourBgMode = 1;
+    if (oldgradient != ourConfig.gradient[0][0]) ret = true;
+
+    if (ourBgMode == 1)
+    {
+        oldgradient = ourConfig.gradient[0][1];
+        ourConfig.gradient[0][1] = (Gradients::Type)(settings.value("ActiveGradient", 2).toInt());
+        if (ourConfig.gradient[0][1] < 0)
+        {
+            ourBgMode = -(ourConfig.gradient[0][1]+1);
+            ourConfig.gradient[0][1] = Gradients::None;
+        }
+        if (oldgradient != ourConfig.gradient[0][1]) ret = true;
+    }
+
+    oldgradient = ourConfig.gradient[1][0];
+    ourConfig.gradient[1][0] = (Gradients::Type)(settings.value("InactiveGradient2", 0).toInt());
+    if (oldgradient != ourConfig.gradient[1][0]) ret = true;
+
+    oldgradient = ourConfig.gradient[1][1];
+    ourConfig.gradient[1][1] = (Gradients::Type)(settings.value("ActiveGradient2", 0).toInt());
+    if (oldgradient != ourConfig.gradient[1][1]) ret = true;
+
+    oldgradient = ourConfig.buttonGradient;
+    oldgradient = ourConfig.buttonGradient = (Gradients::Type)(settings.value("ButtonGradient", 0).toInt());
+    if (oldgradient != ourConfig.buttonGradient) ret = true;
+
+    QString oldmultiorder = multiString(ourMultiButton);
+    QString newmultiorder = settings.value("MultiButtonOrder", "MHFBSLE!").toString();
+    if (oldmultiorder != newmultiorder)
+    {
+        ret = true;
+        multiVector(newmultiorder, ourMultiButton);
+    }
+
+    const char *borderStrings[2] = { "BaseSize", "EdgeSize" };
+    for (int i = 0; i < 2; ++i)
+    {
+        oldInt = ourBorderSize[i];
+        ourBorderSize[i] = settings.value(borderStrings[i], 4).toInt();
+        if (oldInt != ourBorderSize[i]) ret = true;
+    }
+
+    int fntHgt = QFontMetrics(options()->font()).height();
+    int oldtitlesize = ourTitleSize[0];
+    ourTitleSize[0] = fntHgt + 4 + settings.value("TitlePadding", 0).toInt();
+    if (oldtitlesize != ourTitleSize[0]) ret = true;
+    ourButtonSize[0] = fntHgt - 2 + ourTitleSize[0]%2;
+
+    fntHgt *= smallFactor();
+    oldtitlesize = ourTitleSize[1];
+    ourTitleSize[1] = fntHgt + 2;
+    if (oldtitlesize != ourTitleSize[1]) ret = true;
+    ourButtonSize[1] = fntHgt - 2 + ourTitleSize[1]%2;
+
+    // delete old presets
+    qDeleteAll(ourPresets.begin(), ourPresets.end());
+    ourPresets.clear();
+
+    // read presets
+    QStringList presets = settings.childGroups();
+    foreach (QString presetName, presets)
+    {
+        settings.beginGroup(presetName);
+
+        QStringList typeStrings = settings.value("Types", QString()).toString().replace(QRegExp("\\s*,\\s*"), ",").split(',', QString::SkipEmptyParts);
+        QList<NET::WindowType> types;
+        foreach (QString typeString, typeStrings)
+        {
+            NET::WindowType type = string2winType(typeString);
+            if (!types.contains(type))
+                types << type;
+        }
+        if (!typeStrings.isEmpty() && (types.isEmpty() || (types.count() == 1 && types.at(0) == NET::Unknown)))
+            continue; // the list contained only junk and we don't rank this as "matche all!"
+
+        Preset *preset = new Preset;
+        preset->types = types;
+
+        preset->classes = settings.value("Classes", QString()).toString().replace(QRegExp("\\s*,\\s*"), ",").split(',', QString::SkipEmptyParts);
+        preset->classes.removeDuplicates();
+
+        ourPresets << preset;
+        setupWindowData(preset, settings);
+
+        settings.endGroup();
+    }
+
+    const int icnVar = ourConfig.buttonGradient == Gradients::None ? settings.value("IconVariant", 1).toInt() : 1;
+    Button::init( options()->titleButtonsLeft().contains(QRegExp("(M|S|H|F|B|L)")),
+                  settings.value("IAmMyLittleSister", false).toBool(), icnVar);
+
+    return ret;
+}
+
+void
+Factory::setNetbookMode(bool on)
+{
+    _verticalTitle = on + 1;
+//     reset(63);
+//     ourConfig.verticalTitle = on;
+    QDBusConnection::sessionBus().send( QDBusMessage::createMethodCall( "org.kde.kwin", "/KWin", "org.kde.KWin", "reconfigure" ) );
+//     resetDecorations(63);
+}
+
+class Header : public QLabel
+{
+public:
+    Header(const QString & title, QWidget *parent = 0) : QLabel(title, parent)
+    {
+        QFont font; font.setBold(false); setFont(font);
+    }
+protected:
+    void paintEvent(QPaintEvent *)
+    {
+        QStyleOptionHeader opt; opt.initFrom(this);
+        opt.textAlignment = Qt::AlignCenter;
+        opt.text = text();
+        QPainter p(this);
+        style()->drawControl(QStyle::CE_Header, &opt, &p, this );
+        p.end();
+    }
+private:
+};
+
+void
+Factory::showDesktopMenu(const QPoint &p, Client *client)
+{
+//    static void KWindowSystem::setCurrentDesktop( int desktop );
+    if (!client)
+        return;
+    if (!ourDesktopMenu)
+        ourDesktopMenu = new QMenu();
+    else
+        ourDesktopMenu->clear();
+
+    QWidgetAction *headerAct = new QWidgetAction(ourDesktopMenu);
+    headerAct->setDefaultWidget(new Header("Throw on:"));
+    ourDesktopMenu->addAction(headerAct);
+
+    QAction *act = 0;
+    for (int i = 1; i <= KWindowSystem::numberOfDesktops(); ++i)
+    {
+        act = ourDesktopMenu->addAction ( "Desktop #" + QString::number(i), client, SLOT(throwOnDesktop()) );
+        act->setData(i);
+        act->setDisabled(i == KWindowSystem::currentDesktop());
+    }
+    ourDesktopMenu->popup(p);
+}
+
+void
+Factory::showWindowList(const QPoint &p, Client *client)
+{
+    if (!ourWindowList)
+        ourWindowList = new QMenu();
+    else
+        ourWindowList->clear();
+
+    QWidgetAction *headerAct = new QWidgetAction(ourWindowList);
+    headerAct->setDefaultWidget(new Header("Windows"));
+    ourWindowList->addAction(headerAct);
+
+    const QList<WId>& windows = KWindowSystem::windows();
+
+    QAction *act = 0;
+    KWindowInfo info; QString title;
+#define NET_FLAGS NET::WMVisibleName | NET::WMWindowType | NET::WMDesktop | NET::WMState | NET::XAWMState
+    foreach (WId id, windows)
+    {
+        info = KWindowInfo(id, NET_FLAGS, 0);
+        if (info.windowType( NET::NormalMask | NET::DialogMask | NET::UtilityMask ) != -1)
+        {
+            title = info.visibleIconName();
+            if (info.isMinimized())
+                title = "( " + title + " )";
+            if (!info.isOnCurrentDesktop())
+                title = "< " + title + " >";
+            if (title.length() > 52)
+                title = title.left(22) + "..." + title.right(22);
+            act = ourWindowList->addAction ( title, client, SLOT(activate()) );
+            act->setData((uint)id);
+            act->setDisabled(id == KWindowSystem::activeWindow());
+        }
+    }
+    ourWindowList->popup(p);
+}
+
+
+static QString
+winType2string(NET::WindowType type)
+{
+   switch (type)
+   {
+   default:
+   case NET::Unknown: return "Unknown";
+   case NET::Normal: return "Normal";
+   case NET::Desktop: return "Desktop";
+   case NET::Dock: return "Dock";
+   case NET::Toolbar: return "Toolbar";
+   case NET::Menu: return "Menu";
+   case NET::Dialog: return "Dialog";
+   case NET::Override: return "Override";
+   case NET::TopMenu: return "TopMenu";
+   case NET::Utility: return "Utility";
+   case NET::Splash: return "Splash";
+   case NET::DropdownMenu: return "DropdownMenu";
+   case NET::PopupMenu: return "PopupMenu";
+   case NET::Tooltip: return "Tooltip";
+   case NET::Notification: return "Notification";
+   case NET::ComboBox: return "ComboBox";
+   case NET::DNDIcon: return "DNDIcon";
+   }
+}
+
+void
+Factory::showInfo(const QPoint &p, WId id)
+{
+
+   // build info widget - in case
+   if (!ourWindowInfo) {
+      QWidget *window = new QWidget(0, Qt::Popup);
+      QVBoxLayout *l = new QVBoxLayout(window);
+      l->setContentsMargins ( 6, 2, 6, 10 );
+      l->setSpacing(0);
+      Header *header = new Header("Window Information", window);
+      l->addWidget(header);
+      ourWindowInfo = new QTextBrowser(window);
+
+      ourWindowInfo->viewport()->setAutoFillBackground(false);
+      ourWindowInfo->viewport()->setBackgroundRole(QPalette::Window);
+      ourWindowInfo->viewport()->setForegroundRole(QPalette::WindowText);
+      ourWindowInfo->setFrameStyle(QFrame::NoFrame);
+
+      ourWindowInfo->setFontFamily ( "fixed" );
+      QString css("h1 { font-size:large; margin-top:10px; margin-bottom:4px; }");
+      ourWindowInfo->document()->setDefaultStyleSheet ( css );
+
+      l->addWidget(ourWindowInfo);
+      window->resize(255, 453);
+   }
+   else
+      ourWindowInfo->clear();
+
+   // fill with info
+   KWindowInfo info( id,
+                     NET::WMState | NET::WMWindowType | NET::WMVisibleName | NET::WMName |
+                     NET::WMVisibleIconName | NET::WMIconName | NET::WMDesktop | NET::WMGeometry |
+                     NET::WMFrameExtents,
+                     NET::WM2TransientFor | NET::WM2GroupLeader | NET::WM2WindowClass |
+                     NET::WM2WindowRole | NET::WM2ClientMachine | NET::WM2AllowedActions );
+/*
+   unsigned long state() const;
+   WId transientFor() const; //the mainwindow for this window.
+   WId groupLeader() const;
+   QByteArray windowRole() const;
+   bool actionSupported( NET::Action action ) const;
+*/
+   QString text("\
+<h1 align=center>Identification</h1>\
+WId      : <b>%1 %2 %3</b><br/>\
+Name     : <b>%4</b>" );
+   text = text.arg(QString::number(ulong(info.win()))).
+               arg(QString::number(long(info.win()))).
+               arg(QString::number(ulong(info.win()), 16)).
+               arg(info.name());
+
+   if (info.visibleName() != info.name())
+      text.append("<br/>Name V  : <b>%1</b>").arg(info.visibleName());
+   if (info.iconName() != info.name())
+      text.append("<br/>Iconic  : <b>%1</b>").arg(info.iconName());
+   if (info.iconName() != info.visibleIconName())
+      text.append("<br/>Iconic V: <b>%1</b>").arg(info.visibleIconName());
+
+   text.append("\
+<hr><h1 align=center>Geometry</h1>\
+    X    : <b>%1 (%5)</b><br/>\
+    Y    : <b>%2 (%6)</b><br/>\
+Width    : <b>%3 (%7)</b><br/>\
+Height   : <b>%4 (%8)</b>");
+   text = text.arg(info.geometry().x()).
+               arg(info.geometry().y()).
+               arg(info.geometry().width()).
+               arg(info.geometry().height()).
+               arg(info.frameGeometry().x()).
+               arg(info.frameGeometry().y()).
+               arg(info.frameGeometry().width()).
+               arg(info.frameGeometry().height());
+
+   text.append("\
+<hr><h1 align=center>Location</h1>\
+Desktop  : <b>%1 %2</b><br/>\
+Machine  : <b>%3</b>\
+<hr><h1 align=center>Properties</h1>\
+Type     : <b>%4 (%5)</b><br/>\
+Class    : <b>%6</b><br/>\
+ClassName: <b>%7</b><br/>\
+");
+   NET::WindowType type = info.windowType( NET::AllTypesMask );
+   text = text.arg(info.desktop()).
+               arg(info.onAllDesktops() ? "(Sticked)" : (info.isOnCurrentDesktop() ? "(Current)" : "")).
+               arg(QString(info.clientMachine())).
+               arg(winType2string(type)).arg(type).
+               arg(QString(info.windowClassClass())).
+               arg(QString(info.windowClassName()));
+
+   ourWindowInfo->setHtml( text );
+
+   // and show up
+   QWidget *win = ourWindowInfo->parentWidget();
+//    QPoint ip = p;
+//    if (ip.x() + 640 > )
+   win->move(p);
+   win->show();
+}
+
+bool
+Factory::supports( Ability ability ) const
+{
+    switch( ability )
+    {
+    // announce
+    case AbilityAnnounceButtons: ///< decoration supports AbilityButton* values (always use)
+    case AbilityAnnounceColors: ///< decoration supports AbilityColor* values (always use)
+    // buttons
+    case AbilityButtonMenu:   ///< decoration supports the menu button
+    case AbilityButtonOnAllDesktops: ///< decoration supports the on all desktops button
+    case AbilityButtonSpacer: ///< decoration supports inserting spacers between buttons
+    case AbilityButtonHelp:   ///< decoration supports what's this help button
+    case AbilityButtonMinimize:  ///< decoration supports a minimize button
+    case AbilityButtonMaximize: ///< decoration supports a maximize button
+    case AbilityButtonClose: ///< decoration supports a close button
+    case AbilityButtonAboveOthers: ///< decoration supports an above button
+    case AbilityButtonBelowOthers: ///< decoration supports a below button
+    case AbilityButtonShade: ///< decoration supports a shade button
+
+    // colors
+    case AbilityColorTitleBack: ///< decoration supports titlebar background color
+    case AbilityColorTitleFore: ///< decoration supports titlebar foreground color
+    case AbilityColorTitleBlend: ///< decoration supports second titlebar background color
+    case AbilityColorButtonBack: ///< decoration supports button background color
+#if KDE_IS_VERSION(4,6,0)
+    case AbilityUsesBlurBehind:
+#endif
+        return true;
+
+    // composite
+#if KDE_IS_VERSION(4,3,0)
+    case AbilityUsesAlphaChannel: /// don't clip - it's expensive with composition
+    case AbilityProvidesShadow: /// rather not
+#if KDE_IS_VERSION(4,4,0)
+    case AbilityExtendIntoClientArea: /// i don't even know what this is :-)
+    case AbilityClientGrouping: /// errr - NO
+#endif
+#endif
+    case AbilityColorButtonFore: ///< decoration supports button foreground color
+    case AbilityColorFrame: ///< decoration supports frame color
+    case AbilityButtonResize: ///< decoration supports a resize button
+    case AbilityColorHandle: ///< decoration supports resize handle color
+    default:
+        return false;
+    }
+}
+
+BgSet *
+Factory::bgSet(const QColor &c, bool vertical, int intensity, qint64 *hashPtr)
+{
+    qint64 hash = (qint64(c.rgba()) << 32) | (qint64(vertical) << 31) | qint64(intensity & 0xfffffff);
+    if (hashPtr)
+        *hashPtr = hash;
+
+    BgSet *set = ourBgSets.value(hash, 0);
+    if (!set)
+        set = Gradients::bgSet(c, vertical?Gradients::BevelV:Gradients::BevelH , intensity);
+    ourBgSets.insert(hash, set);
+    return set;
+}
+
+void
+Factory::kickBgSet(qint64 hash)
+{
+    QHash<qint64, BgSet*>::iterator i = ourBgSets.find(hash);
+    if (i != ourBgSets.end())
+    {
+        delete i.value(); i.value() = 0;
+        ourBgSets.erase(i);
+    }
+}
+
+void
+Factory::learn(qint64 pid, QByteArray data)
+{
+    if (data.length() != 36)
+        return;
+    forget(pid);
+    WindowData *info = new WindowData;
+    uint *ints = (uint*)data.data();
+    info->inactiveWindow = ints[0];
+    info->activeWindow = ints[1];
+    info->inactiveDeco = ints[2];
+    info->activeDeco = ints[3];
+    info->inactiveText = ints[4];
+    info->activeText = ints[5];
+    info->inactiveButton = ints[6];
+    info->activeButton = ints[7];
+    info->style = ints[8];
+    ourDecoInfos.insert(pid, info);
+}
+
+void
+Factory::forget(qint64 pid)
+{
+    QHash<qint64, WindowData*>::iterator i = ourDecoInfos.find(pid);
+    if (i != ourDecoInfos.end())
+    {
+        delete i.value(); i.value() = 0;
+        ourDecoInfos.erase(i);
+    }
+}
+
+void
+Factory::updateDeco(WId id)
+{
+    QList<KDecoration*> decos = findChildren<KDecoration*>();
+    foreach (KDecoration *deco, decos)
+        if (deco->windowId() == id)
+        {
+            deco->reset(SettingColors);
+            return;
+        }
+}
+
+void
+Factory::updateCompositingState(bool active)
+{
+    weAreComposited = !active;
+    reset(0);
+}
+
+WindowData*
+Factory::decoInfo(qint64 pid)
+{
+    return ourDecoInfos.value(pid, 0);
+}
+
+WindowData*
+Factory::decoInfo(QString wmClass, NET::WindowType type)
+{
+    WindowData *data = 0;
+    bool matchesType = false;
+    foreach (Preset *preset, ourPresets)
+    {
+        matchesType = false;
+        if (preset->types.contains(type)) // type match
+        {
+            matchesType = true;
+            if (!data) // class not yet matched
+                data = &preset->data;
+        }
+        if (preset->classes.contains(wmClass)) // class matched
+        {
+            if (matchesType) // we won't find a better one
+                return &preset->data;
+            else
+                data = &preset->data;
+        }
+    }
+    return data; // we may have found a class OR type match
+}
+
+#include "dbus.moc"
+#include "factory.moc"

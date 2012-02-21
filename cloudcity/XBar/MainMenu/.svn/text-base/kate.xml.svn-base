@@ -1,0 +1,22 @@
+<submenu>
+   <menu label="Kate">
+      <action label="Amarok-0.5" exec="kate -n -s 'Amarok-0.5'"/>
+      <action label="Amarok2" exec="kate -n -s 'Amarok2'"/>
+      <action label="Amarok_Toolbar3G" exec="kate -n -s 'Amarok_Toolbar3G'"/>
+      <action label="Animator" exec="kate -n -s 'Animator'"/>
+      <action label="BE::shell" exec="kate -n -s 'BE::shell'"/>
+      <action label="Bespin Deco" exec="kate -n -s 'Bespin Deco'"/>
+      <action label="Bespin Style" exec="kate -n -s 'Bespin Style'"/>
+      <action label="Bespin XBar" exec="kate -n -s 'Bespin XBar'"/>
+      <action label="Bespin" exec="kate -n -s 'Bespin'"/>
+      <action label="BlockCompositing" exec="kate -n -s 'BlockCompositing'"/>
+      <action label="CoolBar" exec="kate -n -s 'CoolBar'"/>
+      <action label="Default Session" exec="kate -n -s 'Default Session'"/>
+      <action label="ghost" exec="kate -n -s 'ghost'"/>
+      <action label="KMail" exec="kate -n -s 'KMail'"/>
+      <action label="oxygenanimations.cpp" exec="kate -n -s 'oxygenanimations.cpp'"/>
+      <action label="piQtureGLide" exec="kate -n -s 'piQtureGLide'"/>
+      <separator/>
+      <action label="Update" exec="xbar.katesessions.sh"/>
+   </menu>
+</submenu>

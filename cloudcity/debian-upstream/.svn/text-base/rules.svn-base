@@ -1,0 +1,77 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# export DH_VERBOSE=1
+export DH_OPTIONS
+
+configure: configure-stamp
+configure-stamp:
+	dh_testdir
+	test -d build || mkdir build
+	cd build && ln -sf ../debian && cmake -DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` -DCMAKE_BUILD_TYPE=Release ..
+	touch configure-stamp
+
+build: build-arch build-indep
+
+build-arch: build-arch-stamp
+build-arch-stamp: configure-stamp
+	cd build && $(MAKE)
+	touch $@
+
+build-indep: build-indep-stamp
+build-indep-stamp: configure-stamp
+	# docbook-to-man debian/testpack.sgml > testpack.1
+	touch $@
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-arch-stamp build-indep-stamp configure-stamp
+	rm -Rf build
+	dh_clean
+
+install: install-arch install-indep
+
+install-arch:
+	dh_testdir
+	dh_testroot
+	dh_prep -s
+	dh_installdirs -s
+	cd build && make DESTDIR=../debian/kde-style-bespin install
+	dh_install -s
+
+install-indep:
+	dh_testdir
+	dh_testroot
+	dh_prep -i
+	dh_installdirs -i
+	#  cd build && make DESTDIR=../debian/kde-style-bespin install
+	dh_install -i
+
+# Must not depend on anything
+binary-common:
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs
+	dh_installdocs
+	dh_installexamples
+	dh_installman
+	dh_link
+	dh_strip
+	dh_compress
+	dh_fixperms
+	dh_makeshlibs
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb --destdir=../..
+
+binary-indep: build-indep install-indep
+	cd build && $(MAKE) -f ../debian/rules DH_OPTIONS=-i binary-common
+
+binary-arch: build-arch install-arch
+	cd build && $(MAKE) -f ../debian/rules DH_OPTIONS=-s binary-common
+
+binary: binary-arch binary-indep
+.PHONY: build clean binary-indep binary-arch binary install install-indep install-arch configure

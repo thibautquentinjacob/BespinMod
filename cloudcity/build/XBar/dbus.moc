@@ -1,0 +1,107 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'dbus.h'
+**
+** Created: Sun Feb 19 17:51:20 2012
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../XBar/dbus.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'dbus.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.7.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_XBarAdaptor[] = {
+
+ // content:
+       5,       // revision
+       0,       // classname
+       1,   14, // classinfo
+       9,   16, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // classinfo: key, value
+      25,   12,
+
+ // slots: signature, parameters, type, tag, flags
+      78,   52,   51,   41, 0x0a,
+     134,  130,   51,   41, 0x0a,
+     164,  160,   51,   41, 0x0a,
+     182,  130,   51,   41, 0x0a,
+     206,  130,   51,   41, 0x0a,
+     244,  230,   51,   41, 0x0a,
+     288,  274,   51,   41, 0x0a,
+     320,  274,   51,   41, 0x0a,
+     363,  355,   51,   41, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_XBarAdaptor[] = {
+    "XBarAdaptor\0org.kde.XBar\0D-Bus Interface\0"
+    "Q_NOREPLY\0\0service,key,title,entries\0"
+    "registerMenu(QString,qlonglong,QString,QStringList)\0"
+    "key\0unregisterMenu(qlonglong)\0idx\0"
+    "setOpenPopup(int)\0requestFocus(qlonglong)\0"
+    "releaseFocus(qlonglong)\0oldKey,newKey\0"
+    "reparent(qlonglong,qlonglong)\0"
+    "key,idx,entry\0addEntry(qlonglong,int,QString)\0"
+    "changeEntry(qlonglong,int,QString)\0"
+    "key,idx\0removeEntry(qlonglong,int)\0"
+};
+
+const QMetaObject XBarAdaptor::staticMetaObject = {
+    { &QDBusAbstractAdaptor::staticMetaObject, qt_meta_stringdata_XBarAdaptor,
+      qt_meta_data_XBarAdaptor, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &XBarAdaptor::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *XBarAdaptor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *XBarAdaptor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_XBarAdaptor))
+        return static_cast<void*>(const_cast< XBarAdaptor*>(this));
+    return QDBusAbstractAdaptor::qt_metacast(_clname);
+}
+
+int XBarAdaptor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDBusAbstractAdaptor::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: registerMenu((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< qlonglong(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< const QStringList(*)>(_a[4]))); break;
+        case 1: unregisterMenu((*reinterpret_cast< qlonglong(*)>(_a[1]))); break;
+        case 2: setOpenPopup((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 3: requestFocus((*reinterpret_cast< qlonglong(*)>(_a[1]))); break;
+        case 4: releaseFocus((*reinterpret_cast< qlonglong(*)>(_a[1]))); break;
+        case 5: reparent((*reinterpret_cast< qlonglong(*)>(_a[1])),(*reinterpret_cast< qlonglong(*)>(_a[2]))); break;
+        case 6: addEntry((*reinterpret_cast< qlonglong(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3]))); break;
+        case 7: changeEntry((*reinterpret_cast< qlonglong(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3]))); break;
+        case 8: removeEntry((*reinterpret_cast< qlonglong(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        default: ;
+        }
+        _id -= 9;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

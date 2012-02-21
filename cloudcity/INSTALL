@@ -1,0 +1,163 @@
+Bespin Qt widget style, KWin decoration and stuff
+
+Requirements:
+=============
+In order to compile you'll need at least
+- A c++ compiler, GCC is strongly suggested
+- Qt4.3 modules Core, Gui (and DBus on supporting systems) on OSX, Windows or X11 (alphabetical order...)
+
+Linux/X11 Packages: (the actual names may differ, watch out for version numbers)
+--------------------
+° libX11 (you have...)
+° libX11-dev
+° libQt4 (...probably...)
+° libQt4-dev
+° [libXRender] (...this as well)
+° [libXRender-dev]
+(XRender is not really required, but a little more performant and you definitivey want it in combination with the KWin deco)
+
+If you want the KWin decoration or the XBar plasmoid (mac-a-like menubar)
+- cmake >= 2.4
+- KDE4
+
+Packages:
+---------
+° kdelibs (likely...)
+° kdelibs-dev
+° kdebase (...you already have these)
+° kdebase-dev
+° libplasma [only if this isn't included in kdebase...]
+° libplasma-dev [...resp. kdebase-dev anyway]
+
+
+
+
+Installation Instructions
+=========================
+
+-- Content ----------------
+a) YOU HAVE CMAKE
+b) YOU DON'T HAVE CMAKE
+c) YOU WANT A .DEB PACKAGE (-> ./builddeb.sh)
+d) YOU HAVE ABSOLUTELY NO IDEA
+e) YOU STILL HAVE TROUBLE
+
+----------------------------
+
+a) YOU HAVE CMAKE ==============================================================================
+
+You just do pretty much the common cmake stuff (described is the interactive easy-to-go way,
+using Bash - most shells will work very much similar)
+
+1.  Enter the Bespin source dir (assuming "bespin", might be "cloudcity" - it contains this file)
+cd bespin
+   2. Make a build subdir
+mkdir build
+   3. Enter the subdir
+cd build
+   4. Configure Bespin using ccmake
+ccmake ../
+      4.1 Press 'c' for a general config run
+      4.2 Adjust some paths to your wishes (navigate with the arrow keys, press enter, then type,
+          then press enter again)
+      4.3 Press 'c' for the final config run
+      4.4 Press 'g' to generate makefiles
+
+   5. Run the compiler
+make
+   6. (finally) Install (as root)
+sudo make install
+
+NOTES:
+------
+- To install using sudo, you'll usually be asked for your root password.
+If you don't know it: Ask your admin for help
+
+- You can link steps 5 & 6 by calling:
+make && sudo make install
+but remember you'll be asked for the root password to install as long as your user isn't permitted
+to NOPASSWD in visudo - or you are allready root (i discourage BOTH as permanent setup...)
+
+-----------
+
+b) YOU DON'T HAVE CMAKE =====================================================================
+
+If you don't have cmake (and presumingly no KDE either) you can build the style and the
+config application "bespin" using the Qt4 build system.
+   1. Make sure you have qmake for Qt 4.x
+qmake --version
+      If there's an error or qmake operates on Qt3, there may be a Qt4 version outside the $PATH
+      Usually it's located in [path_to_your_qt4_installation/bin]
+      Windows users: /real/ OSs don't use the backslash '\' to delimit paths... ;-P
+   2. Enter the Bespin source dir (assuming "bespin", might be "cloudcity" - it contains this file)
+cd bespin
+   3. Run qmake (don't forget: Qt4 version ;-)
+qmake qmake.pro
+   (There's no output in success)
+   4. Run the compiler
+   make
+   5. (finally) Install (as root)
+sudo make install
+
+NOTES:
+------
+- To install using sudo, you'll usually be asked for your root password.
+If you don't know it: Ask your admin for help
+
+- You can link steps 4 & 5 by calling:
+make && sudo make install
+but remember you'll be asked for the root password to install as long as your user isn't permitted
+to NOPASSWD in visudo - or you are allready root (i discourage BOTH as permanent setup...)
+
+-----------
+
+c) YOU WANT A .DEB PACKAGE =================================================================
+
+You can directly create debian/ubuntu packages by using the builddep.sh script, which will
+create a package named kde-style-bespin that can be installed using the dpkg command.
+This requires the debhelper scripts beyound _cmake_ and _all_libs_mentioned_above_ to be installed!
+
+-----------
+
+d) YOU HAVE ABSOLUTELY NO IDEA ==============================================================
+
+If you don't know anything about your environment or cmake or stuff, you can call the config script
+provided with Bespin
+
+   1. Enter the Bespin source dir (assuming "bespin", might be "cloudcity" - it contains this file)
+cd bespin
+   2. Run configure (and hope for no error messages)
+./configure
+      (Windows usually has the . in $PATH, anyway - you'll probably rather have to type "configure"
+      or ".\configure")
+   3. Do NOT leave the current directory (in case you've cmake, it's like "bespin/build")
+   4. Run the compiler
+make
+   5. (finally) Install (as root)
+sudo make install
+   
+NOTES:
+------
+- To install using sudo, you'll usually be asked for your root password.
+If you don't know it: Ask your admin for help
+
+- You can link steps 4 & 5 by calling:
+make && sudo make install
+but remember you'll be asked for the root password to install as long as your user isn't permitted
+to NOPASSWD in visudo - or you are allready root (i discourage BOTH as permanent setup...)
+
+-----------
+
+d) YOU STILL HAVE TROUBLE ====================================================================
+
+May be your fault, may be mine - no problem, though.
+
+- Just drop a mail to baghira-style@gmx.net
+- Contact me via http://cloudcity.sf.net/
+  (use the "Help" link in the menu on the right side, you'll need a sf.net account!)
+- LLOD: ask for help on http://www.kde-look.org/content/show.php/Bespin?content=63928
+  Pleasepleaseprettyplease:
+  DO NOT POST LONG ERROR MESSAGES THERE!
+  (use e.g. http://www.pastebin.com instead and place a link at kde-look.org)
+  THANKS!
+  

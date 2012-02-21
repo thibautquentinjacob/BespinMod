@@ -1,0 +1,81 @@
+=================
+BESPIN EXTRAS 
+=================
+
+k3b
+====
+Well, a k3b theme - mostly dark, not really comple so far.
+
+INSTALLATION:
+-------------
+copy the folder to ~/.kde/share/apps/k3b/pics/bespin (ie. rename "k3b" to "bespin" - k3b is a little generic for that purpose ;-)
+
+kde_infopage.css
+=================
+Controls the "about:" look in konqueror, kmail and some other apps
+
+INSTALLATION:
+-------------
+copy the file to ~/.kde/share/apps/kdeui/about, in doubt link the about folder to
+~/.kde/share/apps/libkdepim
+
+restart konqueror*, kmail or ... to see changes
+
+* really restart: by default kfmclient will just open another tab or window!
+
+####################################################################################################
+
+bespin-compl:
+=============
+Bash completion for the "bespin" tool, written by Franz Fellner
+
+INSTALLATION:
+-------------
+copy the file into your bash completion directory (or append it to the completion file, not suggested)
+sudo cp bespin-compl /etc/bash_completion.d/
+
+NOTICE:
+* that the dir name may differ depending on your distribution
+
+####################################################################################################
+
+default-theme.svg.bz2:
+======================
+modified (much simpler) theme for amarok2
+
+INSTALLATION:
+-------------
+extract and copy the file to your local amarok data dir, then close amarok, flush the pixmap cache
+and restart amarok
+bunzip2 default-theme.svg.bz2
+mkdir -p ~/.kde/share/apps/amarok/images
+cp default-theme.svg ~/.kde/share/apps/amarok/images/
+UPDATE:
+for recent versions of amarok (svn trunk) the name changed, so best make a symlink
+ln -s ~/.kde/share/apps/amarok/images/default-theme.svg ~/.kde/share/apps/amarok/images/default-theme-clean.svg
+kquitapp amarok
+rm -f /var/tmp/kdecache-$(whoami)/kpc/Amarok-pixmaps.*
+
+NOTICE:
+* that the location of kpc may differ depending on your distribution
+
+amarok&
+
+NOTICE:
+* that the first amarok start will take a little longer.
+* that the buttons contrast with the background, but amarok seems to ignore palette changes atm, so
+if you run amarok with a different color setup, you'll probably have to flush the pixmap cache in
+order to update the button pixmaps :(
+
+####################################################################################################
+
+macmenu:
+========
+a shellscript to toggle the macmenu (if you use the XBar plasmoid)
+usage is simple:
+macmenu on
+macmenu off
+will turn the cursor into a cross. just click the mainwindow you wish to turn support for on or off.
+you may guess when to call on or off ;-)
+
+

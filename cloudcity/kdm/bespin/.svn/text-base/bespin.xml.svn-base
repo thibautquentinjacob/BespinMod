@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE greeter SYSTEM "greeter.dtd">
+<!--
+Copyright 2008 Thomas Lübking <thomas.luebking@web.de>
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of 
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<greeter id="theme">
+    <style  font="Sans 12" window-text-color="#888888"
+            base-color="#00FFFFFF" alternate-base-color="#66000000"
+            disabled-base-color="#00FFFFFF"
+            highlight-color="#6094CF"
+            text-color="#333333" disabled-text-color="#808080"/>
+    <item type="pixmap" id="background" background="true">
+        <normal file="background.jpg"/>
+        <pos anchor="c" x="50%" y="50%" width="100%" height="100%"/>
+    </item>
+
+    <item type="rect" id="greeter">
+        <pos y="50%" x="50%" anchor="c" width="800" height="600"/>
+        <fixed>
+            <item type="pixmap">
+                <normal file="window.png"/>
+                <pos anchor="nw" x="0" y="0" width="100%" height="100%"/>
+            </item>
+            <item type="pixmap" id="system_button" button="true">
+                <show modes="console" type="system"/>
+                <normal file="system.png"/>
+                <prelight file="system-hover.png"/>
+                <active file="system-hover.png"/>
+                <pos anchor="w" x="5%" y="30%"/>
+            </item>
+            <item type="list" id="userlist">
+                <pos anchor="nw" x="10%" y="10%" width="27%" height="56%"/>
+            </item>
+            <item type="pixmap">
+                <normal file="logo.png"/>
+                <pos anchor="n" x="65%" y="3%"/>
+            </item>
+            <item type="label" id="welcome">
+                <pos anchor="n" x="65%" y="18%"/>
+                <normal font="Sans 18"/>
+                <stock type="welcome-label"/>
+            </item>
+            <item type="rect" id="talker">
+                <pos x="46%" y="29%" anchor="nw" width="39%" height="24%"/>
+                <box orientation="vertical" xpadding="0" ypadding="0" spacing="0">
+                    <item type="label">
+                        <pos x="50%" y="150%" anchor="s"/>
+                        <stock type="username-label"/>
+                    </item>
+                    <item type="entry" id="user-entry">
+                        <pos anchor="nw" x="3%" y="75%" width="95%" height="22"/>
+                    </item>
+                    <item type="label">
+                        <pos x="50%" y="265%" anchor="s"/>
+                        <stock type="password-label"/>
+                    </item>
+                    <item type="entry" id="pw-entry">
+                        <pos anchor="nw" x="3%" y="200%" width="95%" height="22"/>
+                    </item>
+                </box>
+            </item>
+            <item type="pixmap" id="session_button" button="true">
+                <normal file="session.png"/>
+                <prelight file="session-hover.png"/>
+                <active file="session-hover.png"/>
+                <pos anchor="e" x="96%" y="40%"/>
+            </item>
+            <item type="label" id="caps-lock-warning">
+                <normal color="#FFEB55" font="Sans 12"/>
+                <pos anchor="c" x="65%" y="59%"/>
+                <stock type="caps-lock-warning"/>
+            </item>
+            <item type="label" id="pam-error">
+                <pos anchor="c" x="65%" y="59%"/>
+                <normal color="#E20700" font="Sans Bold 12"/>
+                <text/>
+            </item>
+            <item type="label" id="clock">
+                <pos anchor="s" x="60%" y="70%"/>
+                <text>%c</text>
+            </item>
+       </fixed>
+    </item>
+
+    <item type="rect" id="timed-label">
+        <pos anchor="c" x="50%" y="20%" width="box" height="box"/>
+        <box orientation="vertical" xpadding="50" ypadding="5" spacing="0">
+            <item type="label">
+                <normal color="#C7C7C7" font="Sans 12"/>
+                <pos x="50%" anchor="n"/>
+                <stock type="timed-label"/>
+            </item>
+        </box>
+    </item>
+
+</greeter>

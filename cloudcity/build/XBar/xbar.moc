@@ -1,0 +1,128 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'xbar.h'
+**
+** Created: Sun Feb 19 17:51:20 2012
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../XBar/xbar.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'xbar.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.7.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_XBar[] = {
+
+ // content:
+       5,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      20,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+       6,    5,    5,    5, 0x0a,
+      13,    5,    5,    5, 0x08,
+      27,    5,    5,    5, 0x08,
+      38,    5,    5,    5, 0x08,
+      55,    5,    5,    5, 0x08,
+      67,    5,    5,    5, 0x08,
+      81,    5,    5,    5, 0x08,
+      92,    5,    5,    5, 0x08,
+     113,    5,    5,    5, 0x08,
+     129,    5,    5,    5, 0x08,
+     150,    5,    5,    5, 0x08,
+     170,    5,    5,    5, 0x08,
+     185,    5,    5,    5, 0x08,
+     198,    5,    5,    5, 0x08,
+     214,    5,    5,    5, 0x08,
+     233,    5,    5,    5, 0x08,
+     260,  257,    5,    5, 0x08,
+     284,  257,    5,    5, 0x08,
+     304,  257,    5,    5, 0x08,
+     326,    5,    5,    5, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_XBar[] = {
+    "XBar\0\0init()\0activateWin()\0byeMenus()\0"
+    "callFromAction()\0callMenus()\0cleanBodies()\0"
+    "hover(int)\0raiseCurrentWindow()\0"
+    "runFromAction()\0repopulateMainMenu()\0"
+    "setCurrentDesktop()\0showMainMenu()\0"
+    "trigger(int)\0updatePalette()\0"
+    "updateWindowlist()\0unregisterCurrentMenu()\0"
+    "id\0ggmWindowActivated(WId)\0"
+    "ggmWindowAdded(WId)\0ggmWindowRemoved(WId)\0"
+    "runGgmAction()\0"
+};
+
+const QMetaObject XBar::staticMetaObject = {
+    { &Plasma::Applet::staticMetaObject, qt_meta_stringdata_XBar,
+      qt_meta_data_XBar, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &XBar::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *XBar::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *XBar::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_XBar))
+        return static_cast<void*>(const_cast< XBar*>(this));
+    typedef Plasma::Applet QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int XBar::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef Plasma::Applet QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: init(); break;
+        case 1: activateWin(); break;
+        case 2: byeMenus(); break;
+        case 3: callFromAction(); break;
+        case 4: callMenus(); break;
+        case 5: cleanBodies(); break;
+        case 6: hover((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 7: raiseCurrentWindow(); break;
+        case 8: runFromAction(); break;
+        case 9: repopulateMainMenu(); break;
+        case 10: setCurrentDesktop(); break;
+        case 11: showMainMenu(); break;
+        case 12: trigger((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 13: updatePalette(); break;
+        case 14: updateWindowlist(); break;
+        case 15: unregisterCurrentMenu(); break;
+        case 16: ggmWindowActivated((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 17: ggmWindowAdded((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 18: ggmWindowRemoved((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 19: runGgmAction(); break;
+        default: ;
+        }
+        _id -= 20;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

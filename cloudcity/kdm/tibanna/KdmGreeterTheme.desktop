@@ -1,0 +1,10 @@
+# This is not really a .desktop file like the rest, but it is useful to treat
+# it as such
+
+[KdmGreeterTheme]
+Greeter=tibanna.xml
+Name=Tibanna
+Description=Landos login screen - really ;-)
+Author=Thomas Lübking
+Copyright=(c) 2010 Thomas Lübking
+Screenshot=screenshot.png

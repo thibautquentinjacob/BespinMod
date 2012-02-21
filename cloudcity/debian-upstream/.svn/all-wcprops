@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/cloudcity/!svn/ver/1420/debian-upstream
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/cloudcity/!svn/ver/1420/debian-upstream/control
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/cloudcity/!svn/ver/508/debian-upstream/compat
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/cloudcity/!svn/ver/508/debian-upstream/copyright
+END
+docs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/cloudcity/!svn/ver/508/debian-upstream/docs
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/cloudcity/!svn/ver/508/debian-upstream/rules
+END
+manpages
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/cloudcity/!svn/ver/508/debian-upstream/manpages
+END
+changelog.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/cloudcity/!svn/ver/508/debian-upstream/changelog.in
+END

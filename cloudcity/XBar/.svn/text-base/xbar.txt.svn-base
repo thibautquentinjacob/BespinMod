@@ -1,0 +1,81 @@
+XBar
+
+The XBar is a Client/Server approach to a "mac-a-like" global menubar.
+Currently it's only used by the Bespin Style to post apply clients to Qt4 based applications.
+The only currently existing Server is a Plasmoid.
+
+KDE3
+
+On KDE3, menubars were ripped out of the application window and XEmbedded into a special Kicker panel.
+The Kicker plugin then acted as a simple WM, monitoring activeWindow changes and selecting the proper menubar in accordance.
+This has it's limits.
+- It could not be post-applied as Qt (at least many apps) does not like it too much if you just take away it's QMainWindow::layout()->menuBar()
+- Remaining part of the application but inside the window of another one can be distracting. Especially if the app freezes and (from a user point of view) Kicker becomes inresponsive.
+
+Plasma/Oxygen
+
+- The core problem however was Plasma, or to be more precise the Oxygen theme, or to be even more preciser...er, the fact that it uses inverted colors by default.
+Oxygen - as most styles - at least by default uses dark text on a bright window, but the default Oxygen Plasma theme is pretty much white on black.
+Unfortunately the Menubars don't know too much about the current Plasma themes colors. SO even if you can convice the Menubar to paint an X-wise transparent background (remoiving the backing store usage) you'll likely end up with painting black text onto a black background....
+As the menubar, though embedded into a Plasma panel, is /not/ part of the Plasma application, it does not get auto-informed about theme and/or color settings or changes.
+
+DBus
+
+Therefore i decided to take a Client/Server approach, using DBus as IPC for a most simlpe protocol.
+This resolved me from the color issue and also allows me to "do stuff" with the visual menubar (such as manipulating the string of the first entry or inject pseudo entries without having to fear side effects)
+I chose Dbus as it's fast, reliable, tested ... and the default IPC used by KDE & Qt ;-)
+
+How it works
+
+The Server (aka the XBar plasmoid)
+registers itself as org.kde.XBar to the DBus session bus.
+It provides functions to
+- add/remove complete menubars alongside a unique id
+- add/remove/change menu entries (for that unique id)
+- change the unique id (that's e.g. the original menubars mainwindow which could change due to reparenting)
+- focus change requests (whether a client want's its menubar to be visible now)
+- be informed that a popup actually appeared (this is technical, to allow visual status updates)
+
+The clients (aka Bespin styled menubars)
+register as org.kde.XBar-<pid> to provide a central hook for an internal dispatcher (i.e. you can have as many menubars per app as ever you want)
+They provide functions to
+- activate/deactivate the global menu usage (i.e. (un)hide the internal menubar)
+- open/close the popup for some menubar index
+- get notified that a menubar index was hovered (so they can decide to open the attached popup, depending on whether another popup is already open)
+- (raise the attached window - that's rather a gimmick, you can change the current XBar menubar by mousewheeling and some XBar setup provides functions to do stuff with the window like raising/closing it ect.)
+
+Processing
+Right after starting up, the Server calls all clients for activation. If they're interested, they'll register themselves to the server and hide the internal menubar.
+When the server dies, it calls all clients for deactivation. (Both functions can of course be used w/o the server, e.g. by a simple bash script that allow you to click a window to toogle the global menu usage on or off)
+
+As soon as a client starts it looks for an existing server and activates itself registers to the server and hides the internal menubar.
+When the client dies, it unregisters from the server.
+(In case a client segfaults, the server has a timer triggered cleanup routine that removes bodies every few seconds, so the user will usually not be confused with inoperative menubars)
+
+Together the whole thing works "automagically" - you don't have to change settings or so. Just add the server plasmoid and the global menus will start working. Remove it, and you return to the common M$-like menubars.
+
+With the registration, the client sends the server a stringlist containing the strings for the cliented menubar. If in case of e.g. kate the menubar is initially more or less empty and then gets and changes items later on, the server just gets the updates and repaints.
+
+Whenever a cliented window gets activated, it requests it's menu to be shown by the server. If it falls inactive, it tells the server to unset the menubar (i.e. it's no more interested in its menu being shown)
+
+The server implements a (in case of plasma QGraphics-) Widget that acts more or less like a simple menubar. (I.e. it holds a list of items, calculates their positions, watches mouse position changes, thus triggers hover events, etc.)
+When the user selects an item and presses the lmb, the server sends a request to the current client to popup (or down - NOTICE: this should be changed to just one trigger notification) the attached client. The client then pops up (or down) the popup at the position demanded by the server and informs the server which popup is now open (for visual status updates).
+The server also informs the client whenever the hovered item changes and this way allow it to change the currently open popup (popup sliding).
+
+Implementation specifics:
+- The server currently uses QStyle to paint the items, but nothing would prevent us from e.g. making use of plasma theme elements.
+- The post-applied proxy-menubar implementation in Bespin has it's drawbacks.
+a) It's pretty much a giant hack, as taking away or even just hiding the menubar isn't very much appreciated by Qt
+b) It's not perfect and i'm not sure whether every issue (see below) can be addressed this way
+
+What does not work (yet...)
+- Keyboard usage:
+Using menu shortcuts will open the popups inside the window.
+On the other hand, if you opne a popup with the mouse, you cannot change to open popup with the left/right arrow keys. (I simply was never interested in neither)
+- Closing the initially opend popup by clicking the "not-window" (aka. the desktop or other windows) if you change the open pooup (even forth and back) "click-to-close" works as expected (some mouse grabbing issue)
+- Icons and non-label actions in the menubar. Icons aren't important, but i don't know what to do e.g. with konquerors throbber (aside especially this thing being hardly more than annoying)
+
+
+General Drawbacks:
+- Links dbus for every app.
+- Sometimes (with opera?) there can be a slight delay when changing the active window leading to the "no active menubar" content being displayed for a moment and thus flicker.

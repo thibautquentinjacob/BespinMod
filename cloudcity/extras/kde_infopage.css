@@ -1,0 +1,176 @@
+
+/*
+ * text styles
+ */
+
+img {margin: 0px; padding: 0px}
+
+body > div {
+    margin-top: 141px;
+}
+
+body {
+    position: absolute;
+    margin: 0px;
+    padding: 8pt;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #2D2F30; /*#F0F0F0;*/
+/*     border-left: 20pt solid #2D2F30; */
+/*     border-right: 20pt solid #2D2F30; */
+    border-radius: 0px;
+    color: #333333; 
+    min-height: 100%;
+    left: 0px;
+    right: 0px;
+}
+
+/*
+ * the main box
+ */
+
+#box {
+    position:absolute;
+    background-color: #FCFDFE;
+    width: 66%;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 10px;
+    margin-bottom: 30pt;
+    border: none;
+    border-radius: 8px;
+    -khtml-box-shadow: 1px 2px 0px #666;
+}
+
+a, a:visited {
+    color: #222222;
+    text-decoration: none; 
+    font-weight: bold;
+}
+a:hover, a.selected, a:active {
+    color: #000000;
+    text-shadow: #AAAEB2 0px 0px 6px;
+    text-decoration: none;
+}
+
+#bar a, #bar a:active, #bar a:hover { color: #E3E5E6; }
+#bar a.selected { color: #f0f2f4; font-size: 1.4em; text-shadow: none; }
+
+#subtext {
+    font-size: 10pt;
+    font-style: italic;
+}
+
+#nextlink {
+    margin: 0px;
+    padding-top: 1em;
+    text-align: center;
+    font-size: 10pt;
+}
+
+/*
+ * the header
+ */
+
+#header, #footer {
+    margin-top: 0px;
+    position: fixed;
+    background-color: #2D2F30;
+    font: window;
+    color: #f0f2f4;
+/*     border-top: 4px solid #000000; */
+    z-index: 100;
+}
+
+#header {
+/*     border-bottom: 1px solid #AAAEB2; */
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 131px;  
+}
+
+#footer {
+    height: 1.2em;
+    bottom:0;
+    left: 20pt;
+    right: 20pt;
+}
+
+
+#headerL {
+    position: absolute;
+    right: 0;
+    height: 131px;
+    width: 147px;
+    z-index: 101;
+}
+/*
+#headerR {
+  position: absolute;
+  left: 0px;
+  width: 430px;
+  height: 131px;
+}*/
+
+/* title and tagline are part of the header diff */
+#title {
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    margin-top:0;
+    margin-left: 20pt;
+    text-align: left;
+    font-size: 64px;
+    font-weight: bold;
+    color: #f0f2f4;
+    font-family: sans-serif;
+/*     color: #444648; */
+    text-shadow: #E3E5E6 0px 0px 16px;
+    z-index: 105;
+}
+
+#tagline {
+    position: absolute;
+    font-family: sans-serif;
+    top: 0px;
+    left: 0px;
+/*     width:30%; */
+    margin-left: 30pt;
+/*     text-align: right; */
+    font-size: 20px;
+    font-weight: bold;
+    color: #5A5E60;
+    z-index: 105;
+}
+
+/*
+ * the nav bar
+ */
+
+#bar {
+/*     background-color: #FAFAFA; */
+    color: #333333;
+    width: 100%;
+}
+
+#barCenter {
+  text-align: center;
+  color: #666666;
+  padding: 0.8ex;
+  font-weight: bold;
+  font-size: small;
+}
+
+#barCenter ul {
+  margin: 0.8ex;
+  padding: 0;
+}
+
+#barCenter li {
+  display: inline;
+}
+
+#barCenter li:not(:first-child):before { /* Aren't css3 selectors great? */
+  content: " \0387  "; /* unicode for · */
+}

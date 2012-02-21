@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/cloudcity/!svn/ver/1466/kwin
+END
+COPYING.BSD
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/cloudcity/!svn/ver/485/kwin/COPYING.BSD
+END
+dbus.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/cloudcity/!svn/ver/1417/kwin/dbus.h
+END
+config.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/cloudcity/!svn/ver/1466/kwin/config.cpp
+END
+bespin.desktop
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/cloudcity/!svn/ver/144/kwin/bespin.desktop
+END
+factory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/cloudcity/!svn/ver/1466/kwin/factory.cpp
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/cloudcity/!svn/ver/1414/kwin/config.h
+END
+resizecorner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/cloudcity/!svn/ver/1033/kwin/resizecorner.cpp
+END
+button.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/cloudcity/!svn/ver/1391/kwin/button.cpp
+END
+factory.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/cloudcity/!svn/ver/1454/kwin/factory.h
+END
+client.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/cloudcity/!svn/ver/1453/kwin/client.cpp
+END
+resizecorner.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/cloudcity/!svn/ver/1033/kwin/resizecorner.h
+END
+button.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/cloudcity/!svn/ver/1268/kwin/button.h
+END
+configdialog.ui
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/cloudcity/!svn/ver/1466/kwin/configdialog.ui
+END
+client.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/cloudcity/!svn/ver/1443/kwin/client.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/cloudcity/!svn/ver/1345/kwin/CMakeLists.txt
+END

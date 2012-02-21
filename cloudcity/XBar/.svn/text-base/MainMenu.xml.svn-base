@@ -1,0 +1,11 @@
+<menubar>
+    <menu menu="MainMenu/kate"/>
+    <menu label="Desktop">
+        <action label="XTerm" exec="xterm"/>
+        <action label="Toggle FX" dbus="session;org.kde.kwin;/KWin;org.kde.KWin;toggleCompositing"/>
+        <separator/>
+        <action label="Run Conky" exec="conky -c $HOME/.conky/mytop.conf"/>
+        <action label="Quit Conky" exec="killall conky"/>
+    </menu>
+    <action label="Edit Menu" exec="kwrite $HOME/.kde/share/apps/XBar/MainMenu.xml"/>
+</menubar>

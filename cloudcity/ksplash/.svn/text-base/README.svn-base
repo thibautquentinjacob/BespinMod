@@ -1,0 +1,13 @@
+This only provides basedata for a ksplashx splashscreen.
+To actually generate a usable splashscree, you must
+- have imagemagick/graphicsmagick (convert)
+- the file background.jpg in ../kdm (though you can easily replace the background image with any png wallpaper)
+- call "generate.sh <width> <height>" for your screen resolution(s)
+
+To install the splashscreen, copy /this/ folder to ~/.kde/share/apps/ksplash/Themes/Bespin
+mkdir ~/.kde/share/apps/ksplash
+mkdir ~/.kde/share/apps/ksplash/Themes
+cp -rd . ~/.kde/share/apps/ksplash/Themes/Bespin
+
+then call "kcmshell4 ksplashthememgr" and select the Bespin splash or
+test it: "ksplashx Bespin --test"

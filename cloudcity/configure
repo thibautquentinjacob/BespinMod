@@ -1,0 +1,82 @@
+#!/bin/bash
+
+ask_for_qt() {
+   bad "Qt4 could not be found in usual locations, pass it here"
+   QT_DIR="/"
+   while [ "$QT_DIR" != "" ]; do
+      read -p "Path to Qt4: " QT_DIR
+      check="$($QT_DIR/bin/qmake --version 2>&1 | grep -E "Qt *version *4")"
+      if [ "$check" != "" ]; then
+         QMAKE="$QT_DIR/bin/qmake"
+         break;
+      fi
+   done
+}
+
+QT_DIRS="/opt/qt4 /usr/local/qt4 /usr/share/qt4 /usr/lib/qt4"
+
+find_qt() {
+   check="$(qmake --version 2>&1 | grep -E "Qt *version *4")"
+   if [ "$check" = "" ]; then
+      for DIR in $QT_DIRS; do
+         check="$($DIR/bin/qmake --version 2>&1 | grep -E "Qt *version *4")"
+         if [ "$check" != "" ]; then
+               QT_DIR="$DIR"
+               QMAKE="$QT_DIR/bin/qmake"
+               echo "*** Qt4 was found in non dominant path \"$QT_DIR\""
+               break
+         fi
+      done
+   else
+      QT_DIR="$(which qmake)"
+      QT_DIR="${QT_DIR%/bin/qmake}"
+      QMAKE="$QT_DIR/bin/qmake"
+      echo "### Qt4 found in\"$QT_DIR\""
+   fi
+   [ "$QT_DIR" != "" ]
+}
+KDE=false
+## Main code here...
+if cmake --version | grep "cmake version" > /dev/null 2>&1; then
+    echo -e "\n\n==================== Bespin interactive configuration ====================\n
+    Seems you have cmake.
+    In addition to the style, you can have a KWin decoration,
+    a mac-like menu plasmoid and config plugins IFF you have KDE....\n"
+    KDE=true
+    read -n1 -s -p "--> Do you want to compile with KDE support? [Y/n]"
+    echo ""
+    if [ "$REPLY" = "n" -o "$REPLY" = "N" ]; then
+        KDE=false
+        echo "Compiling Qt/qmake only..."
+    else
+        mkdir build > /dev/null 2>&1
+        cd build
+        if ! cmake -DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` -DCMAKE_BUILD_TYPE=Release ..; then
+            exit
+        fi
+    fi
+fi
+if $KDE; then
+   echo -e "\nConfiguration succeeded...\n"
+   read -n1 -s -p "--> Do you want to run a cmake GUI to adjust the configuration? [y/N]"
+   echo ""
+   if [ "$REPLY" = "y" -o "$REPLY" = "Y" ]; then
+      ccmake ..
+   fi
+   cd ..
+   echo -e "\n\n========================= Configuration done ============================\n
+   Ok, now just \"cd build\", \"make\" and \"sudo make install\"...\n\n"
+else
+   QMAKE="qmake"
+   find_qt || ask_for_qt
+   if [ "$QT_DIR" = "" ]; then
+      echo -e ":(\nQt4 not found - exiting...\n"
+      exit 1;
+   fi
+   if ! $QMAKE qmake.pro; then
+      echo ":(\nMakefile generation failed - exiting\n"
+      exit 1;
+   fi
+   echo -e "\n\n========================= Configuration done ============================\n
+   Ok, now just \"make\" and \"sudo make install\"...\n\n"
+fi

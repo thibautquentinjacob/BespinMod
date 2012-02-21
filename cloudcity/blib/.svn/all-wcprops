@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/cloudcity/!svn/ver/1466/blib
+END
+colors.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/cloudcity/!svn/ver/833/blib/colors.cpp
+END
+colors.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/cloudcity/!svn/ver/833/blib/colors.h
+END
+shadows.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/cloudcity/!svn/ver/1466/blib/shadows.cpp
+END
+tileset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/cloudcity/!svn/ver/1023/blib/tileset.cpp
+END
+xproperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/cloudcity/!svn/ver/1397/blib/xproperty.cpp
+END
+dpi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/cloudcity/!svn/ver/833/blib/dpi.cpp
+END
+elements.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/cloudcity/!svn/ver/1146/blib/elements.cpp
+END
+FX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/cloudcity/!svn/ver/1414/blib/FX.cpp
+END
+shadows.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/cloudcity/!svn/ver/1466/blib/shadows.h
+END
+tileset.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/cloudcity/!svn/ver/1023/blib/tileset.h
+END
+gradients.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/cloudcity/!svn/ver/1448/blib/gradients.cpp
+END
+xproperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/cloudcity/!svn/ver/1401/blib/xproperty.h
+END
+dpi.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/cloudcity/!svn/ver/833/blib/dpi.h
+END
+elements.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/cloudcity/!svn/ver/1023/blib/elements.h
+END
+FX.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/cloudcity/!svn/ver/1414/blib/FX.h
+END
+shapes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/cloudcity/!svn/ver/875/blib/shapes.cpp
+END
+gradients.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/cloudcity/!svn/ver/1448/blib/gradients.h
+END
+shapes.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/cloudcity/!svn/ver/873/blib/shapes.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/cloudcity/!svn/ver/1377/blib/CMakeLists.txt
+END
+fixx11h.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/cloudcity/!svn/ver/1401/blib/fixx11h.h
+END

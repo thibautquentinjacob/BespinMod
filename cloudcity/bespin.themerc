@@ -1,0 +1,7 @@
+[Misc]
+Name=Bespin
+Name[x-test]=xxBespinxx
+ConfigPage=kstyle_bespin_config
+Comment=Strike back the Empire
+[KDE]
+WidgetStyle=Bespin

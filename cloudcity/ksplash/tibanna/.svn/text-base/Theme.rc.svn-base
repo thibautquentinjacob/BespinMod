@@ -1,0 +1,9 @@
+[KSplash Theme: Tibanna]
+Name = Landos original splash screen (really ;-)
+Description = Tibanna Splash Screen
+Version = 1.0
+Author = Thomas Lübking
+Homepage = http://cloudcity.sf.net
+
+# Theme behaviour settings.
+Engine = KSplashX

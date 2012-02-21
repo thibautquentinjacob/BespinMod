@@ -1,0 +1,53 @@
+This is a simple bootsplash for Bespin (and people who like blue...)
+
+=== GENERATION =============================================================
+
+To generate a splash set for your current framebuffer resolution
+just call
+
+./generate.sh
+
+If your framebuffer resolution cannot be detected or you want to generate splashes for other resolutions,
+just call
+
+./generate.sh <width>x<height>
+
+e.g. ./generate 1024x768
+
+btw, the silent splash makes a nice wallpaper as well ;)
+
+=== INSTALLATION ============================================================
+
+After you generated the demanded images and configs, it's time too install them.
+
+In general you'll have to be root to do that. The script uses sudo, so
+!!! YOU'LL BE ASKED FOR THE SUDO PASSWORD !!!
+
+By default, bootsplashes reside in /etc/bootsplash/themes and that's where we'll install them if you
+just call
+
+./generate.sh install
+
+if you however for some very strange reason want to install the splash somewhere else,
+you call
+
+./generate.sh install /full/path/to/bootsplashes
+
+=== ACTIVATION ===============================================================
+
+Now the bootsplashes are installed, but not acitaved - afaik the distributions use different mechanisms
+to do this, but in general it's like selecting the Bootsplash theme in some system config tool and call
+
+mkinitrd
+
+THE COMMAND MAY DIFFER!
+
+IMPORTANT!
+whatever you do and especially if you consider to be a noop and don't know what you're doing:
+
+- DON'T BLAME ME ;)
+- CONSULT YOUR DISTRIBUTORS DOCUMENTATION about changing bootsplashes, maybe user groups, try google!
+- USE THE DISTRIBUTION FRONTENT - if there's any
+- MAKE BACKUPS especially of any "initrd" file in /boot
+- STORE THE NAME OF THE BACKUPS - on a piece of PAPER! If you bork anything you can enter the path of the backup'd initrd file in GRUB - LiLo users: you better know what you're doing! ( - and don't forget calling "lilo" before rebooting)
+- NO PANIC - if you can't get access to your system anymore, there's still KNOPPIX =)

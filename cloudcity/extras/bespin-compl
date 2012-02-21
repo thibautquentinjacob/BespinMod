@@ -1,0 +1,92 @@
+
+#
+# bash-completion for bespin-executable
+# Copyright (C) 2008 Franz Fellner
+#
+# This completion is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public
+# License version 2 as published by the Free Software Foundation.
+
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Library General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this library; see the file COPYING.LIB.  If not, write to
+# the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+# Boston, MA 02110-1301, USA.
+#
+
+_bespin()
+{
+    local cur cmd opts
+    COMPREPLY=()
+
+    # the current word
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    # the cmd currently invoking
+    cmd="${COMP_WORDS[1]}"
+
+    # all options bespin-executable offers
+    opts="config demo export help import update listStyles load presets show sshot try loadPaletteFrom"
+
+    case "${cmd}" in
+        demo | loadPaletteFrom)
+            local styles=$(bespin listStyles)
+            COMPREPLY=( $(compgen -W "${styles}" -- ${cur}) )
+            return 0
+            ;;
+        export)
+            if [[ COMP_CWORD -eq 2 ]] ; then
+                local presets=$(bespin presets)
+                COMPREPLY=( $(compgen -W "${presets}" -- "${cur}") )
+            elif [[ COMP_CWORD -eq 3 ]] ; then
+                COMPREPLY=( $(compgen -f -X '!*.bespin' -- "${cur}") \
+                            $(compgen -d -- "${cur}") )
+            fi
+            return 0
+            ;;
+        import | update | try)
+            COMPREPLY=( $(compgen -f -X '!*.bespin' -- "${cur}") \
+                        $(compgen -d -- "${cur}") )
+            return 0
+            ;;
+        load | show)
+            local presets=$(bespin presets)
+            COMPREPLY=( $(compgen -W "${presets}" -- "${cur}") )
+            return 0
+            ;;
+        sshot)
+            if [[ COMP_CWORD -eq 2 ]] ; then
+                COMPREPLY=( $(compgen -f -X '!*.png' -- "${cur}") \
+                            $(compgen -d -- "${cur}") )
+            elif [[ COMP_CWORD -eq 3 ]] ; then
+                local presets=$(bespin presets)
+                COMPREPLY=( $(compgen -W "${presets}" -- "${cur}") )
+            fi
+            return 0
+            ;;
+
+        # list the following commands in case, so they don't complete again...
+        presets)
+            return 0
+            ;;
+        listStyles)
+            return 0
+            ;;
+        config)
+            return 0
+            ;;
+        help)
+            return 0
+            ;;
+        *)
+            ;;
+    esac
+
+    COMPREPLY=( $(compgen -W "${opts}" -- "${cur}") )
+    return 0
+}
+
+complete -F _bespin bespin

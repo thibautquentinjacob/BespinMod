@@ -1,0 +1,9 @@
+[KSplash Theme: Bespin]
+Name = Bespin Splash Screen
+Description = Bespin Splash Screen
+Version = 1.0
+Author = Thomas Lübking
+Homepage = http://cloudcity.sf.net
+
+# Theme behaviour settings.
+Engine = KSplashX

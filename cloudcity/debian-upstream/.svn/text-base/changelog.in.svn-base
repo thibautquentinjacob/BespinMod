@@ -1,0 +1,5 @@
+kde-style-bespin (0.1.990~svn##DATE##-1~##DIST##1~upstream1) ##DIST##; urgency=low
+
+  * Initial release (LP: #180644)
+
+ -- Peter Hoeg <peter@hoeg.com>  ##RDATE##
