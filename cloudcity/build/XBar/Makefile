@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thibaut/Downloads/cloudcity
+CMAKE_SOURCE_DIR = /home/thibaut/BespinMod/cloudcity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thibaut/Downloads/cloudcity/build
+CMAKE_BINARY_DIR = /home/thibaut/BespinMod/cloudcity/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -117,14 +117,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/thibaut/Downloads/cloudcity/build/CMakeFiles /home/thibaut/Downloads/cloudcity/build/XBar/CMakeFiles/progress.marks
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thibaut/Downloads/cloudcity/build/CMakeFiles 0
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/thibaut/BespinMod/cloudcity/build/CMakeFiles /home/thibaut/BespinMod/cloudcity/build/XBar/CMakeFiles/progress.marks
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thibaut/BespinMod/cloudcity/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/clean
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,22 +133,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/preinstall
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/preinstall
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 XBar/CMakeFiles/plasma_applet_xbar.dir/rule:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/CMakeFiles/plasma_applet_xbar.dir/rule
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/CMakeFiles/plasma_applet_xbar.dir/rule
 .PHONY : XBar/CMakeFiles/plasma_applet_xbar.dir/rule
 
 # Convenience name for target.
@@ -157,12 +157,12 @@ plasma_applet_xbar: XBar/CMakeFiles/plasma_applet_xbar.dir/rule
 
 # fast build rule for target.
 plasma_applet_xbar/fast:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/build
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/build
 .PHONY : plasma_applet_xbar/fast
 
 # Convenience name for target.
 XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/rule:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/rule
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/rule
 .PHONY : XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/rule
 
 # Convenience name for target.
@@ -171,52 +171,52 @@ plasma_applet_xbar_automoc: XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/rule
 
 # fast build rule for target.
 plasma_applet_xbar_automoc/fast:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/build.make XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/build
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/build.make XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/build
 .PHONY : plasma_applet_xbar_automoc/fast
 
 # target to build an object file
 menubar.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o
 .PHONY : menubar.o
 
 # target to preprocess a source file
 menubar.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.i
 .PHONY : menubar.i
 
 # target to generate assembly for a file
 menubar.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.s
 .PHONY : menubar.s
 
 # target to build an object file
 plasma_applet_xbar_automoc.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o
 .PHONY : plasma_applet_xbar_automoc.o
 
 # target to preprocess a source file
 plasma_applet_xbar_automoc.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.i
 .PHONY : plasma_applet_xbar_automoc.i
 
 # target to generate assembly for a file
 plasma_applet_xbar_automoc.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.s
 .PHONY : plasma_applet_xbar_automoc.s
 
 # target to build an object file
 xbar.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o
 .PHONY : xbar.o
 
 # target to preprocess a source file
 xbar.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.i
 .PHONY : xbar.i
 
 # target to generate assembly for a file
 xbar.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f XBar/CMakeFiles/plasma_applet_xbar.dir/build.make XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.s
 .PHONY : xbar.s
 
 # Help Target
@@ -254,6 +254,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

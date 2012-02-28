@@ -4,11 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thibaut/Downloads/cloudcity/kwin/button.cpp" "/home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/button.o"
-  "/home/thibaut/Downloads/cloudcity/kwin/client.cpp" "/home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/client.o"
-  "/home/thibaut/Downloads/cloudcity/kwin/factory.cpp" "/home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/factory.o"
-  "/home/thibaut/Downloads/cloudcity/build/kwin/kwin3_bespin_automoc.cpp" "/home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o"
-  "/home/thibaut/Downloads/cloudcity/kwin/resizecorner.cpp" "/home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.o"
+  "/home/thibaut/BespinMod/cloudcity/kwin/button.cpp" "/home/thibaut/BespinMod/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/button.o"
+  "/home/thibaut/BespinMod/cloudcity/kwin/client.cpp" "/home/thibaut/BespinMod/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/client.o"
+  "/home/thibaut/BespinMod/cloudcity/kwin/factory.cpp" "/home/thibaut/BespinMod/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/factory.o"
+  "/home/thibaut/BespinMod/cloudcity/build/kwin/kwin3_bespin_automoc.cpp" "/home/thibaut/BespinMod/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o"
+  "/home/thibaut/BespinMod/cloudcity/kwin/resizecorner.cpp" "/home/thibaut/BespinMod/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -30,5 +30,5 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir/DependInfo.cmake"
+  "/home/thibaut/BespinMod/cloudcity/build/blib/CMakeFiles/QtBespin.dir/DependInfo.cmake"
   )

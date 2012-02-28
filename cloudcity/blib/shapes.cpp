@@ -64,7 +64,8 @@ Shapes::close(const QRectF &bound, Style style)
 //       path.closeSubpath();
 //       path.addRect( 16, 16, 24, 24 );
 //       path.closeSubpath();
-            path.addRect( 0, 0, 10, 0 );
+//             path.addRect( 0, 0, 10, 0 );
+            path.addEllipse( QPointF(-5.0,-5.0), 15, 15 );
       break;
     }
     case TheRob:

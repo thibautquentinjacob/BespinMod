@@ -389,14 +389,16 @@ Style::drawItemText(QPainter *painter, const QRect &rect, int flags, const QPale
         QColor c = painter->pen().color();
         c.setAlpha(c.alpha()/4 + 2);
         painter->setPen(QPen(c, savedPen.widthF()));
-        r.translate(-1,-1);
+		painter->drawText(r, flags, text);
+//         r.translate(-1,-1);
 //         painter->drawText(r, flags, text);
-        r.translate(1,2);
+//         r.translate(1,2);
 //         painter->drawText(r, flags, text);
-        r.translate(2,0);
+//         r.translate(2,0);
 //         painter->drawText(r, flags, text);
-        r.translate(-1,-2);
+//         r.translate(-1,-2);
 //         painter->drawText(r, flags, text);
+                painter->setPen(QColor(255,0,0,255));
     }
     else
         painter->drawText(r, flags, text, boundingRect);

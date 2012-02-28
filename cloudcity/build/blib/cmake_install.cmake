@@ -1,4 +1,4 @@
-# Install script for directory: /home/thibaut/Downloads/cloudcity/blib
+# Install script for directory: /home/thibaut/BespinMod/cloudcity/blib
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/lib/libQtBespin.so")
-FILE(INSTALL DESTINATION "/usr/lib" TYPE SHARED_LIBRARY FILES "/home/thibaut/Downloads/cloudcity/build/lib/libQtBespin.so")
+FILE(INSTALL DESTINATION "/usr/lib" TYPE SHARED_LIBRARY FILES "/home/thibaut/BespinMod/cloudcity/build/lib/libQtBespin.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/lib/libQtBespin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/libQtBespin.so")
     IF(CMAKE_INSTALL_DO_STRIP)

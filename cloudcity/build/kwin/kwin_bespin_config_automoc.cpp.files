@@ -1,5 +1,5 @@
 SOURCES:
-/home/thibaut/Downloads/cloudcity/config/bconfig.cpp;/home/thibaut/Downloads/cloudcity/config/kdeini.cpp;/home/thibaut/Downloads/cloudcity/kwin/config.cpp
+/home/thibaut/BespinMod/cloudcity/config/bconfig.cpp;/home/thibaut/BespinMod/cloudcity/config/kdeini.cpp;/home/thibaut/BespinMod/cloudcity/kwin/config.cpp
 MOC_COMPILE_DEFINITIONS:
 QT3_SUPPORT;_BSD_SOURCE;BESPIN_ARGB_WINDOWS=1;VARYING_SHADOWS=1;_XOPEN_SOURCE=500;_BSD_SOURCE;QT_NO_STL;QT_NO_CAST_TO_ASCII;_REENTRANT;KDE_DEPRECATED_WARNINGS;KDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23;BLIB_EXPORT=Q_DECL_IMPORT
 MOC_DEFINITIONS:
@@ -9,6 +9,6 @@ MOC_INCLUDES:
 CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE:
 ON
 CMAKE_BINARY_DIR:
-/home/thibaut/Downloads/cloudcity/build
+/home/thibaut/BespinMod/cloudcity/build
 CMAKE_SOURCE_DIR:
-/home/thibaut/Downloads/cloudcity
+/home/thibaut/BespinMod/cloudcity

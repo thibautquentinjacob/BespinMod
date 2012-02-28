@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thibaut/Downloads/cloudcity
+CMAKE_SOURCE_DIR = /home/thibaut/BespinMod/cloudcity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thibaut/Downloads/cloudcity/build
+CMAKE_BINARY_DIR = /home/thibaut/BespinMod/cloudcity/build
 
 # Include any dependencies generated for this target.
 include kwin/CMakeFiles/kwin3_bespin.dir/depend.make
@@ -48,17 +48,17 @@ include kwin/CMakeFiles/kwin3_bespin.dir/flags.make
 
 kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o: kwin/CMakeFiles/kwin3_bespin.dir/flags.make
 kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o: kwin/kwin3_bespin_automoc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o -c /home/thibaut/Downloads/cloudcity/build/kwin/kwin3_bespin_automoc.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o -c /home/thibaut/BespinMod/cloudcity/build/kwin/kwin3_bespin_automoc.cpp
 
 kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.i"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/kwin/kwin3_bespin_automoc.cpp > CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.i
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/kwin/kwin3_bespin_automoc.cpp > CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.i
 
 kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.s"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/kwin/kwin3_bespin_automoc.cpp -o CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.s
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/kwin/kwin3_bespin_automoc.cpp -o CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.s
 
 kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o.requires:
 .PHONY : kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o.requires
@@ -71,17 +71,17 @@ kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o.provides.build: kwin/CMa
 
 kwin/CMakeFiles/kwin3_bespin.dir/button.o: kwin/CMakeFiles/kwin3_bespin.dir/flags.make
 kwin/CMakeFiles/kwin3_bespin.dir/button.o: ../kwin/button.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kwin/CMakeFiles/kwin3_bespin.dir/button.o"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kwin3_bespin.dir/button.o -c /home/thibaut/Downloads/cloudcity/kwin/button.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kwin3_bespin.dir/button.o -c /home/thibaut/BespinMod/cloudcity/kwin/button.cpp
 
 kwin/CMakeFiles/kwin3_bespin.dir/button.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kwin3_bespin.dir/button.i"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/kwin/button.cpp > CMakeFiles/kwin3_bespin.dir/button.i
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/kwin/button.cpp > CMakeFiles/kwin3_bespin.dir/button.i
 
 kwin/CMakeFiles/kwin3_bespin.dir/button.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kwin3_bespin.dir/button.s"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/kwin/button.cpp -o CMakeFiles/kwin3_bespin.dir/button.s
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/kwin/button.cpp -o CMakeFiles/kwin3_bespin.dir/button.s
 
 kwin/CMakeFiles/kwin3_bespin.dir/button.o.requires:
 .PHONY : kwin/CMakeFiles/kwin3_bespin.dir/button.o.requires
@@ -94,17 +94,17 @@ kwin/CMakeFiles/kwin3_bespin.dir/button.o.provides.build: kwin/CMakeFiles/kwin3_
 
 kwin/CMakeFiles/kwin3_bespin.dir/client.o: kwin/CMakeFiles/kwin3_bespin.dir/flags.make
 kwin/CMakeFiles/kwin3_bespin.dir/client.o: ../kwin/client.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kwin/CMakeFiles/kwin3_bespin.dir/client.o"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kwin3_bespin.dir/client.o -c /home/thibaut/Downloads/cloudcity/kwin/client.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kwin3_bespin.dir/client.o -c /home/thibaut/BespinMod/cloudcity/kwin/client.cpp
 
 kwin/CMakeFiles/kwin3_bespin.dir/client.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kwin3_bespin.dir/client.i"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/kwin/client.cpp > CMakeFiles/kwin3_bespin.dir/client.i
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/kwin/client.cpp > CMakeFiles/kwin3_bespin.dir/client.i
 
 kwin/CMakeFiles/kwin3_bespin.dir/client.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kwin3_bespin.dir/client.s"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/kwin/client.cpp -o CMakeFiles/kwin3_bespin.dir/client.s
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/kwin/client.cpp -o CMakeFiles/kwin3_bespin.dir/client.s
 
 kwin/CMakeFiles/kwin3_bespin.dir/client.o.requires:
 .PHONY : kwin/CMakeFiles/kwin3_bespin.dir/client.o.requires
@@ -117,17 +117,17 @@ kwin/CMakeFiles/kwin3_bespin.dir/client.o.provides.build: kwin/CMakeFiles/kwin3_
 
 kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.o: kwin/CMakeFiles/kwin3_bespin.dir/flags.make
 kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.o: ../kwin/resizecorner.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.o"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kwin3_bespin.dir/resizecorner.o -c /home/thibaut/Downloads/cloudcity/kwin/resizecorner.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kwin3_bespin.dir/resizecorner.o -c /home/thibaut/BespinMod/cloudcity/kwin/resizecorner.cpp
 
 kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kwin3_bespin.dir/resizecorner.i"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/kwin/resizecorner.cpp > CMakeFiles/kwin3_bespin.dir/resizecorner.i
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/kwin/resizecorner.cpp > CMakeFiles/kwin3_bespin.dir/resizecorner.i
 
 kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kwin3_bespin.dir/resizecorner.s"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/kwin/resizecorner.cpp -o CMakeFiles/kwin3_bespin.dir/resizecorner.s
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/kwin/resizecorner.cpp -o CMakeFiles/kwin3_bespin.dir/resizecorner.s
 
 kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.o.requires:
 .PHONY : kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.o.requires
@@ -140,17 +140,17 @@ kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.o.provides.build: kwin/CMakeFiles/
 
 kwin/CMakeFiles/kwin3_bespin.dir/factory.o: kwin/CMakeFiles/kwin3_bespin.dir/flags.make
 kwin/CMakeFiles/kwin3_bespin.dir/factory.o: ../kwin/factory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object kwin/CMakeFiles/kwin3_bespin.dir/factory.o"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kwin3_bespin.dir/factory.o -c /home/thibaut/Downloads/cloudcity/kwin/factory.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kwin3_bespin.dir/factory.o -c /home/thibaut/BespinMod/cloudcity/kwin/factory.cpp
 
 kwin/CMakeFiles/kwin3_bespin.dir/factory.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kwin3_bespin.dir/factory.i"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/kwin/factory.cpp > CMakeFiles/kwin3_bespin.dir/factory.i
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/kwin/factory.cpp > CMakeFiles/kwin3_bespin.dir/factory.i
 
 kwin/CMakeFiles/kwin3_bespin.dir/factory.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kwin3_bespin.dir/factory.s"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/kwin/factory.cpp -o CMakeFiles/kwin3_bespin.dir/factory.s
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/kwin/factory.cpp -o CMakeFiles/kwin3_bespin.dir/factory.s
 
 kwin/CMakeFiles/kwin3_bespin.dir/factory.o.requires:
 .PHONY : kwin/CMakeFiles/kwin3_bespin.dir/factory.o.requires
@@ -197,7 +197,7 @@ lib/kwin3_bespin.so: /usr/lib/i386-linux-gnu/libQtSvg.so
 lib/kwin3_bespin.so: kwin/CMakeFiles/kwin3_bespin.dir/build.make
 lib/kwin3_bespin.so: kwin/CMakeFiles/kwin3_bespin.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../lib/kwin3_bespin.so"
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kwin3_bespin.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kwin3_bespin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 kwin/CMakeFiles/kwin3_bespin.dir/build: lib/kwin3_bespin.so
@@ -211,10 +211,10 @@ kwin/CMakeFiles/kwin3_bespin.dir/requires: kwin/CMakeFiles/kwin3_bespin.dir/fact
 .PHONY : kwin/CMakeFiles/kwin3_bespin.dir/requires
 
 kwin/CMakeFiles/kwin3_bespin.dir/clean:
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && $(CMAKE_COMMAND) -P CMakeFiles/kwin3_bespin.dir/cmake_clean.cmake
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && $(CMAKE_COMMAND) -P CMakeFiles/kwin3_bespin.dir/cmake_clean.cmake
 .PHONY : kwin/CMakeFiles/kwin3_bespin.dir/clean
 
 kwin/CMakeFiles/kwin3_bespin.dir/depend:
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/Downloads/cloudcity /home/thibaut/Downloads/cloudcity/kwin /home/thibaut/Downloads/cloudcity/build /home/thibaut/Downloads/cloudcity/build/kwin /home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/BespinMod/cloudcity /home/thibaut/BespinMod/cloudcity/kwin /home/thibaut/BespinMod/cloudcity/build /home/thibaut/BespinMod/cloudcity/build/kwin /home/thibaut/BespinMod/cloudcity/build/kwin/CMakeFiles/kwin3_bespin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kwin/CMakeFiles/kwin3_bespin.dir/depend
 

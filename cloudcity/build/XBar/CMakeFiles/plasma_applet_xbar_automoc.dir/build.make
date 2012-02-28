@@ -32,15 +32,15 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thibaut/Downloads/cloudcity
+CMAKE_SOURCE_DIR = /home/thibaut/BespinMod/cloudcity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thibaut/Downloads/cloudcity/build
+CMAKE_BINARY_DIR = /home/thibaut/BespinMod/cloudcity/build
 
 # Utility rule file for plasma_applet_xbar_automoc.
 
 XBar/CMakeFiles/plasma_applet_xbar_automoc:
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && /usr/bin/automoc4 /home/thibaut/Downloads/cloudcity/build/XBar/plasma_applet_xbar_automoc.cpp /home/thibaut/Downloads/cloudcity/XBar /home/thibaut/Downloads/cloudcity/build/XBar /usr/bin/moc-qt4 /usr/bin/cmake
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && /usr/bin/automoc4 /home/thibaut/BespinMod/cloudcity/build/XBar/plasma_applet_xbar_automoc.cpp /home/thibaut/BespinMod/cloudcity/XBar /home/thibaut/BespinMod/cloudcity/build/XBar /usr/bin/moc-qt4 /usr/bin/cmake
 
 plasma_applet_xbar_automoc: XBar/CMakeFiles/plasma_applet_xbar_automoc
 plasma_applet_xbar_automoc: XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/build.make
@@ -51,10 +51,10 @@ XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/build: plasma_applet_xbar_automoc
 .PHONY : XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/build
 
 XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/clean:
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && $(CMAKE_COMMAND) -P CMakeFiles/plasma_applet_xbar_automoc.dir/cmake_clean.cmake
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && $(CMAKE_COMMAND) -P CMakeFiles/plasma_applet_xbar_automoc.dir/cmake_clean.cmake
 .PHONY : XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/clean
 
 XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/depend:
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/Downloads/cloudcity /home/thibaut/Downloads/cloudcity/XBar /home/thibaut/Downloads/cloudcity/build /home/thibaut/Downloads/cloudcity/build/XBar /home/thibaut/Downloads/cloudcity/build/XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/BespinMod/cloudcity /home/thibaut/BespinMod/cloudcity/XBar /home/thibaut/BespinMod/cloudcity/build /home/thibaut/BespinMod/cloudcity/build/XBar /home/thibaut/BespinMod/cloudcity/build/XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : XBar/CMakeFiles/plasma_applet_xbar_automoc.dir/depend
 

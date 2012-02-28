@@ -4,15 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thibaut/Downloads/cloudcity/blib/FX.cpp" "/home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir/FX.o"
-  "/home/thibaut/Downloads/cloudcity/blib/colors.cpp" "/home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir/colors.o"
-  "/home/thibaut/Downloads/cloudcity/blib/dpi.cpp" "/home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir/dpi.o"
-  "/home/thibaut/Downloads/cloudcity/blib/elements.cpp" "/home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir/elements.o"
-  "/home/thibaut/Downloads/cloudcity/blib/gradients.cpp" "/home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir/gradients.o"
-  "/home/thibaut/Downloads/cloudcity/blib/shadows.cpp" "/home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir/shadows.o"
-  "/home/thibaut/Downloads/cloudcity/blib/shapes.cpp" "/home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir/shapes.o"
-  "/home/thibaut/Downloads/cloudcity/blib/tileset.cpp" "/home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir/tileset.o"
-  "/home/thibaut/Downloads/cloudcity/blib/xproperty.cpp" "/home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir/xproperty.o"
+  "/home/thibaut/BespinMod/cloudcity/blib/FX.cpp" "/home/thibaut/BespinMod/cloudcity/build/blib/CMakeFiles/QtBespin.dir/FX.o"
+  "/home/thibaut/BespinMod/cloudcity/blib/colors.cpp" "/home/thibaut/BespinMod/cloudcity/build/blib/CMakeFiles/QtBespin.dir/colors.o"
+  "/home/thibaut/BespinMod/cloudcity/blib/dpi.cpp" "/home/thibaut/BespinMod/cloudcity/build/blib/CMakeFiles/QtBespin.dir/dpi.o"
+  "/home/thibaut/BespinMod/cloudcity/blib/elements.cpp" "/home/thibaut/BespinMod/cloudcity/build/blib/CMakeFiles/QtBespin.dir/elements.o"
+  "/home/thibaut/BespinMod/cloudcity/blib/gradients.cpp" "/home/thibaut/BespinMod/cloudcity/build/blib/CMakeFiles/QtBespin.dir/gradients.o"
+  "/home/thibaut/BespinMod/cloudcity/blib/shadows.cpp" "/home/thibaut/BespinMod/cloudcity/build/blib/CMakeFiles/QtBespin.dir/shadows.o"
+  "/home/thibaut/BespinMod/cloudcity/blib/shapes.cpp" "/home/thibaut/BespinMod/cloudcity/build/blib/CMakeFiles/QtBespin.dir/shapes.o"
+  "/home/thibaut/BespinMod/cloudcity/blib/tileset.cpp" "/home/thibaut/BespinMod/cloudcity/build/blib/CMakeFiles/QtBespin.dir/tileset.o"
+  "/home/thibaut/BespinMod/cloudcity/blib/xproperty.cpp" "/home/thibaut/BespinMod/cloudcity/build/blib/CMakeFiles/QtBespin.dir/xproperty.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

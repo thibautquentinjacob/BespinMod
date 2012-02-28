@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thibaut/Downloads/cloudcity
+CMAKE_SOURCE_DIR = /home/thibaut/BespinMod/cloudcity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thibaut/Downloads/cloudcity/build
+CMAKE_BINARY_DIR = /home/thibaut/BespinMod/cloudcity/build
 
 # Include any dependencies generated for this target.
 include config/CMakeFiles/kstyle_bespin_config.dir/depend.make
@@ -48,17 +48,17 @@ include config/CMakeFiles/kstyle_bespin_config.dir/flags.make
 
 config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o: config/CMakeFiles/kstyle_bespin_config.dir/flags.make
 config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o: config/kstyle_bespin_config_automoc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o -c /home/thibaut/Downloads/cloudcity/build/config/kstyle_bespin_config_automoc.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o -c /home/thibaut/BespinMod/cloudcity/build/config/kstyle_bespin_config_automoc.cpp
 
 config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.i"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/config/kstyle_bespin_config_automoc.cpp > CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.i
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/config/kstyle_bespin_config_automoc.cpp > CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.i
 
 config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.s"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/config/kstyle_bespin_config_automoc.cpp -o CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.s
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/config/kstyle_bespin_config_automoc.cpp -o CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.s
 
 config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o.requires:
 .PHONY : config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o.requires
@@ -71,17 +71,17 @@ config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o.provid
 
 config/CMakeFiles/kstyle_bespin_config.dir/bconfig.o: config/CMakeFiles/kstyle_bespin_config.dir/flags.make
 config/CMakeFiles/kstyle_bespin_config.dir/bconfig.o: ../config/bconfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object config/CMakeFiles/kstyle_bespin_config.dir/bconfig.o"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kstyle_bespin_config.dir/bconfig.o -c /home/thibaut/Downloads/cloudcity/config/bconfig.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kstyle_bespin_config.dir/bconfig.o -c /home/thibaut/BespinMod/cloudcity/config/bconfig.cpp
 
 config/CMakeFiles/kstyle_bespin_config.dir/bconfig.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kstyle_bespin_config.dir/bconfig.i"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/config/bconfig.cpp > CMakeFiles/kstyle_bespin_config.dir/bconfig.i
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/config/bconfig.cpp > CMakeFiles/kstyle_bespin_config.dir/bconfig.i
 
 config/CMakeFiles/kstyle_bespin_config.dir/bconfig.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kstyle_bespin_config.dir/bconfig.s"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/config/bconfig.cpp -o CMakeFiles/kstyle_bespin_config.dir/bconfig.s
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/config/bconfig.cpp -o CMakeFiles/kstyle_bespin_config.dir/bconfig.s
 
 config/CMakeFiles/kstyle_bespin_config.dir/bconfig.o.requires:
 .PHONY : config/CMakeFiles/kstyle_bespin_config.dir/bconfig.o.requires
@@ -94,17 +94,17 @@ config/CMakeFiles/kstyle_bespin_config.dir/bconfig.o.provides.build: config/CMak
 
 config/CMakeFiles/kstyle_bespin_config.dir/config.o: config/CMakeFiles/kstyle_bespin_config.dir/flags.make
 config/CMakeFiles/kstyle_bespin_config.dir/config.o: ../config/config.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object config/CMakeFiles/kstyle_bespin_config.dir/config.o"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kstyle_bespin_config.dir/config.o -c /home/thibaut/Downloads/cloudcity/config/config.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kstyle_bespin_config.dir/config.o -c /home/thibaut/BespinMod/cloudcity/config/config.cpp
 
 config/CMakeFiles/kstyle_bespin_config.dir/config.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kstyle_bespin_config.dir/config.i"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/config/config.cpp > CMakeFiles/kstyle_bespin_config.dir/config.i
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/config/config.cpp > CMakeFiles/kstyle_bespin_config.dir/config.i
 
 config/CMakeFiles/kstyle_bespin_config.dir/config.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kstyle_bespin_config.dir/config.s"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/config/config.cpp -o CMakeFiles/kstyle_bespin_config.dir/config.s
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/config/config.cpp -o CMakeFiles/kstyle_bespin_config.dir/config.s
 
 config/CMakeFiles/kstyle_bespin_config.dir/config.o.requires:
 .PHONY : config/CMakeFiles/kstyle_bespin_config.dir/config.o.requires
@@ -117,17 +117,17 @@ config/CMakeFiles/kstyle_bespin_config.dir/config.o.provides.build: config/CMake
 
 config/CMakeFiles/kstyle_bespin_config.dir/kdeini.o: config/CMakeFiles/kstyle_bespin_config.dir/flags.make
 config/CMakeFiles/kstyle_bespin_config.dir/kdeini.o: ../config/kdeini.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object config/CMakeFiles/kstyle_bespin_config.dir/kdeini.o"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kstyle_bespin_config.dir/kdeini.o -c /home/thibaut/Downloads/cloudcity/config/kdeini.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kstyle_bespin_config.dir/kdeini.o -c /home/thibaut/BespinMod/cloudcity/config/kdeini.cpp
 
 config/CMakeFiles/kstyle_bespin_config.dir/kdeini.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kstyle_bespin_config.dir/kdeini.i"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/config/kdeini.cpp > CMakeFiles/kstyle_bespin_config.dir/kdeini.i
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/config/kdeini.cpp > CMakeFiles/kstyle_bespin_config.dir/kdeini.i
 
 config/CMakeFiles/kstyle_bespin_config.dir/kdeini.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kstyle_bespin_config.dir/kdeini.s"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/config/kdeini.cpp -o CMakeFiles/kstyle_bespin_config.dir/kdeini.s
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/config/kdeini.cpp -o CMakeFiles/kstyle_bespin_config.dir/kdeini.s
 
 config/CMakeFiles/kstyle_bespin_config.dir/kdeini.o.requires:
 .PHONY : config/CMakeFiles/kstyle_bespin_config.dir/kdeini.o.requires
@@ -139,9 +139,9 @@ config/CMakeFiles/kstyle_bespin_config.dir/kdeini.o.provides: config/CMakeFiles/
 config/CMakeFiles/kstyle_bespin_config.dir/kdeini.o.provides.build: config/CMakeFiles/kstyle_bespin_config.dir/kdeini.o
 
 config/ui_config.h: ../config/config.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_config.h"
-	cd /home/thibaut/Downloads/cloudcity/build/config && /usr/bin/uic-qt4 -o /home/thibaut/Downloads/cloudcity/build/config/ui_config.h /home/thibaut/Downloads/cloudcity/config/config.ui
+	cd /home/thibaut/BespinMod/cloudcity/build/config && /usr/bin/uic-qt4 -o /home/thibaut/BespinMod/cloudcity/build/config/ui_config.h /home/thibaut/BespinMod/cloudcity/config/config.ui
 
 # Object files for target kstyle_bespin_config
 kstyle_bespin_config_OBJECTS = \
@@ -162,7 +162,7 @@ lib/kstyle_bespin_config.so: /usr/lib/i386-linux-gnu/libQtGui.so
 lib/kstyle_bespin_config.so: config/CMakeFiles/kstyle_bespin_config.dir/build.make
 lib/kstyle_bespin_config.so: config/CMakeFiles/kstyle_bespin_config.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../lib/kstyle_bespin_config.so"
-	cd /home/thibaut/Downloads/cloudcity/build/config && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kstyle_bespin_config.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/thibaut/BespinMod/cloudcity/build/config && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kstyle_bespin_config.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 config/CMakeFiles/kstyle_bespin_config.dir/build: lib/kstyle_bespin_config.so
@@ -175,10 +175,10 @@ config/CMakeFiles/kstyle_bespin_config.dir/requires: config/CMakeFiles/kstyle_be
 .PHONY : config/CMakeFiles/kstyle_bespin_config.dir/requires
 
 config/CMakeFiles/kstyle_bespin_config.dir/clean:
-	cd /home/thibaut/Downloads/cloudcity/build/config && $(CMAKE_COMMAND) -P CMakeFiles/kstyle_bespin_config.dir/cmake_clean.cmake
+	cd /home/thibaut/BespinMod/cloudcity/build/config && $(CMAKE_COMMAND) -P CMakeFiles/kstyle_bespin_config.dir/cmake_clean.cmake
 .PHONY : config/CMakeFiles/kstyle_bespin_config.dir/clean
 
 config/CMakeFiles/kstyle_bespin_config.dir/depend: config/ui_config.h
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/Downloads/cloudcity /home/thibaut/Downloads/cloudcity/config /home/thibaut/Downloads/cloudcity/build /home/thibaut/Downloads/cloudcity/build/config /home/thibaut/Downloads/cloudcity/build/config/CMakeFiles/kstyle_bespin_config.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/BespinMod/cloudcity /home/thibaut/BespinMod/cloudcity/config /home/thibaut/BespinMod/cloudcity/build /home/thibaut/BespinMod/cloudcity/build/config /home/thibaut/BespinMod/cloudcity/build/config/CMakeFiles/kstyle_bespin_config.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : config/CMakeFiles/kstyle_bespin_config.dir/depend
 

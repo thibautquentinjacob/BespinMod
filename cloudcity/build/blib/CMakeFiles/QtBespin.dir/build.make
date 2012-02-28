@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thibaut/Downloads/cloudcity
+CMAKE_SOURCE_DIR = /home/thibaut/BespinMod/cloudcity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thibaut/Downloads/cloudcity/build
+CMAKE_BINARY_DIR = /home/thibaut/BespinMod/cloudcity/build
 
 # Include any dependencies generated for this target.
 include blib/CMakeFiles/QtBespin.dir/depend.make
@@ -48,17 +48,17 @@ include blib/CMakeFiles/QtBespin.dir/flags.make
 
 blib/CMakeFiles/QtBespin.dir/colors.o: blib/CMakeFiles/QtBespin.dir/flags.make
 blib/CMakeFiles/QtBespin.dir/colors.o: ../blib/colors.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object blib/CMakeFiles/QtBespin.dir/colors.o"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/colors.o -c /home/thibaut/Downloads/cloudcity/blib/colors.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/colors.o -c /home/thibaut/BespinMod/cloudcity/blib/colors.cpp
 
 blib/CMakeFiles/QtBespin.dir/colors.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtBespin.dir/colors.i"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/blib/colors.cpp > CMakeFiles/QtBespin.dir/colors.i
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/blib/colors.cpp > CMakeFiles/QtBespin.dir/colors.i
 
 blib/CMakeFiles/QtBespin.dir/colors.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtBespin.dir/colors.s"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/blib/colors.cpp -o CMakeFiles/QtBespin.dir/colors.s
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/blib/colors.cpp -o CMakeFiles/QtBespin.dir/colors.s
 
 blib/CMakeFiles/QtBespin.dir/colors.o.requires:
 .PHONY : blib/CMakeFiles/QtBespin.dir/colors.o.requires
@@ -71,17 +71,17 @@ blib/CMakeFiles/QtBespin.dir/colors.o.provides.build: blib/CMakeFiles/QtBespin.d
 
 blib/CMakeFiles/QtBespin.dir/dpi.o: blib/CMakeFiles/QtBespin.dir/flags.make
 blib/CMakeFiles/QtBespin.dir/dpi.o: ../blib/dpi.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object blib/CMakeFiles/QtBespin.dir/dpi.o"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/dpi.o -c /home/thibaut/Downloads/cloudcity/blib/dpi.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/dpi.o -c /home/thibaut/BespinMod/cloudcity/blib/dpi.cpp
 
 blib/CMakeFiles/QtBespin.dir/dpi.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtBespin.dir/dpi.i"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/blib/dpi.cpp > CMakeFiles/QtBespin.dir/dpi.i
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/blib/dpi.cpp > CMakeFiles/QtBespin.dir/dpi.i
 
 blib/CMakeFiles/QtBespin.dir/dpi.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtBespin.dir/dpi.s"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/blib/dpi.cpp -o CMakeFiles/QtBespin.dir/dpi.s
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/blib/dpi.cpp -o CMakeFiles/QtBespin.dir/dpi.s
 
 blib/CMakeFiles/QtBespin.dir/dpi.o.requires:
 .PHONY : blib/CMakeFiles/QtBespin.dir/dpi.o.requires
@@ -94,17 +94,17 @@ blib/CMakeFiles/QtBespin.dir/dpi.o.provides.build: blib/CMakeFiles/QtBespin.dir/
 
 blib/CMakeFiles/QtBespin.dir/elements.o: blib/CMakeFiles/QtBespin.dir/flags.make
 blib/CMakeFiles/QtBespin.dir/elements.o: ../blib/elements.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object blib/CMakeFiles/QtBespin.dir/elements.o"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/elements.o -c /home/thibaut/Downloads/cloudcity/blib/elements.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/elements.o -c /home/thibaut/BespinMod/cloudcity/blib/elements.cpp
 
 blib/CMakeFiles/QtBespin.dir/elements.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtBespin.dir/elements.i"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/blib/elements.cpp > CMakeFiles/QtBespin.dir/elements.i
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/blib/elements.cpp > CMakeFiles/QtBespin.dir/elements.i
 
 blib/CMakeFiles/QtBespin.dir/elements.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtBespin.dir/elements.s"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/blib/elements.cpp -o CMakeFiles/QtBespin.dir/elements.s
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/blib/elements.cpp -o CMakeFiles/QtBespin.dir/elements.s
 
 blib/CMakeFiles/QtBespin.dir/elements.o.requires:
 .PHONY : blib/CMakeFiles/QtBespin.dir/elements.o.requires
@@ -117,17 +117,17 @@ blib/CMakeFiles/QtBespin.dir/elements.o.provides.build: blib/CMakeFiles/QtBespin
 
 blib/CMakeFiles/QtBespin.dir/FX.o: blib/CMakeFiles/QtBespin.dir/flags.make
 blib/CMakeFiles/QtBespin.dir/FX.o: ../blib/FX.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object blib/CMakeFiles/QtBespin.dir/FX.o"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/FX.o -c /home/thibaut/Downloads/cloudcity/blib/FX.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/FX.o -c /home/thibaut/BespinMod/cloudcity/blib/FX.cpp
 
 blib/CMakeFiles/QtBespin.dir/FX.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtBespin.dir/FX.i"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/blib/FX.cpp > CMakeFiles/QtBespin.dir/FX.i
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/blib/FX.cpp > CMakeFiles/QtBespin.dir/FX.i
 
 blib/CMakeFiles/QtBespin.dir/FX.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtBespin.dir/FX.s"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/blib/FX.cpp -o CMakeFiles/QtBespin.dir/FX.s
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/blib/FX.cpp -o CMakeFiles/QtBespin.dir/FX.s
 
 blib/CMakeFiles/QtBespin.dir/FX.o.requires:
 .PHONY : blib/CMakeFiles/QtBespin.dir/FX.o.requires
@@ -140,17 +140,17 @@ blib/CMakeFiles/QtBespin.dir/FX.o.provides.build: blib/CMakeFiles/QtBespin.dir/F
 
 blib/CMakeFiles/QtBespin.dir/gradients.o: blib/CMakeFiles/QtBespin.dir/flags.make
 blib/CMakeFiles/QtBespin.dir/gradients.o: ../blib/gradients.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object blib/CMakeFiles/QtBespin.dir/gradients.o"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/gradients.o -c /home/thibaut/Downloads/cloudcity/blib/gradients.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/gradients.o -c /home/thibaut/BespinMod/cloudcity/blib/gradients.cpp
 
 blib/CMakeFiles/QtBespin.dir/gradients.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtBespin.dir/gradients.i"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/blib/gradients.cpp > CMakeFiles/QtBespin.dir/gradients.i
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/blib/gradients.cpp > CMakeFiles/QtBespin.dir/gradients.i
 
 blib/CMakeFiles/QtBespin.dir/gradients.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtBespin.dir/gradients.s"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/blib/gradients.cpp -o CMakeFiles/QtBespin.dir/gradients.s
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/blib/gradients.cpp -o CMakeFiles/QtBespin.dir/gradients.s
 
 blib/CMakeFiles/QtBespin.dir/gradients.o.requires:
 .PHONY : blib/CMakeFiles/QtBespin.dir/gradients.o.requires
@@ -163,17 +163,17 @@ blib/CMakeFiles/QtBespin.dir/gradients.o.provides.build: blib/CMakeFiles/QtBespi
 
 blib/CMakeFiles/QtBespin.dir/shapes.o: blib/CMakeFiles/QtBespin.dir/flags.make
 blib/CMakeFiles/QtBespin.dir/shapes.o: ../blib/shapes.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object blib/CMakeFiles/QtBespin.dir/shapes.o"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/shapes.o -c /home/thibaut/Downloads/cloudcity/blib/shapes.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/shapes.o -c /home/thibaut/BespinMod/cloudcity/blib/shapes.cpp
 
 blib/CMakeFiles/QtBespin.dir/shapes.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtBespin.dir/shapes.i"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/blib/shapes.cpp > CMakeFiles/QtBespin.dir/shapes.i
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/blib/shapes.cpp > CMakeFiles/QtBespin.dir/shapes.i
 
 blib/CMakeFiles/QtBespin.dir/shapes.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtBespin.dir/shapes.s"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/blib/shapes.cpp -o CMakeFiles/QtBespin.dir/shapes.s
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/blib/shapes.cpp -o CMakeFiles/QtBespin.dir/shapes.s
 
 blib/CMakeFiles/QtBespin.dir/shapes.o.requires:
 .PHONY : blib/CMakeFiles/QtBespin.dir/shapes.o.requires
@@ -186,17 +186,17 @@ blib/CMakeFiles/QtBespin.dir/shapes.o.provides.build: blib/CMakeFiles/QtBespin.d
 
 blib/CMakeFiles/QtBespin.dir/tileset.o: blib/CMakeFiles/QtBespin.dir/flags.make
 blib/CMakeFiles/QtBespin.dir/tileset.o: ../blib/tileset.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object blib/CMakeFiles/QtBespin.dir/tileset.o"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/tileset.o -c /home/thibaut/Downloads/cloudcity/blib/tileset.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/tileset.o -c /home/thibaut/BespinMod/cloudcity/blib/tileset.cpp
 
 blib/CMakeFiles/QtBespin.dir/tileset.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtBespin.dir/tileset.i"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/blib/tileset.cpp > CMakeFiles/QtBespin.dir/tileset.i
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/blib/tileset.cpp > CMakeFiles/QtBespin.dir/tileset.i
 
 blib/CMakeFiles/QtBespin.dir/tileset.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtBespin.dir/tileset.s"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/blib/tileset.cpp -o CMakeFiles/QtBespin.dir/tileset.s
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/blib/tileset.cpp -o CMakeFiles/QtBespin.dir/tileset.s
 
 blib/CMakeFiles/QtBespin.dir/tileset.o.requires:
 .PHONY : blib/CMakeFiles/QtBespin.dir/tileset.o.requires
@@ -209,17 +209,17 @@ blib/CMakeFiles/QtBespin.dir/tileset.o.provides.build: blib/CMakeFiles/QtBespin.
 
 blib/CMakeFiles/QtBespin.dir/shadows.o: blib/CMakeFiles/QtBespin.dir/flags.make
 blib/CMakeFiles/QtBespin.dir/shadows.o: ../blib/shadows.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object blib/CMakeFiles/QtBespin.dir/shadows.o"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/shadows.o -c /home/thibaut/Downloads/cloudcity/blib/shadows.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/shadows.o -c /home/thibaut/BespinMod/cloudcity/blib/shadows.cpp
 
 blib/CMakeFiles/QtBespin.dir/shadows.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtBespin.dir/shadows.i"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/blib/shadows.cpp > CMakeFiles/QtBespin.dir/shadows.i
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/blib/shadows.cpp > CMakeFiles/QtBespin.dir/shadows.i
 
 blib/CMakeFiles/QtBespin.dir/shadows.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtBespin.dir/shadows.s"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/blib/shadows.cpp -o CMakeFiles/QtBespin.dir/shadows.s
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/blib/shadows.cpp -o CMakeFiles/QtBespin.dir/shadows.s
 
 blib/CMakeFiles/QtBespin.dir/shadows.o.requires:
 .PHONY : blib/CMakeFiles/QtBespin.dir/shadows.o.requires
@@ -232,17 +232,17 @@ blib/CMakeFiles/QtBespin.dir/shadows.o.provides.build: blib/CMakeFiles/QtBespin.
 
 blib/CMakeFiles/QtBespin.dir/xproperty.o: blib/CMakeFiles/QtBespin.dir/flags.make
 blib/CMakeFiles/QtBespin.dir/xproperty.o: ../blib/xproperty.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object blib/CMakeFiles/QtBespin.dir/xproperty.o"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/xproperty.o -c /home/thibaut/Downloads/cloudcity/blib/xproperty.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/QtBespin.dir/xproperty.o -c /home/thibaut/BespinMod/cloudcity/blib/xproperty.cpp
 
 blib/CMakeFiles/QtBespin.dir/xproperty.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QtBespin.dir/xproperty.i"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/blib/xproperty.cpp > CMakeFiles/QtBespin.dir/xproperty.i
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/blib/xproperty.cpp > CMakeFiles/QtBespin.dir/xproperty.i
 
 blib/CMakeFiles/QtBespin.dir/xproperty.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QtBespin.dir/xproperty.s"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/blib/xproperty.cpp -o CMakeFiles/QtBespin.dir/xproperty.s
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/blib/xproperty.cpp -o CMakeFiles/QtBespin.dir/xproperty.s
 
 blib/CMakeFiles/QtBespin.dir/xproperty.o.requires:
 .PHONY : blib/CMakeFiles/QtBespin.dir/xproperty.o.requires
@@ -287,7 +287,7 @@ lib/libQtBespin.so: /usr/lib/i386-linux-gnu/libXrender.so
 lib/libQtBespin.so: blib/CMakeFiles/QtBespin.dir/build.make
 lib/libQtBespin.so: blib/CMakeFiles/QtBespin.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../lib/libQtBespin.so"
-	cd /home/thibaut/Downloads/cloudcity/build/blib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QtBespin.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QtBespin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 blib/CMakeFiles/QtBespin.dir/build: lib/libQtBespin.so
@@ -305,10 +305,10 @@ blib/CMakeFiles/QtBespin.dir/requires: blib/CMakeFiles/QtBespin.dir/xproperty.o.
 .PHONY : blib/CMakeFiles/QtBespin.dir/requires
 
 blib/CMakeFiles/QtBespin.dir/clean:
-	cd /home/thibaut/Downloads/cloudcity/build/blib && $(CMAKE_COMMAND) -P CMakeFiles/QtBespin.dir/cmake_clean.cmake
+	cd /home/thibaut/BespinMod/cloudcity/build/blib && $(CMAKE_COMMAND) -P CMakeFiles/QtBespin.dir/cmake_clean.cmake
 .PHONY : blib/CMakeFiles/QtBespin.dir/clean
 
 blib/CMakeFiles/QtBespin.dir/depend:
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/Downloads/cloudcity /home/thibaut/Downloads/cloudcity/blib /home/thibaut/Downloads/cloudcity/build /home/thibaut/Downloads/cloudcity/build/blib /home/thibaut/Downloads/cloudcity/build/blib/CMakeFiles/QtBespin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/BespinMod/cloudcity /home/thibaut/BespinMod/cloudcity/blib /home/thibaut/BespinMod/cloudcity/build /home/thibaut/BespinMod/cloudcity/build/blib /home/thibaut/BespinMod/cloudcity/build/blib/CMakeFiles/QtBespin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : blib/CMakeFiles/QtBespin.dir/depend
 

@@ -71,9 +71,10 @@ Style::drawLineEdit(const QStyleOption *option, QPainter *painter, const QWidget
 
     OPT_ENABLED OPT_FOCUS
 
-       round = true;
+//       round = true;
     isEnabled = isEnabled && !(option->state & State_ReadOnly);
     QRect r = RECT;
+    QRect RECT2 = QRect( 1, 0, r.width()-1, r.height() );
 
     if (isEnabled)
     {
@@ -94,36 +95,15 @@ Style::drawLineEdit(const QStyleOption *option, QPainter *painter, const QWidget
     if (appType == GTK)
         shadows.fallback.render(RECT,painter);
     else
-        shadows.sunken[round][isEnabled].render(RECT, painter);
-//     painter->setRenderHint( QPainter::HighQualityAntialiasing );
-    
-    painter->setPen( QColor( 255, 255, 255, 150 ) ); // White color
-    QRectF leftRectangleWhite( 0, 0, 20, r.height() );
-    QRectF clipLeftWhite( 0, 0, 10, r.height()+1 );
-    painter->setClipRect( clipLeftWhite );
-    painter->drawRoundRect( leftRectangleWhite, 45, 45 );
-    painter->setClipping(false);
-    QRectF RightRectangleWhite( r.width()-20, 0, 19, r.height() );
-    QRectF clipRightWhite( r.width()-10, 0, 10, r.height()+1 );
-    painter->setClipRect( clipRightWhite );
-    painter->drawRoundRect( RightRectangleWhite, 45, 45 );
-    painter->setClipping(false);
-    painter->drawLine( 10, 0, r.width()-11, 0 ); // White top line
-    painter->drawLine( 10, r.height(), r.width()-11, r.height() ); // White bottom line
-    
+        shadows.sunken[round][isEnabled].render(RECT2, painter);
+
+
     painter->setPen( QColor( 0, 0, 0, 100 ) ); // Black color
-    painter->drawLine( 11, 1, r.width()-11, 1 ); // Black top line
-    painter->drawLine( 11, r.height()-1, r.width()-11, r.height()-1 ); // Black bottom line
-    QRectF leftRectangleBlack( 1, 1, 19, r.height()-2 );
-    QRectF clipLeftBlack( 1, 1, 10, r.height() );
-    painter->setClipRect( clipLeftBlack );
-    painter->drawRoundRect( leftRectangleBlack, 45, 45 );
-    painter->setClipping(false);
-    QRectF RightRectangleBlack( r.width()-21, 1, 19, r.height()-2 );
-    QRectF clipRightBlack( r.width()-10, 1, 10, r.height() );
-    painter->setClipRect( clipRightBlack );
-    painter->drawRoundRect( RightRectangleBlack, 45, 45 );
-    painter->setClipping(false);
+    painter->drawRoundedRect( 1, 1, r.width()-3, r.height()-2, 3, 3 );
+    painter->setPen( QColor( 220, 220, 220, 255 ) ); // White color
+    painter->drawRoundedRect( 0, 0, r.width()-1, r.height(), 3, 3 );
+    
+
     
 }
 

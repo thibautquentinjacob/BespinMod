@@ -6,65 +6,53 @@
 
 #IncludeRegexTransform: 
 
-/home/thibaut/Downloads/cloudcity/animator/../bepointer.h
+/home/thibaut/BespinMod/cloudcity/animator/../bepointer.h
 QWeakPointer
 -
 QPointer
 -
 
-/home/thibaut/Downloads/cloudcity/animator/basic.h
+/home/thibaut/BespinMod/cloudcity/animator/basic.h
 QBasicTimer
 -
 QMap
 -
 ../bepointer.h
-/home/thibaut/Downloads/cloudcity/animator/../bepointer.h
+/home/thibaut/BespinMod/cloudcity/animator/../bepointer.h
 
-/home/thibaut/Downloads/cloudcity/animator/hover.h
+/home/thibaut/BespinMod/cloudcity/animator/hover.h
 basic.h
-/home/thibaut/Downloads/cloudcity/animator/basic.h
+/home/thibaut/BespinMod/cloudcity/animator/basic.h
 
-/home/thibaut/Downloads/cloudcity/bespin.h
+/home/thibaut/BespinMod/cloudcity/bespin.h
 QCommonStyle
 -
 QStyleOption
 -
 blib/gradients.h
-/home/thibaut/Downloads/cloudcity/blib/gradients.h
+/home/thibaut/BespinMod/cloudcity/blib/gradients.h
 blib/tileset.h
-/home/thibaut/Downloads/cloudcity/blib/tileset.h
+/home/thibaut/BespinMod/cloudcity/blib/tileset.h
 blib/dpi.h
-/home/thibaut/Downloads/cloudcity/blib/dpi.h
+/home/thibaut/BespinMod/cloudcity/blib/dpi.h
 types.h
-/home/thibaut/Downloads/cloudcity/types.h
+/home/thibaut/BespinMod/cloudcity/types.h
 config.h
-/home/thibaut/Downloads/cloudcity/config.h
+/home/thibaut/BespinMod/cloudcity/config.h
 debug.h
-/home/thibaut/Downloads/cloudcity/debug.h
+/home/thibaut/BespinMod/cloudcity/debug.h
 
-/home/thibaut/Downloads/cloudcity/blib/FX.h
-QPixmap
--
-X11/Xlib.h
--
-X11/Xatom.h
--
-X11/extensions/Xrender.h
--
-fixx11h.h
-/home/thibaut/Downloads/cloudcity/blib/fixx11h.h
-
-/home/thibaut/Downloads/cloudcity/blib/colors.h
+/home/thibaut/BespinMod/cloudcity/blib/colors.h
 QColor
 -
 QPalette
 -
 
-/home/thibaut/Downloads/cloudcity/blib/dpi.h
+/home/thibaut/BespinMod/cloudcity/blib/dpi.h
 
-/home/thibaut/Downloads/cloudcity/blib/fixx11h.h
+/home/thibaut/BespinMod/cloudcity/blib/fixx11h.h
 
-/home/thibaut/Downloads/cloudcity/blib/gradients.h
+/home/thibaut/BespinMod/cloudcity/blib/gradients.h
 QBrush
 -
 QColor
@@ -72,7 +60,7 @@ QColor
 QPixmap
 -
 
-/home/thibaut/Downloads/cloudcity/blib/tileset.h
+/home/thibaut/BespinMod/cloudcity/blib/tileset.h
 QBitmap
 -
 QRect
@@ -86,39 +74,39 @@ X11/Xlib.h
 X11/extensions/Xrender.h
 -
 fixx11h.h
-/home/thibaut/Downloads/cloudcity/blib/fixx11h.h
+/home/thibaut/BespinMod/cloudcity/blib/fixx11h.h
 gradients.h
-/home/thibaut/Downloads/cloudcity/blib/gradients.h
+/home/thibaut/BespinMod/cloudcity/blib/gradients.h
 
-/home/thibaut/Downloads/cloudcity/config.h
+/home/thibaut/BespinMod/cloudcity/config.h
 types.h
-/home/thibaut/Downloads/cloudcity/types.h
+/home/thibaut/BespinMod/cloudcity/types.h
 blib/gradients.h
-/home/thibaut/Downloads/cloudcity/blib/gradients.h
+/home/thibaut/BespinMod/cloudcity/blib/gradients.h
 
-/home/thibaut/Downloads/cloudcity/debug.h
+/home/thibaut/BespinMod/cloudcity/debug.h
 QtDebug
 -
 qtimer.h
 -
 
-/home/thibaut/Downloads/cloudcity/draw.h
+/home/thibaut/BespinMod/cloudcity/draw.h
 cmath
 -
 QPainter
 -
 blib/colors.h
-/home/thibaut/Downloads/cloudcity/blib/colors.h
+/home/thibaut/BespinMod/cloudcity/blib/colors.h
 bespin.h
-/home/thibaut/Downloads/cloudcity/bespin.h
+/home/thibaut/BespinMod/cloudcity/bespin.h
 makros.h
-/home/thibaut/Downloads/cloudcity/makros.h
+/home/thibaut/BespinMod/cloudcity/makros.h
 
-/home/thibaut/Downloads/cloudcity/hacks.h
+/home/thibaut/BespinMod/cloudcity/hacks.h
 QObject
 -
 
-/home/thibaut/Downloads/cloudcity/input.cpp
+/home/thibaut/BespinMod/cloudcity/input.cpp
 QApplication
 -
 QComboBox
@@ -126,31 +114,17 @@ QComboBox
 QToolBar
 -
 draw.h
-/home/thibaut/Downloads/cloudcity/draw.h
+/home/thibaut/BespinMod/cloudcity/draw.h
 hacks.h
-/home/thibaut/Downloads/cloudcity/hacks.h
+/home/thibaut/BespinMod/cloudcity/hacks.h
 animator/hover.h
-/home/thibaut/Downloads/cloudcity/animator/hover.h
+/home/thibaut/BespinMod/cloudcity/animator/hover.h
 QtDebug
 -
 
-/home/thibaut/Downloads/cloudcity/makros.h
+/home/thibaut/BespinMod/cloudcity/makros.h
 
-/home/thibaut/Downloads/cloudcity/toolbars.cpp
-QMainWindow
--
-QToolBar
--
-QToolButton
--
-draw.h
-/home/thibaut/Downloads/cloudcity/draw.h
-animator/hover.h
-/home/thibaut/Downloads/cloudcity/animator/hover.h
-blib/FX.h
-/home/thibaut/Downloads/cloudcity/blib/FX.h
-
-/home/thibaut/Downloads/cloudcity/types.h
+/home/thibaut/BespinMod/cloudcity/types.h
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h
@@ -772,10 +746,6 @@ qcombobox.h
 qcommonstyle.h
 /usr/include/qt4/QtGui/qcommonstyle.h
 
-/usr/include/qt4/QtGui/QMainWindow
-qmainwindow.h
-/usr/include/qt4/QtGui/qmainwindow.h
-
 /usr/include/qt4/QtGui/QPainter
 qpainter.h
 /usr/include/qt4/QtGui/qpainter.h
@@ -796,21 +766,9 @@ qstyleoption.h
 qtoolbar.h
 /usr/include/qt4/QtGui/qtoolbar.h
 
-/usr/include/qt4/QtGui/QToolButton
-qtoolbutton.h
-/usr/include/qt4/QtGui/qtoolbutton.h
-
 /usr/include/qt4/QtGui/QX11Info
 qx11info_x11.h
 /usr/include/qt4/QtGui/qx11info_x11.h
-
-/usr/include/qt4/QtGui/qabstractbutton.h
-QtGui/qicon.h
--
-QtGui/qkeysequence.h
--
-QtGui/qwidget.h
--
 
 /usr/include/qt4/QtGui/qabstractitemdelegate.h
 QtCore/qobject.h
@@ -1006,12 +964,6 @@ QtCore/qstring.h
 QtCore/qglobal.h
 -
 Cocoa/Cocoa.h
--
-
-/usr/include/qt4/QtGui/qmainwindow.h
-QtGui/qwidget.h
--
-QtGui/qtabwidget.h
 -
 
 /usr/include/qt4/QtGui/qmatrix.h
@@ -1212,10 +1164,6 @@ QtCore/qmetatype.h
 
 /usr/include/qt4/QtGui/qtoolbar.h
 QtGui/qwidget.h
--
-
-/usr/include/qt4/QtGui/qtoolbutton.h
-QtGui/qabstractbutton.h
 -
 
 /usr/include/qt4/QtGui/qtransform.h

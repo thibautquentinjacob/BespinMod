@@ -1,4 +1,4 @@
-# Install script for directory: /home/thibaut/Downloads/cloudcity/kwin
+# Install script for directory: /home/thibaut/BespinMod/cloudcity/kwin
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/lib/kde4/kwin3_bespin.so")
-FILE(INSTALL DESTINATION "/usr/lib/kde4" TYPE MODULE FILES "/home/thibaut/Downloads/cloudcity/build/lib/kwin3_bespin.so")
+FILE(INSTALL DESTINATION "/usr/lib/kde4" TYPE MODULE FILES "/home/thibaut/BespinMod/cloudcity/build/lib/kwin3_bespin.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/lib/kde4/kwin3_bespin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/kde4/kwin3_bespin.so")
     FILE(RPATH_REMOVE
@@ -55,7 +55,7 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/share/kde4/apps/kwin/bespin.desktop")
-FILE(INSTALL DESTINATION "/usr/share/kde4/apps/kwin" TYPE FILE FILES "/home/thibaut/Downloads/cloudcity/kwin/bespin.desktop")
+FILE(INSTALL DESTINATION "/usr/share/kde4/apps/kwin" TYPE FILE FILES "/home/thibaut/BespinMod/cloudcity/kwin/bespin.desktop")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -67,7 +67,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/lib/kde4/kwin_bespin_config.so")
-FILE(INSTALL DESTINATION "/usr/lib/kde4" TYPE MODULE FILES "/home/thibaut/Downloads/cloudcity/build/lib/kwin_bespin_config.so")
+FILE(INSTALL DESTINATION "/usr/lib/kde4" TYPE MODULE FILES "/home/thibaut/BespinMod/cloudcity/build/lib/kwin_bespin_config.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/lib/kde4/kwin_bespin_config.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/kde4/kwin_bespin_config.so")
     IF(CMAKE_INSTALL_DO_STRIP)

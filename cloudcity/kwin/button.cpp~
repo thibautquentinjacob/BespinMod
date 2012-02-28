@@ -423,12 +423,13 @@ Button::paintEvent(QPaintEvent *)
     p.drawEllipse( QPoint( width()-5, height() ), 40, 40 );
     p.setBrush( QColor( 59, 59, 59, 255 ));
     p.drawEllipse( QPoint( width()-5, 2 ), 40, 40 );
-    p.setBrush( QBrush( Qt::NoBrush ) );
-    p.setPen( QColor( 255, 255, 255, 255 ) );
-    p.setRenderHint( QPainter::Antialiasing, false );
-    p.translate( QPoint(-10,-10) );
-    p.drawPath(shape[myType]);
+//     p.setBrush( QBrush( Qt::NoBrush ) );
+    p.setBrush( QColor( 255, 255, 255, 255 ) );
+    p.drawEllipse( QPoint( 13, 0 ), 15, 15 );
+//     p.translate( QPoint(-10,-10) );
+//     p.drawPath(shape[myType]);
     p.end();
+//     p.setRenderHint( QPainter::Antialiasing, false );
 
 }
 

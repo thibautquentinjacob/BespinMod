@@ -207,6 +207,7 @@ Style::drawToolButtonShape(const QStyleOption *option, QPainter *painter, const 
     OPT_ENABLED
 
     QRect rect = RECT;
+    QRect RECT2 = QRect( 1, 0, rect.width()-1, rect.height()-2 );
     if (connected)
     {
         QToolBar *tb = static_cast<QToolBar*>(widget->parentWidget()); // guaranteed by "connected", see above
@@ -327,40 +328,19 @@ Style::drawToolButtonShape(const QStyleOption *option, QPainter *painter, const 
     else if (isEnabled && (option->state & State_On))
     {
         if (widget && widget->testAttribute(Qt::WA_StyleSheet))
-            masks.rect[true].render(rect, painter, Gradients::Sunken, Qt::Vertical, QColor(128,128,128,128));
+            masks.rect[true].render(RECT2, painter, Gradients::Sunken, Qt::Vertical, QColor(128,128,128,128));
         else
         {
             const QColor &c = Colors::bg(PAL, widget);
-            masks.rect[true].render(rect, painter, Gradients::Sunken, Qt::Vertical, c);
+            masks.rect[true].render(RECT2, painter, Gradients::Sunken, Qt::Vertical, c);
         }
-        shadows.sunken[true][true].render(rect, painter);
-         painter->setPen( QColor( 255, 255, 255, 150 ) ); // White color
-    QRectF leftRectangleWhite( 0, 0, 20, rect.height() );
-    QRectF clipLeftWhite( 0, 0, 10, rect.height()+1 );
-    painter->setClipRect( clipLeftWhite );
-    painter->drawRoundRect( leftRectangleWhite, 45, 45 );
-    painter->setClipping(false);
-    QRectF RightRectangleWhite( rect.width()-20, 0, 19, rect.height() );
-    QRectF clipRightWhite( rect.width()-10, 0, 10, rect.height()+1 );
-    painter->setClipRect( clipRightWhite );
-    painter->drawRoundRect( RightRectangleWhite, 45, 45 );
-    painter->setClipping(false);
-    painter->drawLine( 10, 0, rect.width()-11, 0 ); // White top line
-    painter->drawLine( 10, rect.height(), rect.width()-11, rect.height() ); // White bottom line
-    
-    painter->setPen( QColor( 0, 0, 0, 100 ) ); // Black color
-    painter->drawLine( 11, 1, rect.width()-11, 1 ); // Black top line
-    painter->drawLine( 11, rect.height()-1, rect.width()-11, rect.height()-1 ); // Black bottom line
-    QRectF leftRectangleBlack( 1, 1, 19, rect.height()-2 );
-    QRectF clipLeftBlack( 1, 1, 10, rect.height() );
-    painter->setClipRect( clipLeftBlack );
-    painter->drawRoundRect( leftRectangleBlack, 45, 45 );
-    painter->setClipping(false);
-    QRectF RightRectangleBlack( rect.width()-21, 1, 19, rect.height()-2 );
-    QRectF clipRightBlack( rect.width()-10, 1, 10, rect.height() );
-    painter->setClipRect( clipRightBlack );
-    painter->drawRoundRect( RightRectangleBlack, 45, 45 );
-    painter->setClipping(false);
+        shadows.sunken[true][true].render(RECT2, painter);
+
+        painter->setPen( QColor( 0, 0, 0, 100 ) ); // Black color
+        painter->drawRoundedRect( 1, 1, rect.width()-3, rect.height()-4, 2, 2 );
+        painter->setPen( QColor( 220, 220, 220, 255 ) ); // White color
+        painter->drawRoundedRect( 0, 0, rect.width()-1, rect.height()-2, 3, 3 );
+        
     }
 }
 
@@ -430,9 +410,9 @@ Style::drawToolButtonLabel(const QStyleOption *option, QPainter *painter, const 
 		painter->setPen(QColor( 236, 236, 236, 255 ));
 		drawItemText(painter, RECT, Qt::AlignCenter | BESPIN_MNEMONIC, PAL, isEnabled, toolbutton->text);
         painter->setPen(text);
-        if (sunken)
-            setBold(painter, toolbutton->text, RECT.width());
-		painter->translate( 0, -1 );
+//         if (sunken)
+//           setBold(painter, toolbutton->text, RECT.width());
+        painter->translate( 0, -1 );
         drawItemText(painter, RECT, Qt::AlignCenter | BESPIN_MNEMONIC, PAL, isEnabled, toolbutton->text);
         return;
     }
@@ -513,6 +493,8 @@ Style::drawToolButtonLabel(const QStyleOption *option, QPainter *painter, const 
             tr.adjust(pr.width() + F(4), 0, 0, 0);
             alignment |= Qt::AlignLeft | Qt::AlignVCenter;
         }
+        drawItemText(painter, tr, alignment, PAL, isEnabled, toolbutton->text);
+        painter->translate( 0, -1 );
         drawItemText(painter, tr, alignment, PAL, isEnabled, toolbutton->text);
         return;
     }

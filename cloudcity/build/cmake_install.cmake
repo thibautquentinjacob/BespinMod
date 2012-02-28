@@ -1,4 +1,4 @@
-# Install script for directory: /home/thibaut/Downloads/cloudcity
+# Install script for directory: /home/thibaut/BespinMod/cloudcity
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/lib/i386-linux-gnu/qt4/plugins/styles/libbespin.so")
-FILE(INSTALL DESTINATION "/usr/lib/i386-linux-gnu/qt4/plugins/styles" TYPE SHARED_LIBRARY FILES "/home/thibaut/Downloads/cloudcity/build/lib/libbespin.so")
+FILE(INSTALL DESTINATION "/usr/lib/i386-linux-gnu/qt4/plugins/styles" TYPE SHARED_LIBRARY FILES "/home/thibaut/BespinMod/cloudcity/build/lib/libbespin.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/lib/i386-linux-gnu/qt4/plugins/styles/libbespin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/i386-linux-gnu/qt4/plugins/styles/libbespin.so")
     FILE(RPATH_REMOVE
@@ -55,15 +55,15 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/share/kde4/apps/kstyle/themes/bespin.themerc")
-FILE(INSTALL DESTINATION "/usr/share/kde4/apps/kstyle/themes" TYPE FILE FILES "/home/thibaut/Downloads/cloudcity/bespin.themerc")
+FILE(INSTALL DESTINATION "/usr/share/kde4/apps/kstyle/themes" TYPE FILE FILES "/home/thibaut/BespinMod/cloudcity/bespin.themerc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/thibaut/Downloads/cloudcity/build/blib/cmake_install.cmake")
-  INCLUDE("/home/thibaut/Downloads/cloudcity/build/config/cmake_install.cmake")
-  INCLUDE("/home/thibaut/Downloads/cloudcity/build/kwin/cmake_install.cmake")
-  INCLUDE("/home/thibaut/Downloads/cloudcity/build/XBar/cmake_install.cmake")
+  INCLUDE("/home/thibaut/BespinMod/cloudcity/build/blib/cmake_install.cmake")
+  INCLUDE("/home/thibaut/BespinMod/cloudcity/build/config/cmake_install.cmake")
+  INCLUDE("/home/thibaut/BespinMod/cloudcity/build/kwin/cmake_install.cmake")
+  INCLUDE("/home/thibaut/BespinMod/cloudcity/build/XBar/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -73,7 +73,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/thibaut/Downloads/cloudcity/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/thibaut/BespinMod/cloudcity/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/thibaut/Downloads/cloudcity/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/thibaut/BespinMod/cloudcity/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

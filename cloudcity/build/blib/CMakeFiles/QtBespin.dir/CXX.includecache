@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/thibaut/Downloads/cloudcity/blib/shapes.cpp
+/home/thibaut/BespinMod/cloudcity/blib/shapes.cpp
 QPainterPath
 -
 QRectF
 -
 shapes.h
-/home/thibaut/Downloads/cloudcity/blib/shapes.h
+/home/thibaut/BespinMod/cloudcity/blib/shapes.h
 
-/home/thibaut/Downloads/cloudcity/blib/shapes.h
+/home/thibaut/BespinMod/cloudcity/blib/shapes.h
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h

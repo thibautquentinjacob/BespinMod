@@ -1,4 +1,4 @@
-# Install script for directory: /home/thibaut/Downloads/cloudcity/config
+# Install script for directory: /home/thibaut/BespinMod/cloudcity/config
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bespin"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/thibaut/Downloads/cloudcity/build/config/bespin")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/thibaut/BespinMod/cloudcity/build/config/bespin")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bespin" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bespin")
     IF(CMAKE_INSTALL_DO_STRIP)
@@ -57,7 +57,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/lib/kde4/kstyle_bespin_config.so")
-FILE(INSTALL DESTINATION "/usr/lib/kde4" TYPE MODULE FILES "/home/thibaut/Downloads/cloudcity/build/lib/kstyle_bespin_config.so")
+FILE(INSTALL DESTINATION "/usr/lib/kde4" TYPE MODULE FILES "/home/thibaut/BespinMod/cloudcity/build/lib/kstyle_bespin_config.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/lib/kde4/kstyle_bespin_config.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/kde4/kstyle_bespin_config.so")
     IF(CMAKE_INSTALL_DO_STRIP)

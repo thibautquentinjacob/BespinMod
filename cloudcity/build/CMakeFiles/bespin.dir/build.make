@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thibaut/Downloads/cloudcity
+CMAKE_SOURCE_DIR = /home/thibaut/BespinMod/cloudcity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thibaut/Downloads/cloudcity/build
+CMAKE_BINARY_DIR = /home/thibaut/BespinMod/cloudcity/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bespin.dir/depend.make
@@ -48,17 +48,17 @@ include CMakeFiles/bespin.dir/flags.make
 
 CMakeFiles/bespin.dir/animator/basic.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/animator/basic.o: ../animator/basic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/animator/basic.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/basic.o -c /home/thibaut/Downloads/cloudcity/animator/basic.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/basic.o -c /home/thibaut/BespinMod/cloudcity/animator/basic.cpp
 
 CMakeFiles/bespin.dir/animator/basic.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/animator/basic.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/animator/basic.cpp > CMakeFiles/bespin.dir/animator/basic.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/animator/basic.cpp > CMakeFiles/bespin.dir/animator/basic.i
 
 CMakeFiles/bespin.dir/animator/basic.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/animator/basic.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/animator/basic.cpp -o CMakeFiles/bespin.dir/animator/basic.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/animator/basic.cpp -o CMakeFiles/bespin.dir/animator/basic.s
 
 CMakeFiles/bespin.dir/animator/basic.o.requires:
 .PHONY : CMakeFiles/bespin.dir/animator/basic.o.requires
@@ -71,17 +71,17 @@ CMakeFiles/bespin.dir/animator/basic.o.provides.build: CMakeFiles/bespin.dir/ani
 
 CMakeFiles/bespin.dir/animator/aprogress.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/animator/aprogress.o: ../animator/aprogress.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/animator/aprogress.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/aprogress.o -c /home/thibaut/Downloads/cloudcity/animator/aprogress.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/aprogress.o -c /home/thibaut/BespinMod/cloudcity/animator/aprogress.cpp
 
 CMakeFiles/bespin.dir/animator/aprogress.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/animator/aprogress.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/animator/aprogress.cpp > CMakeFiles/bespin.dir/animator/aprogress.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/animator/aprogress.cpp > CMakeFiles/bespin.dir/animator/aprogress.i
 
 CMakeFiles/bespin.dir/animator/aprogress.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/animator/aprogress.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/animator/aprogress.cpp -o CMakeFiles/bespin.dir/animator/aprogress.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/animator/aprogress.cpp -o CMakeFiles/bespin.dir/animator/aprogress.s
 
 CMakeFiles/bespin.dir/animator/aprogress.o.requires:
 .PHONY : CMakeFiles/bespin.dir/animator/aprogress.o.requires
@@ -94,17 +94,17 @@ CMakeFiles/bespin.dir/animator/aprogress.o.provides.build: CMakeFiles/bespin.dir
 
 CMakeFiles/bespin.dir/animator/hover.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/animator/hover.o: ../animator/hover.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/animator/hover.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/hover.o -c /home/thibaut/Downloads/cloudcity/animator/hover.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/hover.o -c /home/thibaut/BespinMod/cloudcity/animator/hover.cpp
 
 CMakeFiles/bespin.dir/animator/hover.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/animator/hover.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/animator/hover.cpp > CMakeFiles/bespin.dir/animator/hover.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/animator/hover.cpp > CMakeFiles/bespin.dir/animator/hover.i
 
 CMakeFiles/bespin.dir/animator/hover.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/animator/hover.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/animator/hover.cpp -o CMakeFiles/bespin.dir/animator/hover.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/animator/hover.cpp -o CMakeFiles/bespin.dir/animator/hover.s
 
 CMakeFiles/bespin.dir/animator/hover.o.requires:
 .PHONY : CMakeFiles/bespin.dir/animator/hover.o.requires
@@ -117,17 +117,17 @@ CMakeFiles/bespin.dir/animator/hover.o.provides.build: CMakeFiles/bespin.dir/ani
 
 CMakeFiles/bespin.dir/animator/hoverindex.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/animator/hoverindex.o: ../animator/hoverindex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/animator/hoverindex.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/hoverindex.o -c /home/thibaut/Downloads/cloudcity/animator/hoverindex.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/hoverindex.o -c /home/thibaut/BespinMod/cloudcity/animator/hoverindex.cpp
 
 CMakeFiles/bespin.dir/animator/hoverindex.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/animator/hoverindex.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/animator/hoverindex.cpp > CMakeFiles/bespin.dir/animator/hoverindex.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/animator/hoverindex.cpp > CMakeFiles/bespin.dir/animator/hoverindex.i
 
 CMakeFiles/bespin.dir/animator/hoverindex.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/animator/hoverindex.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/animator/hoverindex.cpp -o CMakeFiles/bespin.dir/animator/hoverindex.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/animator/hoverindex.cpp -o CMakeFiles/bespin.dir/animator/hoverindex.s
 
 CMakeFiles/bespin.dir/animator/hoverindex.o.requires:
 .PHONY : CMakeFiles/bespin.dir/animator/hoverindex.o.requires
@@ -140,17 +140,17 @@ CMakeFiles/bespin.dir/animator/hoverindex.o.provides.build: CMakeFiles/bespin.di
 
 CMakeFiles/bespin.dir/animator/hovercomplex.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/animator/hovercomplex.o: ../animator/hovercomplex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/animator/hovercomplex.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/hovercomplex.o -c /home/thibaut/Downloads/cloudcity/animator/hovercomplex.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/hovercomplex.o -c /home/thibaut/BespinMod/cloudcity/animator/hovercomplex.cpp
 
 CMakeFiles/bespin.dir/animator/hovercomplex.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/animator/hovercomplex.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/animator/hovercomplex.cpp > CMakeFiles/bespin.dir/animator/hovercomplex.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/animator/hovercomplex.cpp > CMakeFiles/bespin.dir/animator/hovercomplex.i
 
 CMakeFiles/bespin.dir/animator/hovercomplex.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/animator/hovercomplex.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/animator/hovercomplex.cpp -o CMakeFiles/bespin.dir/animator/hovercomplex.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/animator/hovercomplex.cpp -o CMakeFiles/bespin.dir/animator/hovercomplex.s
 
 CMakeFiles/bespin.dir/animator/hovercomplex.o.requires:
 .PHONY : CMakeFiles/bespin.dir/animator/hovercomplex.o.requires
@@ -163,17 +163,17 @@ CMakeFiles/bespin.dir/animator/hovercomplex.o.provides.build: CMakeFiles/bespin.
 
 CMakeFiles/bespin.dir/animator/tab.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/animator/tab.o: ../animator/tab.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/animator/tab.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/tab.o -c /home/thibaut/Downloads/cloudcity/animator/tab.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/tab.o -c /home/thibaut/BespinMod/cloudcity/animator/tab.cpp
 
 CMakeFiles/bespin.dir/animator/tab.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/animator/tab.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/animator/tab.cpp > CMakeFiles/bespin.dir/animator/tab.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/animator/tab.cpp > CMakeFiles/bespin.dir/animator/tab.i
 
 CMakeFiles/bespin.dir/animator/tab.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/animator/tab.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/animator/tab.cpp -o CMakeFiles/bespin.dir/animator/tab.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/animator/tab.cpp -o CMakeFiles/bespin.dir/animator/tab.s
 
 CMakeFiles/bespin.dir/animator/tab.o.requires:
 .PHONY : CMakeFiles/bespin.dir/animator/tab.o.requires
@@ -186,17 +186,17 @@ CMakeFiles/bespin.dir/animator/tab.o.provides.build: CMakeFiles/bespin.dir/anima
 
 CMakeFiles/bespin.dir/bespin.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/bespin.o: ../bespin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/bespin.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/bespin.o -c /home/thibaut/Downloads/cloudcity/bespin.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/bespin.o -c /home/thibaut/BespinMod/cloudcity/bespin.cpp
 
 CMakeFiles/bespin.dir/bespin.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/bespin.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/bespin.cpp > CMakeFiles/bespin.dir/bespin.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/bespin.cpp > CMakeFiles/bespin.dir/bespin.i
 
 CMakeFiles/bespin.dir/bespin.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/bespin.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/bespin.cpp -o CMakeFiles/bespin.dir/bespin.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/bespin.cpp -o CMakeFiles/bespin.dir/bespin.s
 
 CMakeFiles/bespin.dir/bespin.o.requires:
 .PHONY : CMakeFiles/bespin.dir/bespin.o.requires
@@ -209,17 +209,17 @@ CMakeFiles/bespin.dir/bespin.o.provides.build: CMakeFiles/bespin.dir/bespin.o
 
 CMakeFiles/bespin.dir/buttons.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/buttons.o: ../buttons.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/buttons.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/buttons.o -c /home/thibaut/Downloads/cloudcity/buttons.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/buttons.o -c /home/thibaut/BespinMod/cloudcity/buttons.cpp
 
 CMakeFiles/bespin.dir/buttons.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/buttons.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/buttons.cpp > CMakeFiles/bespin.dir/buttons.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/buttons.cpp > CMakeFiles/bespin.dir/buttons.i
 
 CMakeFiles/bespin.dir/buttons.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/buttons.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/buttons.cpp -o CMakeFiles/bespin.dir/buttons.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/buttons.cpp -o CMakeFiles/bespin.dir/buttons.s
 
 CMakeFiles/bespin.dir/buttons.o.requires:
 .PHONY : CMakeFiles/bespin.dir/buttons.o.requires
@@ -232,17 +232,17 @@ CMakeFiles/bespin.dir/buttons.o.provides.build: CMakeFiles/bespin.dir/buttons.o
 
 CMakeFiles/bespin.dir/docks.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/docks.o: ../docks.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/docks.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/docks.o -c /home/thibaut/Downloads/cloudcity/docks.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/docks.o -c /home/thibaut/BespinMod/cloudcity/docks.cpp
 
 CMakeFiles/bespin.dir/docks.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/docks.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/docks.cpp > CMakeFiles/bespin.dir/docks.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/docks.cpp > CMakeFiles/bespin.dir/docks.i
 
 CMakeFiles/bespin.dir/docks.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/docks.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/docks.cpp -o CMakeFiles/bespin.dir/docks.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/docks.cpp -o CMakeFiles/bespin.dir/docks.s
 
 CMakeFiles/bespin.dir/docks.o.requires:
 .PHONY : CMakeFiles/bespin.dir/docks.o.requires
@@ -255,17 +255,17 @@ CMakeFiles/bespin.dir/docks.o.provides.build: CMakeFiles/bespin.dir/docks.o
 
 CMakeFiles/bespin.dir/frames.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/frames.o: ../frames.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/frames.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/frames.o -c /home/thibaut/Downloads/cloudcity/frames.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/frames.o -c /home/thibaut/BespinMod/cloudcity/frames.cpp
 
 CMakeFiles/bespin.dir/frames.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/frames.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/frames.cpp > CMakeFiles/bespin.dir/frames.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/frames.cpp > CMakeFiles/bespin.dir/frames.i
 
 CMakeFiles/bespin.dir/frames.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/frames.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/frames.cpp -o CMakeFiles/bespin.dir/frames.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/frames.cpp -o CMakeFiles/bespin.dir/frames.s
 
 CMakeFiles/bespin.dir/frames.o.requires:
 .PHONY : CMakeFiles/bespin.dir/frames.o.requires
@@ -278,17 +278,17 @@ CMakeFiles/bespin.dir/frames.o.provides.build: CMakeFiles/bespin.dir/frames.o
 
 CMakeFiles/bespin.dir/genpixmaps.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/genpixmaps.o: ../genpixmaps.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/genpixmaps.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/genpixmaps.o -c /home/thibaut/Downloads/cloudcity/genpixmaps.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/genpixmaps.o -c /home/thibaut/BespinMod/cloudcity/genpixmaps.cpp
 
 CMakeFiles/bespin.dir/genpixmaps.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/genpixmaps.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/genpixmaps.cpp > CMakeFiles/bespin.dir/genpixmaps.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/genpixmaps.cpp > CMakeFiles/bespin.dir/genpixmaps.i
 
 CMakeFiles/bespin.dir/genpixmaps.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/genpixmaps.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/genpixmaps.cpp -o CMakeFiles/bespin.dir/genpixmaps.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/genpixmaps.cpp -o CMakeFiles/bespin.dir/genpixmaps.s
 
 CMakeFiles/bespin.dir/genpixmaps.o.requires:
 .PHONY : CMakeFiles/bespin.dir/genpixmaps.o.requires
@@ -301,17 +301,17 @@ CMakeFiles/bespin.dir/genpixmaps.o.provides.build: CMakeFiles/bespin.dir/genpixm
 
 CMakeFiles/bespin.dir/hacks.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/hacks.o: ../hacks.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/hacks.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/hacks.o -c /home/thibaut/Downloads/cloudcity/hacks.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/hacks.o -c /home/thibaut/BespinMod/cloudcity/hacks.cpp
 
 CMakeFiles/bespin.dir/hacks.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/hacks.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/hacks.cpp > CMakeFiles/bespin.dir/hacks.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/hacks.cpp > CMakeFiles/bespin.dir/hacks.i
 
 CMakeFiles/bespin.dir/hacks.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/hacks.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/hacks.cpp -o CMakeFiles/bespin.dir/hacks.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/hacks.cpp -o CMakeFiles/bespin.dir/hacks.s
 
 CMakeFiles/bespin.dir/hacks.o.requires:
 .PHONY : CMakeFiles/bespin.dir/hacks.o.requires
@@ -324,17 +324,17 @@ CMakeFiles/bespin.dir/hacks.o.provides.build: CMakeFiles/bespin.dir/hacks.o
 
 CMakeFiles/bespin.dir/init.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/init.o: ../init.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/init.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/init.o -c /home/thibaut/Downloads/cloudcity/init.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/init.o -c /home/thibaut/BespinMod/cloudcity/init.cpp
 
 CMakeFiles/bespin.dir/init.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/init.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/init.cpp > CMakeFiles/bespin.dir/init.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/init.cpp > CMakeFiles/bespin.dir/init.i
 
 CMakeFiles/bespin.dir/init.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/init.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/init.cpp -o CMakeFiles/bespin.dir/init.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/init.cpp -o CMakeFiles/bespin.dir/init.s
 
 CMakeFiles/bespin.dir/init.o.requires:
 .PHONY : CMakeFiles/bespin.dir/init.o.requires
@@ -347,17 +347,17 @@ CMakeFiles/bespin.dir/init.o.provides.build: CMakeFiles/bespin.dir/init.o
 
 CMakeFiles/bespin.dir/input.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/input.o: ../input.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/input.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/input.o -c /home/thibaut/Downloads/cloudcity/input.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/input.o -c /home/thibaut/BespinMod/cloudcity/input.cpp
 
 CMakeFiles/bespin.dir/input.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/input.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/input.cpp > CMakeFiles/bespin.dir/input.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/input.cpp > CMakeFiles/bespin.dir/input.i
 
 CMakeFiles/bespin.dir/input.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/input.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/input.cpp -o CMakeFiles/bespin.dir/input.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/input.cpp -o CMakeFiles/bespin.dir/input.s
 
 CMakeFiles/bespin.dir/input.o.requires:
 .PHONY : CMakeFiles/bespin.dir/input.o.requires
@@ -370,17 +370,17 @@ CMakeFiles/bespin.dir/input.o.provides.build: CMakeFiles/bespin.dir/input.o
 
 CMakeFiles/bespin.dir/macmenu.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/macmenu.o: ../macmenu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/macmenu.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/macmenu.o -c /home/thibaut/Downloads/cloudcity/macmenu.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/macmenu.o -c /home/thibaut/BespinMod/cloudcity/macmenu.cpp
 
 CMakeFiles/bespin.dir/macmenu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/macmenu.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/macmenu.cpp > CMakeFiles/bespin.dir/macmenu.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/macmenu.cpp > CMakeFiles/bespin.dir/macmenu.i
 
 CMakeFiles/bespin.dir/macmenu.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/macmenu.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/macmenu.cpp -o CMakeFiles/bespin.dir/macmenu.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/macmenu.cpp -o CMakeFiles/bespin.dir/macmenu.s
 
 CMakeFiles/bespin.dir/macmenu.o.requires:
 .PHONY : CMakeFiles/bespin.dir/macmenu.o.requires
@@ -393,17 +393,17 @@ CMakeFiles/bespin.dir/macmenu.o.provides.build: CMakeFiles/bespin.dir/macmenu.o
 
 CMakeFiles/bespin.dir/menus.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/menus.o: ../menus.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/menus.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/menus.o -c /home/thibaut/Downloads/cloudcity/menus.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/menus.o -c /home/thibaut/BespinMod/cloudcity/menus.cpp
 
 CMakeFiles/bespin.dir/menus.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/menus.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/menus.cpp > CMakeFiles/bespin.dir/menus.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/menus.cpp > CMakeFiles/bespin.dir/menus.i
 
 CMakeFiles/bespin.dir/menus.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/menus.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/menus.cpp -o CMakeFiles/bespin.dir/menus.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/menus.cpp -o CMakeFiles/bespin.dir/menus.s
 
 CMakeFiles/bespin.dir/menus.o.requires:
 .PHONY : CMakeFiles/bespin.dir/menus.o.requires
@@ -416,17 +416,17 @@ CMakeFiles/bespin.dir/menus.o.provides.build: CMakeFiles/bespin.dir/menus.o
 
 CMakeFiles/bespin.dir/pixelmetric.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/pixelmetric.o: ../pixelmetric.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/pixelmetric.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/pixelmetric.o -c /home/thibaut/Downloads/cloudcity/pixelmetric.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/pixelmetric.o -c /home/thibaut/BespinMod/cloudcity/pixelmetric.cpp
 
 CMakeFiles/bespin.dir/pixelmetric.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/pixelmetric.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/pixelmetric.cpp > CMakeFiles/bespin.dir/pixelmetric.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/pixelmetric.cpp > CMakeFiles/bespin.dir/pixelmetric.i
 
 CMakeFiles/bespin.dir/pixelmetric.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/pixelmetric.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/pixelmetric.cpp -o CMakeFiles/bespin.dir/pixelmetric.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/pixelmetric.cpp -o CMakeFiles/bespin.dir/pixelmetric.s
 
 CMakeFiles/bespin.dir/pixelmetric.o.requires:
 .PHONY : CMakeFiles/bespin.dir/pixelmetric.o.requires
@@ -439,17 +439,17 @@ CMakeFiles/bespin.dir/pixelmetric.o.provides.build: CMakeFiles/bespin.dir/pixelm
 
 CMakeFiles/bespin.dir/polish.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/polish.o: ../polish.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/polish.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/polish.o -c /home/thibaut/Downloads/cloudcity/polish.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/polish.o -c /home/thibaut/BespinMod/cloudcity/polish.cpp
 
 CMakeFiles/bespin.dir/polish.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/polish.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/polish.cpp > CMakeFiles/bespin.dir/polish.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/polish.cpp > CMakeFiles/bespin.dir/polish.i
 
 CMakeFiles/bespin.dir/polish.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/polish.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/polish.cpp -o CMakeFiles/bespin.dir/polish.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/polish.cpp -o CMakeFiles/bespin.dir/polish.s
 
 CMakeFiles/bespin.dir/polish.o.requires:
 .PHONY : CMakeFiles/bespin.dir/polish.o.requires
@@ -462,17 +462,17 @@ CMakeFiles/bespin.dir/polish.o.provides.build: CMakeFiles/bespin.dir/polish.o
 
 CMakeFiles/bespin.dir/progress.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/progress.o: ../progress.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/progress.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/progress.o -c /home/thibaut/Downloads/cloudcity/progress.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/progress.o -c /home/thibaut/BespinMod/cloudcity/progress.cpp
 
 CMakeFiles/bespin.dir/progress.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/progress.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/progress.cpp > CMakeFiles/bespin.dir/progress.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/progress.cpp > CMakeFiles/bespin.dir/progress.i
 
 CMakeFiles/bespin.dir/progress.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/progress.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/progress.cpp -o CMakeFiles/bespin.dir/progress.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/progress.cpp -o CMakeFiles/bespin.dir/progress.s
 
 CMakeFiles/bespin.dir/progress.o.requires:
 .PHONY : CMakeFiles/bespin.dir/progress.o.requires
@@ -485,17 +485,17 @@ CMakeFiles/bespin.dir/progress.o.provides.build: CMakeFiles/bespin.dir/progress.
 
 CMakeFiles/bespin.dir/qsubcmetrics.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/qsubcmetrics.o: ../qsubcmetrics.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/qsubcmetrics.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/qsubcmetrics.o -c /home/thibaut/Downloads/cloudcity/qsubcmetrics.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/qsubcmetrics.o -c /home/thibaut/BespinMod/cloudcity/qsubcmetrics.cpp
 
 CMakeFiles/bespin.dir/qsubcmetrics.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/qsubcmetrics.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/qsubcmetrics.cpp > CMakeFiles/bespin.dir/qsubcmetrics.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/qsubcmetrics.cpp > CMakeFiles/bespin.dir/qsubcmetrics.i
 
 CMakeFiles/bespin.dir/qsubcmetrics.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/qsubcmetrics.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/qsubcmetrics.cpp -o CMakeFiles/bespin.dir/qsubcmetrics.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/qsubcmetrics.cpp -o CMakeFiles/bespin.dir/qsubcmetrics.s
 
 CMakeFiles/bespin.dir/qsubcmetrics.o.requires:
 .PHONY : CMakeFiles/bespin.dir/qsubcmetrics.o.requires
@@ -508,17 +508,17 @@ CMakeFiles/bespin.dir/qsubcmetrics.o.provides.build: CMakeFiles/bespin.dir/qsubc
 
 CMakeFiles/bespin.dir/scrollareas.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/scrollareas.o: ../scrollareas.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/scrollareas.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/scrollareas.o -c /home/thibaut/Downloads/cloudcity/scrollareas.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/scrollareas.o -c /home/thibaut/BespinMod/cloudcity/scrollareas.cpp
 
 CMakeFiles/bespin.dir/scrollareas.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/scrollareas.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/scrollareas.cpp > CMakeFiles/bespin.dir/scrollareas.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/scrollareas.cpp > CMakeFiles/bespin.dir/scrollareas.i
 
 CMakeFiles/bespin.dir/scrollareas.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/scrollareas.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/scrollareas.cpp -o CMakeFiles/bespin.dir/scrollareas.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/scrollareas.cpp -o CMakeFiles/bespin.dir/scrollareas.s
 
 CMakeFiles/bespin.dir/scrollareas.o.requires:
 .PHONY : CMakeFiles/bespin.dir/scrollareas.o.requires
@@ -531,17 +531,17 @@ CMakeFiles/bespin.dir/scrollareas.o.provides.build: CMakeFiles/bespin.dir/scroll
 
 CMakeFiles/bespin.dir/indicators.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/indicators.o: ../indicators.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/indicators.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/indicators.o -c /home/thibaut/Downloads/cloudcity/indicators.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/indicators.o -c /home/thibaut/BespinMod/cloudcity/indicators.cpp
 
 CMakeFiles/bespin.dir/indicators.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/indicators.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/indicators.cpp > CMakeFiles/bespin.dir/indicators.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/indicators.cpp > CMakeFiles/bespin.dir/indicators.i
 
 CMakeFiles/bespin.dir/indicators.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/indicators.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/indicators.cpp -o CMakeFiles/bespin.dir/indicators.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/indicators.cpp -o CMakeFiles/bespin.dir/indicators.s
 
 CMakeFiles/bespin.dir/indicators.o.requires:
 .PHONY : CMakeFiles/bespin.dir/indicators.o.requires
@@ -554,17 +554,17 @@ CMakeFiles/bespin.dir/indicators.o.provides.build: CMakeFiles/bespin.dir/indicat
 
 CMakeFiles/bespin.dir/sizefromcontents.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/sizefromcontents.o: ../sizefromcontents.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/sizefromcontents.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/sizefromcontents.o -c /home/thibaut/Downloads/cloudcity/sizefromcontents.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/sizefromcontents.o -c /home/thibaut/BespinMod/cloudcity/sizefromcontents.cpp
 
 CMakeFiles/bespin.dir/sizefromcontents.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/sizefromcontents.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/sizefromcontents.cpp > CMakeFiles/bespin.dir/sizefromcontents.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/sizefromcontents.cpp > CMakeFiles/bespin.dir/sizefromcontents.i
 
 CMakeFiles/bespin.dir/sizefromcontents.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/sizefromcontents.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/sizefromcontents.cpp -o CMakeFiles/bespin.dir/sizefromcontents.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/sizefromcontents.cpp -o CMakeFiles/bespin.dir/sizefromcontents.s
 
 CMakeFiles/bespin.dir/sizefromcontents.o.requires:
 .PHONY : CMakeFiles/bespin.dir/sizefromcontents.o.requires
@@ -577,17 +577,17 @@ CMakeFiles/bespin.dir/sizefromcontents.o.provides.build: CMakeFiles/bespin.dir/s
 
 CMakeFiles/bespin.dir/slider.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/slider.o: ../slider.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/slider.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/slider.o -c /home/thibaut/Downloads/cloudcity/slider.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/slider.o -c /home/thibaut/BespinMod/cloudcity/slider.cpp
 
 CMakeFiles/bespin.dir/slider.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/slider.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/slider.cpp > CMakeFiles/bespin.dir/slider.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/slider.cpp > CMakeFiles/bespin.dir/slider.i
 
 CMakeFiles/bespin.dir/slider.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/slider.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/slider.cpp -o CMakeFiles/bespin.dir/slider.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/slider.cpp -o CMakeFiles/bespin.dir/slider.s
 
 CMakeFiles/bespin.dir/slider.o.requires:
 .PHONY : CMakeFiles/bespin.dir/slider.o.requires
@@ -600,17 +600,17 @@ CMakeFiles/bespin.dir/slider.o.provides.build: CMakeFiles/bespin.dir/slider.o
 
 CMakeFiles/bespin.dir/stdpix.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/stdpix.o: ../stdpix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/stdpix.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/stdpix.o -c /home/thibaut/Downloads/cloudcity/stdpix.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/stdpix.o -c /home/thibaut/BespinMod/cloudcity/stdpix.cpp
 
 CMakeFiles/bespin.dir/stdpix.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/stdpix.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/stdpix.cpp > CMakeFiles/bespin.dir/stdpix.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/stdpix.cpp > CMakeFiles/bespin.dir/stdpix.i
 
 CMakeFiles/bespin.dir/stdpix.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/stdpix.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/stdpix.cpp -o CMakeFiles/bespin.dir/stdpix.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/stdpix.cpp -o CMakeFiles/bespin.dir/stdpix.s
 
 CMakeFiles/bespin.dir/stdpix.o.requires:
 .PHONY : CMakeFiles/bespin.dir/stdpix.o.requires
@@ -623,17 +623,17 @@ CMakeFiles/bespin.dir/stdpix.o.provides.build: CMakeFiles/bespin.dir/stdpix.o
 
 CMakeFiles/bespin.dir/stylehint.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/stylehint.o: ../stylehint.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/stylehint.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/stylehint.o -c /home/thibaut/Downloads/cloudcity/stylehint.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/stylehint.o -c /home/thibaut/BespinMod/cloudcity/stylehint.cpp
 
 CMakeFiles/bespin.dir/stylehint.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/stylehint.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/stylehint.cpp > CMakeFiles/bespin.dir/stylehint.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/stylehint.cpp > CMakeFiles/bespin.dir/stylehint.i
 
 CMakeFiles/bespin.dir/stylehint.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/stylehint.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/stylehint.cpp -o CMakeFiles/bespin.dir/stylehint.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/stylehint.cpp -o CMakeFiles/bespin.dir/stylehint.s
 
 CMakeFiles/bespin.dir/stylehint.o.requires:
 .PHONY : CMakeFiles/bespin.dir/stylehint.o.requires
@@ -646,17 +646,17 @@ CMakeFiles/bespin.dir/stylehint.o.provides.build: CMakeFiles/bespin.dir/stylehin
 
 CMakeFiles/bespin.dir/tabbing.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/tabbing.o: ../tabbing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/tabbing.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/tabbing.o -c /home/thibaut/Downloads/cloudcity/tabbing.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/tabbing.o -c /home/thibaut/BespinMod/cloudcity/tabbing.cpp
 
 CMakeFiles/bespin.dir/tabbing.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/tabbing.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/tabbing.cpp > CMakeFiles/bespin.dir/tabbing.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/tabbing.cpp > CMakeFiles/bespin.dir/tabbing.i
 
 CMakeFiles/bespin.dir/tabbing.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/tabbing.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/tabbing.cpp -o CMakeFiles/bespin.dir/tabbing.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/tabbing.cpp -o CMakeFiles/bespin.dir/tabbing.s
 
 CMakeFiles/bespin.dir/tabbing.o.requires:
 .PHONY : CMakeFiles/bespin.dir/tabbing.o.requires
@@ -669,17 +669,17 @@ CMakeFiles/bespin.dir/tabbing.o.provides.build: CMakeFiles/bespin.dir/tabbing.o
 
 CMakeFiles/bespin.dir/toolbars.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/toolbars.o: ../toolbars.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/toolbars.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/toolbars.o -c /home/thibaut/Downloads/cloudcity/toolbars.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/toolbars.o -c /home/thibaut/BespinMod/cloudcity/toolbars.cpp
 
 CMakeFiles/bespin.dir/toolbars.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/toolbars.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/toolbars.cpp > CMakeFiles/bespin.dir/toolbars.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/toolbars.cpp > CMakeFiles/bespin.dir/toolbars.i
 
 CMakeFiles/bespin.dir/toolbars.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/toolbars.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/toolbars.cpp -o CMakeFiles/bespin.dir/toolbars.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/toolbars.cpp -o CMakeFiles/bespin.dir/toolbars.s
 
 CMakeFiles/bespin.dir/toolbars.o.requires:
 .PHONY : CMakeFiles/bespin.dir/toolbars.o.requires
@@ -692,17 +692,17 @@ CMakeFiles/bespin.dir/toolbars.o.provides.build: CMakeFiles/bespin.dir/toolbars.
 
 CMakeFiles/bespin.dir/views.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/views.o: ../views.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/views.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/views.o -c /home/thibaut/Downloads/cloudcity/views.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/views.o -c /home/thibaut/BespinMod/cloudcity/views.cpp
 
 CMakeFiles/bespin.dir/views.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/views.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/views.cpp > CMakeFiles/bespin.dir/views.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/views.cpp > CMakeFiles/bespin.dir/views.i
 
 CMakeFiles/bespin.dir/views.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/views.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/views.cpp -o CMakeFiles/bespin.dir/views.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/views.cpp -o CMakeFiles/bespin.dir/views.s
 
 CMakeFiles/bespin.dir/views.o.requires:
 .PHONY : CMakeFiles/bespin.dir/views.o.requires
@@ -715,17 +715,17 @@ CMakeFiles/bespin.dir/views.o.provides.build: CMakeFiles/bespin.dir/views.o
 
 CMakeFiles/bespin.dir/visualframe.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/visualframe.o: ../visualframe.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/visualframe.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/visualframe.o -c /home/thibaut/Downloads/cloudcity/visualframe.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/visualframe.o -c /home/thibaut/BespinMod/cloudcity/visualframe.cpp
 
 CMakeFiles/bespin.dir/visualframe.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/visualframe.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/visualframe.cpp > CMakeFiles/bespin.dir/visualframe.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/visualframe.cpp > CMakeFiles/bespin.dir/visualframe.i
 
 CMakeFiles/bespin.dir/visualframe.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/visualframe.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/visualframe.cpp -o CMakeFiles/bespin.dir/visualframe.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/visualframe.cpp -o CMakeFiles/bespin.dir/visualframe.s
 
 CMakeFiles/bespin.dir/visualframe.o.requires:
 .PHONY : CMakeFiles/bespin.dir/visualframe.o.requires
@@ -738,17 +738,17 @@ CMakeFiles/bespin.dir/visualframe.o.provides.build: CMakeFiles/bespin.dir/visual
 
 CMakeFiles/bespin.dir/window.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/window.o: ../window.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/window.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/window.o -c /home/thibaut/Downloads/cloudcity/window.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/window.o -c /home/thibaut/BespinMod/cloudcity/window.cpp
 
 CMakeFiles/bespin.dir/window.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/window.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/window.cpp > CMakeFiles/bespin.dir/window.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/window.cpp > CMakeFiles/bespin.dir/window.i
 
 CMakeFiles/bespin.dir/window.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/window.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/window.cpp -o CMakeFiles/bespin.dir/window.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/window.cpp -o CMakeFiles/bespin.dir/window.s
 
 CMakeFiles/bespin.dir/window.o.requires:
 .PHONY : CMakeFiles/bespin.dir/window.o.requires
@@ -761,17 +761,17 @@ CMakeFiles/bespin.dir/window.o.provides.build: CMakeFiles/bespin.dir/window.o
 
 CMakeFiles/bespin.dir/animator/moc_basic.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/animator/moc_basic.o: animator/moc_basic.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/animator/moc_basic.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/moc_basic.o -c /home/thibaut/Downloads/cloudcity/build/animator/moc_basic.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/moc_basic.o -c /home/thibaut/BespinMod/cloudcity/build/animator/moc_basic.cxx
 
 CMakeFiles/bespin.dir/animator/moc_basic.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/animator/moc_basic.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/animator/moc_basic.cxx > CMakeFiles/bespin.dir/animator/moc_basic.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/animator/moc_basic.cxx > CMakeFiles/bespin.dir/animator/moc_basic.i
 
 CMakeFiles/bespin.dir/animator/moc_basic.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/animator/moc_basic.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/animator/moc_basic.cxx -o CMakeFiles/bespin.dir/animator/moc_basic.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/animator/moc_basic.cxx -o CMakeFiles/bespin.dir/animator/moc_basic.s
 
 CMakeFiles/bespin.dir/animator/moc_basic.o.requires:
 .PHONY : CMakeFiles/bespin.dir/animator/moc_basic.o.requires
@@ -784,17 +784,17 @@ CMakeFiles/bespin.dir/animator/moc_basic.o.provides.build: CMakeFiles/bespin.dir
 
 CMakeFiles/bespin.dir/animator/moc_aprogress.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/animator/moc_aprogress.o: animator/moc_aprogress.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/animator/moc_aprogress.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/moc_aprogress.o -c /home/thibaut/Downloads/cloudcity/build/animator/moc_aprogress.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/moc_aprogress.o -c /home/thibaut/BespinMod/cloudcity/build/animator/moc_aprogress.cxx
 
 CMakeFiles/bespin.dir/animator/moc_aprogress.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/animator/moc_aprogress.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/animator/moc_aprogress.cxx > CMakeFiles/bespin.dir/animator/moc_aprogress.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/animator/moc_aprogress.cxx > CMakeFiles/bespin.dir/animator/moc_aprogress.i
 
 CMakeFiles/bespin.dir/animator/moc_aprogress.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/animator/moc_aprogress.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/animator/moc_aprogress.cxx -o CMakeFiles/bespin.dir/animator/moc_aprogress.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/animator/moc_aprogress.cxx -o CMakeFiles/bespin.dir/animator/moc_aprogress.s
 
 CMakeFiles/bespin.dir/animator/moc_aprogress.o.requires:
 .PHONY : CMakeFiles/bespin.dir/animator/moc_aprogress.o.requires
@@ -807,17 +807,17 @@ CMakeFiles/bespin.dir/animator/moc_aprogress.o.provides.build: CMakeFiles/bespin
 
 CMakeFiles/bespin.dir/animator/moc_hover.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/animator/moc_hover.o: animator/moc_hover.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/animator/moc_hover.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/moc_hover.o -c /home/thibaut/Downloads/cloudcity/build/animator/moc_hover.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/moc_hover.o -c /home/thibaut/BespinMod/cloudcity/build/animator/moc_hover.cxx
 
 CMakeFiles/bespin.dir/animator/moc_hover.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/animator/moc_hover.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/animator/moc_hover.cxx > CMakeFiles/bespin.dir/animator/moc_hover.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/animator/moc_hover.cxx > CMakeFiles/bespin.dir/animator/moc_hover.i
 
 CMakeFiles/bespin.dir/animator/moc_hover.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/animator/moc_hover.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/animator/moc_hover.cxx -o CMakeFiles/bespin.dir/animator/moc_hover.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/animator/moc_hover.cxx -o CMakeFiles/bespin.dir/animator/moc_hover.s
 
 CMakeFiles/bespin.dir/animator/moc_hover.o.requires:
 .PHONY : CMakeFiles/bespin.dir/animator/moc_hover.o.requires
@@ -830,17 +830,17 @@ CMakeFiles/bespin.dir/animator/moc_hover.o.provides.build: CMakeFiles/bespin.dir
 
 CMakeFiles/bespin.dir/animator/moc_hoverindex.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/animator/moc_hoverindex.o: animator/moc_hoverindex.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/animator/moc_hoverindex.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/moc_hoverindex.o -c /home/thibaut/Downloads/cloudcity/build/animator/moc_hoverindex.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/moc_hoverindex.o -c /home/thibaut/BespinMod/cloudcity/build/animator/moc_hoverindex.cxx
 
 CMakeFiles/bespin.dir/animator/moc_hoverindex.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/animator/moc_hoverindex.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/animator/moc_hoverindex.cxx > CMakeFiles/bespin.dir/animator/moc_hoverindex.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/animator/moc_hoverindex.cxx > CMakeFiles/bespin.dir/animator/moc_hoverindex.i
 
 CMakeFiles/bespin.dir/animator/moc_hoverindex.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/animator/moc_hoverindex.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/animator/moc_hoverindex.cxx -o CMakeFiles/bespin.dir/animator/moc_hoverindex.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/animator/moc_hoverindex.cxx -o CMakeFiles/bespin.dir/animator/moc_hoverindex.s
 
 CMakeFiles/bespin.dir/animator/moc_hoverindex.o.requires:
 .PHONY : CMakeFiles/bespin.dir/animator/moc_hoverindex.o.requires
@@ -853,17 +853,17 @@ CMakeFiles/bespin.dir/animator/moc_hoverindex.o.provides.build: CMakeFiles/bespi
 
 CMakeFiles/bespin.dir/animator/moc_tab.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/animator/moc_tab.o: animator/moc_tab.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/animator/moc_tab.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/moc_tab.o -c /home/thibaut/Downloads/cloudcity/build/animator/moc_tab.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/animator/moc_tab.o -c /home/thibaut/BespinMod/cloudcity/build/animator/moc_tab.cxx
 
 CMakeFiles/bespin.dir/animator/moc_tab.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/animator/moc_tab.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/animator/moc_tab.cxx > CMakeFiles/bespin.dir/animator/moc_tab.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/animator/moc_tab.cxx > CMakeFiles/bespin.dir/animator/moc_tab.i
 
 CMakeFiles/bespin.dir/animator/moc_tab.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/animator/moc_tab.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/animator/moc_tab.cxx -o CMakeFiles/bespin.dir/animator/moc_tab.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/animator/moc_tab.cxx -o CMakeFiles/bespin.dir/animator/moc_tab.s
 
 CMakeFiles/bespin.dir/animator/moc_tab.o.requires:
 .PHONY : CMakeFiles/bespin.dir/animator/moc_tab.o.requires
@@ -876,17 +876,17 @@ CMakeFiles/bespin.dir/animator/moc_tab.o.provides.build: CMakeFiles/bespin.dir/a
 
 CMakeFiles/bespin.dir/moc_bespin.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/moc_bespin.o: moc_bespin.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/moc_bespin.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/moc_bespin.o -c /home/thibaut/Downloads/cloudcity/build/moc_bespin.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/moc_bespin.o -c /home/thibaut/BespinMod/cloudcity/build/moc_bespin.cxx
 
 CMakeFiles/bespin.dir/moc_bespin.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/moc_bespin.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/moc_bespin.cxx > CMakeFiles/bespin.dir/moc_bespin.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/moc_bespin.cxx > CMakeFiles/bespin.dir/moc_bespin.i
 
 CMakeFiles/bespin.dir/moc_bespin.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/moc_bespin.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/moc_bespin.cxx -o CMakeFiles/bespin.dir/moc_bespin.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/moc_bespin.cxx -o CMakeFiles/bespin.dir/moc_bespin.s
 
 CMakeFiles/bespin.dir/moc_bespin.o.requires:
 .PHONY : CMakeFiles/bespin.dir/moc_bespin.o.requires
@@ -899,17 +899,17 @@ CMakeFiles/bespin.dir/moc_bespin.o.provides.build: CMakeFiles/bespin.dir/moc_bes
 
 CMakeFiles/bespin.dir/moc_visualframe.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/moc_visualframe.o: moc_visualframe.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/moc_visualframe.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/moc_visualframe.o -c /home/thibaut/Downloads/cloudcity/build/moc_visualframe.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/moc_visualframe.o -c /home/thibaut/BespinMod/cloudcity/build/moc_visualframe.cxx
 
 CMakeFiles/bespin.dir/moc_visualframe.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/moc_visualframe.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/moc_visualframe.cxx > CMakeFiles/bespin.dir/moc_visualframe.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/moc_visualframe.cxx > CMakeFiles/bespin.dir/moc_visualframe.i
 
 CMakeFiles/bespin.dir/moc_visualframe.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/moc_visualframe.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/moc_visualframe.cxx -o CMakeFiles/bespin.dir/moc_visualframe.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/moc_visualframe.cxx -o CMakeFiles/bespin.dir/moc_visualframe.s
 
 CMakeFiles/bespin.dir/moc_visualframe.o.requires:
 .PHONY : CMakeFiles/bespin.dir/moc_visualframe.o.requires
@@ -922,17 +922,17 @@ CMakeFiles/bespin.dir/moc_visualframe.o.provides.build: CMakeFiles/bespin.dir/mo
 
 CMakeFiles/bespin.dir/moc_hacks.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/moc_hacks.o: moc_hacks.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/moc_hacks.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/moc_hacks.o -c /home/thibaut/Downloads/cloudcity/build/moc_hacks.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/moc_hacks.o -c /home/thibaut/BespinMod/cloudcity/build/moc_hacks.cxx
 
 CMakeFiles/bespin.dir/moc_hacks.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/moc_hacks.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/moc_hacks.cxx > CMakeFiles/bespin.dir/moc_hacks.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/moc_hacks.cxx > CMakeFiles/bespin.dir/moc_hacks.i
 
 CMakeFiles/bespin.dir/moc_hacks.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/moc_hacks.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/moc_hacks.cxx -o CMakeFiles/bespin.dir/moc_hacks.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/moc_hacks.cxx -o CMakeFiles/bespin.dir/moc_hacks.s
 
 CMakeFiles/bespin.dir/moc_hacks.o.requires:
 .PHONY : CMakeFiles/bespin.dir/moc_hacks.o.requires
@@ -945,17 +945,17 @@ CMakeFiles/bespin.dir/moc_hacks.o.provides.build: CMakeFiles/bespin.dir/moc_hack
 
 CMakeFiles/bespin.dir/moc_macmenu.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/moc_macmenu.o: moc_macmenu.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/moc_macmenu.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/moc_macmenu.o -c /home/thibaut/Downloads/cloudcity/build/moc_macmenu.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/moc_macmenu.o -c /home/thibaut/BespinMod/cloudcity/build/moc_macmenu.cxx
 
 CMakeFiles/bespin.dir/moc_macmenu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/moc_macmenu.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/moc_macmenu.cxx > CMakeFiles/bespin.dir/moc_macmenu.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/moc_macmenu.cxx > CMakeFiles/bespin.dir/moc_macmenu.i
 
 CMakeFiles/bespin.dir/moc_macmenu.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/moc_macmenu.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/moc_macmenu.cxx -o CMakeFiles/bespin.dir/moc_macmenu.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/moc_macmenu.cxx -o CMakeFiles/bespin.dir/moc_macmenu.s
 
 CMakeFiles/bespin.dir/moc_macmenu.o.requires:
 .PHONY : CMakeFiles/bespin.dir/moc_macmenu.o.requires
@@ -968,17 +968,17 @@ CMakeFiles/bespin.dir/moc_macmenu.o.provides.build: CMakeFiles/bespin.dir/moc_ma
 
 CMakeFiles/bespin.dir/moc_macmenu-dbus.o: CMakeFiles/bespin.dir/flags.make
 CMakeFiles/bespin.dir/moc_macmenu-dbus.o: moc_macmenu-dbus.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/bespin.dir/moc_macmenu-dbus.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/moc_macmenu-dbus.o -c /home/thibaut/Downloads/cloudcity/build/moc_macmenu-dbus.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/bespin.dir/moc_macmenu-dbus.o -c /home/thibaut/BespinMod/cloudcity/build/moc_macmenu-dbus.cxx
 
 CMakeFiles/bespin.dir/moc_macmenu-dbus.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bespin.dir/moc_macmenu-dbus.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/moc_macmenu-dbus.cxx > CMakeFiles/bespin.dir/moc_macmenu-dbus.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/moc_macmenu-dbus.cxx > CMakeFiles/bespin.dir/moc_macmenu-dbus.i
 
 CMakeFiles/bespin.dir/moc_macmenu-dbus.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bespin.dir/moc_macmenu-dbus.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/moc_macmenu-dbus.cxx -o CMakeFiles/bespin.dir/moc_macmenu-dbus.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/moc_macmenu-dbus.cxx -o CMakeFiles/bespin.dir/moc_macmenu-dbus.s
 
 CMakeFiles/bespin.dir/moc_macmenu-dbus.o.requires:
 .PHONY : CMakeFiles/bespin.dir/moc_macmenu-dbus.o.requires
@@ -990,54 +990,54 @@ CMakeFiles/bespin.dir/moc_macmenu-dbus.o.provides: CMakeFiles/bespin.dir/moc_mac
 CMakeFiles/bespin.dir/moc_macmenu-dbus.o.provides.build: CMakeFiles/bespin.dir/moc_macmenu-dbus.o
 
 animator/moc_basic.cxx: ../animator/basic.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating animator/moc_basic.cxx"
-	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/Downloads/cloudcity/build/animator/moc_basic.cxx /home/thibaut/Downloads/cloudcity/animator/basic.h
+	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/BespinMod/cloudcity/build/animator/moc_basic.cxx /home/thibaut/BespinMod/cloudcity/animator/basic.h
 
 animator/moc_aprogress.cxx: ../animator/aprogress.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating animator/moc_aprogress.cxx"
-	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/Downloads/cloudcity/build/animator/moc_aprogress.cxx /home/thibaut/Downloads/cloudcity/animator/aprogress.h
+	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/BespinMod/cloudcity/build/animator/moc_aprogress.cxx /home/thibaut/BespinMod/cloudcity/animator/aprogress.h
 
 animator/moc_hover.cxx: ../animator/hover.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating animator/moc_hover.cxx"
-	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/Downloads/cloudcity/build/animator/moc_hover.cxx /home/thibaut/Downloads/cloudcity/animator/hover.h
+	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/BespinMod/cloudcity/build/animator/moc_hover.cxx /home/thibaut/BespinMod/cloudcity/animator/hover.h
 
 animator/moc_hoverindex.cxx: ../animator/hoverindex.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating animator/moc_hoverindex.cxx"
-	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/Downloads/cloudcity/build/animator/moc_hoverindex.cxx /home/thibaut/Downloads/cloudcity/animator/hoverindex.h
+	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/BespinMod/cloudcity/build/animator/moc_hoverindex.cxx /home/thibaut/BespinMod/cloudcity/animator/hoverindex.h
 
 animator/moc_tab.cxx: ../animator/tab.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating animator/moc_tab.cxx"
-	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/Downloads/cloudcity/build/animator/moc_tab.cxx /home/thibaut/Downloads/cloudcity/animator/tab.h
+	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/BespinMod/cloudcity/build/animator/moc_tab.cxx /home/thibaut/BespinMod/cloudcity/animator/tab.h
 
 moc_bespin.cxx: ../bespin.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_bespin.cxx"
-	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/Downloads/cloudcity/build/moc_bespin.cxx /home/thibaut/Downloads/cloudcity/bespin.h
+	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/BespinMod/cloudcity/build/moc_bespin.cxx /home/thibaut/BespinMod/cloudcity/bespin.h
 
 moc_visualframe.cxx: ../visualframe.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_visualframe.cxx"
-	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/Downloads/cloudcity/build/moc_visualframe.cxx /home/thibaut/Downloads/cloudcity/visualframe.h
+	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/BespinMod/cloudcity/build/moc_visualframe.cxx /home/thibaut/BespinMod/cloudcity/visualframe.h
 
 moc_hacks.cxx: ../hacks.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_hacks.cxx"
-	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/Downloads/cloudcity/build/moc_hacks.cxx /home/thibaut/Downloads/cloudcity/hacks.h
+	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/BespinMod/cloudcity/build/moc_hacks.cxx /home/thibaut/BespinMod/cloudcity/hacks.h
 
 moc_macmenu.cxx: ../macmenu.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_macmenu.cxx"
-	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/Downloads/cloudcity/build/moc_macmenu.cxx /home/thibaut/Downloads/cloudcity/macmenu.h
+	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/BespinMod/cloudcity/build/moc_macmenu.cxx /home/thibaut/BespinMod/cloudcity/macmenu.h
 
 moc_macmenu-dbus.cxx: ../macmenu-dbus.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_macmenu-dbus.cxx"
-	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/Downloads/cloudcity/build/moc_macmenu-dbus.cxx /home/thibaut/Downloads/cloudcity/macmenu-dbus.h
+	/usr/bin/moc-qt4 -I/usr/include -I/usr/include/KDE -I/usr/include/qt4/phonon -I/usr/include/qt4/QtXmlPatterns -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtWebKit -I/usr/include/qt4/QtUiTools -I/usr/include/qt4/QtTest -I/usr/include/qt4/QtSvg -I/usr/include/qt4/QtSql -I/usr/include/qt4/QtScriptTools -I/usr/include/qt4/QtScript -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtHelp -I/usr/include/qt4/QtDesigner -I/usr/include/qt4/QtDeclarative -I/usr/include/qt4/QtDBus -I/usr/include/qt4/Qt3Support -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/Qt -I/usr/share/qt4/mkspecs/default -I/usr/include/qt4 -DQT3_SUPPORT -D_BSD_SOURCE -DBESPIN_ARGB_WINDOWS=1 -DVARYING_SHADOWS=1 -D_XOPEN_SOURCE=500 -D_BSD_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23 -DBLIB_EXPORT=Q_DECL_IMPORT -o /home/thibaut/BespinMod/cloudcity/build/moc_macmenu-dbus.cxx /home/thibaut/BespinMod/cloudcity/macmenu-dbus.h
 
 # Object files for target bespin
 bespin_OBJECTS = \
@@ -1208,6 +1208,6 @@ CMakeFiles/bespin.dir/depend: moc_visualframe.cxx
 CMakeFiles/bespin.dir/depend: moc_hacks.cxx
 CMakeFiles/bespin.dir/depend: moc_macmenu.cxx
 CMakeFiles/bespin.dir/depend: moc_macmenu-dbus.cxx
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/Downloads/cloudcity /home/thibaut/Downloads/cloudcity /home/thibaut/Downloads/cloudcity/build /home/thibaut/Downloads/cloudcity/build /home/thibaut/Downloads/cloudcity/build/CMakeFiles/bespin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/BespinMod/cloudcity /home/thibaut/BespinMod/cloudcity /home/thibaut/BespinMod/cloudcity/build /home/thibaut/BespinMod/cloudcity/build /home/thibaut/BespinMod/cloudcity/build/CMakeFiles/bespin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bespin.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/thibaut/Downloads/cloudcity/XBar
+# Install script for directory: /home/thibaut/BespinMod/cloudcity/XBar
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   ENDIF()
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/lib/kde4/plasma_applet_xbar.so")
-FILE(INSTALL DESTINATION "/usr/lib/kde4" TYPE MODULE FILES "/home/thibaut/Downloads/cloudcity/build/lib/plasma_applet_xbar.so")
+FILE(INSTALL DESTINATION "/usr/lib/kde4" TYPE MODULE FILES "/home/thibaut/BespinMod/cloudcity/build/lib/plasma_applet_xbar.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/lib/kde4/plasma_applet_xbar.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/kde4/plasma_applet_xbar.so")
     IF(CMAKE_INSTALL_DO_STRIP)
@@ -53,6 +53,6 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/share/kde4/services/plasma-applet-xbar.desktop")
-FILE(INSTALL DESTINATION "/usr/share/kde4/services" TYPE FILE FILES "/home/thibaut/Downloads/cloudcity/XBar/plasma-applet-xbar.desktop")
+FILE(INSTALL DESTINATION "/usr/share/kde4/services" TYPE FILE FILES "/home/thibaut/BespinMod/cloudcity/XBar/plasma-applet-xbar.desktop")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

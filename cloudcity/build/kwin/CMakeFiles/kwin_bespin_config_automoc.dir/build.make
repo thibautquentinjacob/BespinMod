@@ -32,15 +32,15 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thibaut/Downloads/cloudcity
+CMAKE_SOURCE_DIR = /home/thibaut/BespinMod/cloudcity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thibaut/Downloads/cloudcity/build
+CMAKE_BINARY_DIR = /home/thibaut/BespinMod/cloudcity/build
 
 # Utility rule file for kwin_bespin_config_automoc.
 
 kwin/CMakeFiles/kwin_bespin_config_automoc:
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && /usr/bin/automoc4 /home/thibaut/Downloads/cloudcity/build/kwin/kwin_bespin_config_automoc.cpp /home/thibaut/Downloads/cloudcity/kwin /home/thibaut/Downloads/cloudcity/build/kwin /usr/bin/moc-qt4 /usr/bin/cmake
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && /usr/bin/automoc4 /home/thibaut/BespinMod/cloudcity/build/kwin/kwin_bespin_config_automoc.cpp /home/thibaut/BespinMod/cloudcity/kwin /home/thibaut/BespinMod/cloudcity/build/kwin /usr/bin/moc-qt4 /usr/bin/cmake
 
 kwin_bespin_config_automoc: kwin/CMakeFiles/kwin_bespin_config_automoc
 kwin_bespin_config_automoc: kwin/CMakeFiles/kwin_bespin_config_automoc.dir/build.make
@@ -51,10 +51,10 @@ kwin/CMakeFiles/kwin_bespin_config_automoc.dir/build: kwin_bespin_config_automoc
 .PHONY : kwin/CMakeFiles/kwin_bespin_config_automoc.dir/build
 
 kwin/CMakeFiles/kwin_bespin_config_automoc.dir/clean:
-	cd /home/thibaut/Downloads/cloudcity/build/kwin && $(CMAKE_COMMAND) -P CMakeFiles/kwin_bespin_config_automoc.dir/cmake_clean.cmake
+	cd /home/thibaut/BespinMod/cloudcity/build/kwin && $(CMAKE_COMMAND) -P CMakeFiles/kwin_bespin_config_automoc.dir/cmake_clean.cmake
 .PHONY : kwin/CMakeFiles/kwin_bespin_config_automoc.dir/clean
 
 kwin/CMakeFiles/kwin_bespin_config_automoc.dir/depend:
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/Downloads/cloudcity /home/thibaut/Downloads/cloudcity/kwin /home/thibaut/Downloads/cloudcity/build /home/thibaut/Downloads/cloudcity/build/kwin /home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/kwin_bespin_config_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/BespinMod/cloudcity /home/thibaut/BespinMod/cloudcity/kwin /home/thibaut/BespinMod/cloudcity/build /home/thibaut/BespinMod/cloudcity/build/kwin /home/thibaut/BespinMod/cloudcity/build/kwin/CMakeFiles/kwin_bespin_config_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kwin/CMakeFiles/kwin_bespin_config_automoc.dir/depend
 

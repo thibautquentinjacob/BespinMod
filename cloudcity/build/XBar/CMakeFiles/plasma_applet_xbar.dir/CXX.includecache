@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/thibaut/Downloads/cloudcity/XBar/dbus.h
+/home/thibaut/BespinMod/cloudcity/XBar/dbus.h
 QDBusAbstractAdaptor
 -
 xbar.h
-/home/thibaut/Downloads/cloudcity/XBar/xbar.h
+/home/thibaut/BespinMod/cloudcity/XBar/xbar.h
 
-/home/thibaut/Downloads/cloudcity/XBar/menubar.cpp
+/home/thibaut/BespinMod/cloudcity/XBar/menubar.cpp
 QAbstractEventDispatcher
 -
 QAction
@@ -40,17 +40,17 @@ QStyleOptionMenuItem
 Plasma/Applet
 -
 menubar.h
-/home/thibaut/Downloads/cloudcity/XBar/menubar.h
+/home/thibaut/BespinMod/cloudcity/XBar/menubar.h
 QtDebug
 -
 
-/home/thibaut/Downloads/cloudcity/XBar/menubar.h
+/home/thibaut/BespinMod/cloudcity/XBar/menubar.h
 QGraphicsWidget
 -
 QStyleOption
 -
 
-/home/thibaut/Downloads/cloudcity/XBar/xbar.cpp
+/home/thibaut/BespinMod/cloudcity/XBar/xbar.cpp
 QAbstractEventDispatcher
 -
 QApplication
@@ -118,11 +118,11 @@ Plasma/Theme
 limits.h
 -
 menubar.h
-/home/thibaut/Downloads/cloudcity/XBar/menubar.h
+/home/thibaut/BespinMod/cloudcity/XBar/menubar.h
 xbar.h
-/home/thibaut/Downloads/cloudcity/XBar/xbar.h
+/home/thibaut/BespinMod/cloudcity/XBar/xbar.h
 dbus.h
-/home/thibaut/Downloads/cloudcity/XBar/dbus.h
+/home/thibaut/BespinMod/cloudcity/XBar/dbus.h
 QtDebug
 -
 X11/X.h
@@ -134,11 +134,11 @@ X11/Xutil.h
 X11/Xatom.h
 -
 dbus.moc
-/home/thibaut/Downloads/cloudcity/XBar/dbus.moc
+/home/thibaut/BespinMod/cloudcity/XBar/dbus.moc
 xbar.moc
-/home/thibaut/Downloads/cloudcity/XBar/xbar.moc
+/home/thibaut/BespinMod/cloudcity/XBar/xbar.moc
 
-/home/thibaut/Downloads/cloudcity/XBar/xbar.h
+/home/thibaut/BespinMod/cloudcity/XBar/xbar.h
 QMap
 -
 QMenu
@@ -148,19 +148,19 @@ QWidget
 Plasma/Applet
 -
 
-/home/thibaut/Downloads/cloudcity/build/XBar/../../XBar/menubar.h
+/home/thibaut/BespinMod/cloudcity/build/XBar/../../XBar/menubar.h
 QGraphicsWidget
 -
 QStyleOption
 -
 
-/home/thibaut/Downloads/cloudcity/build/XBar/moc_menubar.cpp
+/home/thibaut/BespinMod/cloudcity/build/XBar/moc_menubar.cpp
 ../../XBar/menubar.h
-/home/thibaut/Downloads/cloudcity/build/XBar/../../XBar/menubar.h
+/home/thibaut/BespinMod/cloudcity/build/XBar/../../XBar/menubar.h
 
-/home/thibaut/Downloads/cloudcity/build/XBar/plasma_applet_xbar_automoc.cpp
+/home/thibaut/BespinMod/cloudcity/build/XBar/plasma_applet_xbar_automoc.cpp
 moc_menubar.cpp
-/home/thibaut/Downloads/cloudcity/build/XBar/moc_menubar.cpp
+/home/thibaut/BespinMod/cloudcity/build/XBar/moc_menubar.cpp
 
 /usr/include/KDE/../kdirwatch.h
 QtCore/QDateTime

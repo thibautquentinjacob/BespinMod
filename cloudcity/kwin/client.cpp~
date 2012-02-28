@@ -602,6 +602,7 @@ Client::repaint(QPainter &p, bool paintTitle)
     if (isPreview())
     {
         QRect r = widget()->rect();
+        QRect r2 = QRect( 2, 2, r.width()-2, r.height()-2 );
         bool hadAntiAliasing = p.testRenderHint(QPainter::Antialiasing);
         p.setRenderHint( QPainter::Antialiasing );
         // the shadow - this is rather expensive, but hey - who cares... ;-P
@@ -618,7 +619,8 @@ Client::repaint(QPainter &p, bool paintTitle)
         r.adjust(0,0,0,-1);
 
         // the window
-        p.setBrush(Gradients::pix(bg, r.height(), Qt::Vertical, Gradients::Button));
+
+        p.setBrush(Gradients::pix(bg, r2.height(), Qt::Vertical, Gradients::Button));
         QColor c = color(Client::ColorFont, isActive());
         c.setAlpha(100);
         p.setPen(c);
@@ -800,9 +802,24 @@ Client::repaint(QPainter &p, bool paintTitle)
 
     if (unoHeight && !Factory::verticalTitle())
     {
-        const Gradients::Type gradient = gType[isActive()];
-        if (gradient != Gradients::None)
-            p.fillRect(top, Gradients::brush(bg, unoHeight, Qt::Vertical, gradient));
+      const Gradients::Type gradient = gType[isActive()];
+      //     My mess
+      p.setRenderHint( QPainter::Antialiasing, true );
+      p.setPen(QPen(QColor(0,0,0,255), 5));
+      p.drawRoundedRect( 0, 0, width(), height(), 8, 8 );
+      
+      p.setPen(QPen(QColor(242, 242, 242, 255), 1));
+      p.drawRoundedRect( 1, 1, width()-2, height()-2, 8, 8 );
+      p.setRenderHint( QPainter::Antialiasing, false );
+      
+      QRect rect2 = QRect( 1, 1, top.width() - 4, top.height() );
+      if (gradient != Gradients::None) {
+        //            p.fillRect(rect2, Gradients::brush(bg, unoHeight, Qt::Vertical, gradient));
+        p.setBrush( Gradients::brush(bg, unoHeight, Qt::Vertical, gradient) );
+        p.setPen( QPen( Qt::NoPen ) );              // do not draw outline
+        p.drawRoundedRect( rect2, 8, 8 );   // draw filled rectangle
+      }
+      
     }
 
     if (paintTitle && isShade())
@@ -905,6 +922,7 @@ Client::repaint(QPainter &p, bool paintTitle)
             const int d = (label.width() - label.height()) / 2;
             label.setRect( label.x() + d, label.y() - d, label.height(), label.width() );
         }
+
     }
 
     // bar =========================
@@ -987,28 +1005,8 @@ Client::repaint(QPainter &p, bool paintTitle)
             p.drawPath(path);
         }
     }
-    
-    
-//     My mess
-       p.setPen(QPen(QColor(0,0,0,150), 1));
-       QRectF leftRectangleBlack( 0, 0, 12, 12 );
-       p.drawArc( leftRectangleBlack, 100*16, 100*16 );
-       p.drawLine(0, 7, 0, height() );
-       p.drawLine(6, 0, width()-6, 0 );
-       p.setPen(QPen(QColor(255,255,255,150), 1));
-       QRectF leftRectangleWhite( 1, 1, 12, 12 );
-       p.drawArc( leftRectangleWhite, 100*16, 100*16 );
-       p.drawLine(1, 7, 1, height() );
-       p.drawLine(7, 1, width()-7, 1 );
-       
-       p.setPen(QPen(QColor(0,0,0,150), 1));
-       QRectF RightRectangleBlack( width()-12, 0, 11, 20 );
-       p.drawArc( RightRectangleBlack, -10*16, 80*16 );
-       p.drawLine(width()-1, 7, width()-1, height() );
-       p.setPen(QPen(QColor(255,255,255,150), 1));
-       QRectF RightRectangleWhite( width()-13, 1, 10, 7 );
-       p.drawArc( RightRectangleWhite, -10*16, 80*16 );
-       p.drawLine(width()-2, 7, width()-2, height() );
+    p.setPen(QColor(255,0,0,255));
+    p.drawLine( 0, height() - 30, width(), height() - 30 );
     
 }
 

@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thibaut/Downloads/cloudcity
+CMAKE_SOURCE_DIR = /home/thibaut/BespinMod/cloudcity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thibaut/Downloads/cloudcity/build
+CMAKE_BINARY_DIR = /home/thibaut/BespinMod/cloudcity/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -117,14 +117,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/thibaut/Downloads/cloudcity/build/CMakeFiles /home/thibaut/Downloads/cloudcity/build/kwin/CMakeFiles/progress.marks
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thibaut/Downloads/cloudcity/build/CMakeFiles 0
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/thibaut/BespinMod/cloudcity/build/CMakeFiles /home/thibaut/BespinMod/cloudcity/build/kwin/CMakeFiles/progress.marks
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thibaut/BespinMod/cloudcity/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/clean
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,22 +133,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/preinstall
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/preinstall
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kwin/CMakeFiles/kwin3_bespin.dir/rule:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/CMakeFiles/kwin3_bespin.dir/rule
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/CMakeFiles/kwin3_bespin.dir/rule
 .PHONY : kwin/CMakeFiles/kwin3_bespin.dir/rule
 
 # Convenience name for target.
@@ -157,12 +157,12 @@ kwin3_bespin: kwin/CMakeFiles/kwin3_bespin.dir/rule
 
 # fast build rule for target.
 kwin3_bespin/fast:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/build
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/build
 .PHONY : kwin3_bespin/fast
 
 # Convenience name for target.
 kwin/CMakeFiles/kwin3_bespin_automoc.dir/rule:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/CMakeFiles/kwin3_bespin_automoc.dir/rule
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/CMakeFiles/kwin3_bespin_automoc.dir/rule
 .PHONY : kwin/CMakeFiles/kwin3_bespin_automoc.dir/rule
 
 # Convenience name for target.
@@ -171,12 +171,12 @@ kwin3_bespin_automoc: kwin/CMakeFiles/kwin3_bespin_automoc.dir/rule
 
 # fast build rule for target.
 kwin3_bespin_automoc/fast:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin_automoc.dir/build.make kwin/CMakeFiles/kwin3_bespin_automoc.dir/build
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin_automoc.dir/build.make kwin/CMakeFiles/kwin3_bespin_automoc.dir/build
 .PHONY : kwin3_bespin_automoc/fast
 
 # Convenience name for target.
 kwin/CMakeFiles/kwin_bespin_config.dir/rule:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/CMakeFiles/kwin_bespin_config.dir/rule
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/CMakeFiles/kwin_bespin_config.dir/rule
 .PHONY : kwin/CMakeFiles/kwin_bespin_config.dir/rule
 
 # Convenience name for target.
@@ -185,12 +185,12 @@ kwin_bespin_config: kwin/CMakeFiles/kwin_bespin_config.dir/rule
 
 # fast build rule for target.
 kwin_bespin_config/fast:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/build
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/build
 .PHONY : kwin_bespin_config/fast
 
 # Convenience name for target.
 kwin/CMakeFiles/kwin_bespin_config_automoc.dir/rule:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/CMakeFiles/kwin_bespin_config_automoc.dir/rule
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f CMakeFiles/Makefile2 kwin/CMakeFiles/kwin_bespin_config_automoc.dir/rule
 .PHONY : kwin/CMakeFiles/kwin_bespin_config_automoc.dir/rule
 
 # Convenience name for target.
@@ -199,142 +199,142 @@ kwin_bespin_config_automoc: kwin/CMakeFiles/kwin_bespin_config_automoc.dir/rule
 
 # fast build rule for target.
 kwin_bespin_config_automoc/fast:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config_automoc.dir/build.make kwin/CMakeFiles/kwin_bespin_config_automoc.dir/build
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config_automoc.dir/build.make kwin/CMakeFiles/kwin_bespin_config_automoc.dir/build
 .PHONY : kwin_bespin_config_automoc/fast
 
 # target to build an object file
 __/config/bconfig.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/bconfig.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/bconfig.o
 .PHONY : __/config/bconfig.o
 
 # target to preprocess a source file
 __/config/bconfig.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/bconfig.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/bconfig.i
 .PHONY : __/config/bconfig.i
 
 # target to generate assembly for a file
 __/config/bconfig.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/bconfig.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/bconfig.s
 .PHONY : __/config/bconfig.s
 
 # target to build an object file
 __/config/kdeini.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/kdeini.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/kdeini.o
 .PHONY : __/config/kdeini.o
 
 # target to preprocess a source file
 __/config/kdeini.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/kdeini.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/kdeini.i
 .PHONY : __/config/kdeini.i
 
 # target to generate assembly for a file
 __/config/kdeini.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/kdeini.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/__/config/kdeini.s
 .PHONY : __/config/kdeini.s
 
 # target to build an object file
 button.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/button.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/button.o
 .PHONY : button.o
 
 # target to preprocess a source file
 button.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/button.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/button.i
 .PHONY : button.i
 
 # target to generate assembly for a file
 button.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/button.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/button.s
 .PHONY : button.s
 
 # target to build an object file
 client.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/client.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/client.o
 .PHONY : client.o
 
 # target to preprocess a source file
 client.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/client.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/client.i
 .PHONY : client.i
 
 # target to generate assembly for a file
 client.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/client.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/client.s
 .PHONY : client.s
 
 # target to build an object file
 config.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/config.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/config.o
 .PHONY : config.o
 
 # target to preprocess a source file
 config.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/config.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/config.i
 .PHONY : config.i
 
 # target to generate assembly for a file
 config.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/config.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/config.s
 .PHONY : config.s
 
 # target to build an object file
 factory.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/factory.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/factory.o
 .PHONY : factory.o
 
 # target to preprocess a source file
 factory.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/factory.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/factory.i
 .PHONY : factory.i
 
 # target to generate assembly for a file
 factory.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/factory.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/factory.s
 .PHONY : factory.s
 
 # target to build an object file
 kwin3_bespin_automoc.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.o
 .PHONY : kwin3_bespin_automoc.o
 
 # target to preprocess a source file
 kwin3_bespin_automoc.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.i
 .PHONY : kwin3_bespin_automoc.i
 
 # target to generate assembly for a file
 kwin3_bespin_automoc.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/kwin3_bespin_automoc.s
 .PHONY : kwin3_bespin_automoc.s
 
 # target to build an object file
 kwin_bespin_config_automoc.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/kwin_bespin_config_automoc.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/kwin_bespin_config_automoc.o
 .PHONY : kwin_bespin_config_automoc.o
 
 # target to preprocess a source file
 kwin_bespin_config_automoc.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/kwin_bespin_config_automoc.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/kwin_bespin_config_automoc.i
 .PHONY : kwin_bespin_config_automoc.i
 
 # target to generate assembly for a file
 kwin_bespin_config_automoc.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/kwin_bespin_config_automoc.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin_bespin_config.dir/build.make kwin/CMakeFiles/kwin_bespin_config.dir/kwin_bespin_config_automoc.s
 .PHONY : kwin_bespin_config_automoc.s
 
 # target to build an object file
 resizecorner.o:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.o
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.o
 .PHONY : resizecorner.o
 
 # target to preprocess a source file
 resizecorner.i:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.i
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.i
 .PHONY : resizecorner.i
 
 # target to generate assembly for a file
 resizecorner.s:
-	cd /home/thibaut/Downloads/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.s
+	cd /home/thibaut/BespinMod/cloudcity/build && $(MAKE) -f kwin/CMakeFiles/kwin3_bespin.dir/build.make kwin/CMakeFiles/kwin3_bespin.dir/resizecorner.s
 .PHONY : resizecorner.s
 
 # Help Target
@@ -392,6 +392,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

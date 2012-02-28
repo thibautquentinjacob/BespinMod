@@ -1,5 +1,5 @@
 SOURCES:
-/home/thibaut/Downloads/cloudcity/kwin/button.cpp;/home/thibaut/Downloads/cloudcity/kwin/client.cpp;/home/thibaut/Downloads/cloudcity/kwin/resizecorner.cpp;/home/thibaut/Downloads/cloudcity/kwin/factory.cpp
+/home/thibaut/BespinMod/cloudcity/kwin/button.cpp;/home/thibaut/BespinMod/cloudcity/kwin/client.cpp;/home/thibaut/BespinMod/cloudcity/kwin/resizecorner.cpp;/home/thibaut/BespinMod/cloudcity/kwin/factory.cpp
 MOC_COMPILE_DEFINITIONS:
 QT3_SUPPORT;_BSD_SOURCE;BESPIN_ARGB_WINDOWS=1;VARYING_SHADOWS=1;_XOPEN_SOURCE=500;_BSD_SOURCE;QT_NO_STL;QT_NO_CAST_TO_ASCII;_REENTRANT;KDE_DEPRECATED_WARNINGS;KDE4_CMAKE_TOPLEVEL_DIR_LENGTH=23;BLIB_EXPORT=Q_DECL_IMPORT
 MOC_DEFINITIONS:
@@ -9,6 +9,6 @@ MOC_INCLUDES:
 CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE:
 ON
 CMAKE_BINARY_DIR:
-/home/thibaut/Downloads/cloudcity/build
+/home/thibaut/BespinMod/cloudcity/build
 CMAKE_SOURCE_DIR:
-/home/thibaut/Downloads/cloudcity
+/home/thibaut/BespinMod/cloudcity

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/thibaut/Downloads/cloudcity/kwin/../blib/FX.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/FX.h
 QPixmap
 -
 X11/Xlib.h
@@ -16,17 +16,17 @@ X11/Xatom.h
 X11/extensions/Xrender.h
 -
 fixx11h.h
-/home/thibaut/Downloads/cloudcity/kwin/../blib/fixx11h.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/fixx11h.h
 
-/home/thibaut/Downloads/cloudcity/kwin/../blib/colors.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/colors.h
 QColor
 -
 QPalette
 -
 
-/home/thibaut/Downloads/cloudcity/kwin/../blib/fixx11h.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/fixx11h.h
 
-/home/thibaut/Downloads/cloudcity/kwin/../blib/gradients.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/gradients.h
 QBrush
 -
 QColor
@@ -34,61 +34,97 @@ QColor
 QPixmap
 -
 
-/home/thibaut/Downloads/cloudcity/kwin/../blib/shapes.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/shadows.h
 
-/home/thibaut/Downloads/cloudcity/kwin/../blib/xproperty.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/shapes.h
+
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/xproperty.h
 X11/Xlib.h
 -
 X11/extensions/Xrender.h
 -
 fixx11h.h
-/home/thibaut/Downloads/cloudcity/kwin/../blib/fixx11h.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/fixx11h.h
 QWidget
 -
 QtDebug
 -
 
-/home/thibaut/Downloads/cloudcity/kwin/button.cpp
+/home/thibaut/BespinMod/cloudcity/kwin/button.h
+../blib/gradients.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/gradients.h
+QWidget
+-
+
+/home/thibaut/BespinMod/cloudcity/kwin/client.cpp
+QAction
+-
 QPainter
 -
+QPaintEvent
+-
+QHBoxLayout
+-
+QTimer
+-
+QVBoxLayout
+-
 QX11Info
+-
+QtDebug
+-
+kdeversion.h
+-
+klocale.h
+-
+kwindowinfo.h
+-
+kwindowsystem.h
 -
 netwm.h
 -
 cmath
 -
-../blib/colors.h
-/home/thibaut/Downloads/cloudcity/kwin/../blib/colors.h
-../blib/FX.h
-/home/thibaut/Downloads/cloudcity/kwin/../blib/FX.h
-../blib/shapes.h
-/home/thibaut/Downloads/cloudcity/kwin/../blib/shapes.h
-client.h
-/home/thibaut/Downloads/cloudcity/kwin/client.h
-factory.h
-/home/thibaut/Downloads/cloudcity/kwin/factory.h
-button.h
-/home/thibaut/Downloads/cloudcity/kwin/button.h
-
-/home/thibaut/Downloads/cloudcity/kwin/button.h
-../blib/gradients.h
-/home/thibaut/Downloads/cloudcity/kwin/../blib/gradients.h
-QWidget
+X11/Xlib.h
 -
+X11/extensions/shape.h
+-
+X11/Xatom.h
+-
+../fixx11h.h
+/home/thibaut/BespinMod/cloudcity/kwin/../fixx11h.h
+../blib/colors.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/colors.h
+../blib/FX.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/FX.h
+../blib/gradients.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/gradients.h
+../blib/xproperty.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/xproperty.h
+../blib/shadows.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/shadows.h
+../blib/shapes.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/shapes.h
+button.h
+/home/thibaut/BespinMod/cloudcity/kwin/button.h
+resizecorner.h
+/home/thibaut/BespinMod/cloudcity/kwin/resizecorner.h
+client.h
+/home/thibaut/BespinMod/cloudcity/kwin/client.h
 
-/home/thibaut/Downloads/cloudcity/kwin/client.h
+/home/thibaut/BespinMod/cloudcity/kwin/client.h
 QWidget
 -
 kdecoration.h
 -
 factory.h
-/home/thibaut/Downloads/cloudcity/kwin/factory.h
+/home/thibaut/BespinMod/cloudcity/kwin/factory.h
 X11/extensions/Xrender.h
 -
 ../fixx11h.h
-/home/thibaut/Downloads/cloudcity/kwin/../fixx11h.h
+/home/thibaut/BespinMod/cloudcity/kwin/../fixx11h.h
 
-/home/thibaut/Downloads/cloudcity/kwin/factory.h
+/home/thibaut/BespinMod/cloudcity/kwin/factory.h
 QHash
 -
 QObject
@@ -100,11 +136,15 @@ QVector
 kdecorationfactory.h
 -
 ../blib/gradients.h
-/home/thibaut/Downloads/cloudcity/kwin/../blib/gradients.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/gradients.h
 ../blib/xproperty.h
-/home/thibaut/Downloads/cloudcity/kwin/../blib/xproperty.h
+/home/thibaut/BespinMod/cloudcity/kwin/../blib/xproperty.h
 button.h
-/home/thibaut/Downloads/cloudcity/kwin/button.h
+/home/thibaut/BespinMod/cloudcity/kwin/button.h
+
+/home/thibaut/BespinMod/cloudcity/kwin/resizecorner.h
+QWidget
+-
 
 /usr/include/KDE/../fixx11h.h
 QtCore/QtGlobal
@@ -143,6 +183,10 @@ qpoint.h
 /usr/include/qt4/QtCore/QPointF
 qpoint.h
 /usr/include/qt4/QtCore/qpoint.h
+
+/usr/include/qt4/QtCore/QTimer
+qtimer.h
+/usr/include/qt4/QtCore/qtimer.h
 
 /usr/include/qt4/QtCore/QVector
 qvector.h
@@ -294,6 +338,10 @@ QtCore/qglobal.h
 QtCore/qatomic_bootstrap.h
 -
 QtCore/qatomic_arch.h
+-
+
+/usr/include/qt4/QtCore/qbasictimer.h
+QtCore/qglobal.h
 -
 
 /usr/include/qt4/QtCore/qbytearray.h
@@ -614,6 +662,12 @@ QtCore/qtextcodec.h
 stdio.h
 -
 
+/usr/include/qt4/QtCore/qtimer.h
+QtCore/qbasictimer.h
+-
+QtCore/qobject.h
+-
+
 /usr/include/qt4/QtCore/qvariant.h
 QtCore/qatomic.h
 -
@@ -652,6 +706,10 @@ QtCore/QPointF
 QtCore/QPoint
 -
 
+/usr/include/qt4/QtGui/QAction
+qaction.h
+/usr/include/qt4/QtGui/qaction.h
+
 /usr/include/qt4/QtGui/QBrush
 qbrush.h
 /usr/include/qt4/QtGui/qbrush.h
@@ -659,6 +717,14 @@ qbrush.h
 /usr/include/qt4/QtGui/QColor
 qcolor.h
 /usr/include/qt4/QtGui/qcolor.h
+
+/usr/include/qt4/QtGui/QHBoxLayout
+qboxlayout.h
+/usr/include/qt4/QtGui/qboxlayout.h
+
+/usr/include/qt4/QtGui/QPaintEvent
+qevent.h
+/usr/include/qt4/QtGui/qevent.h
 
 /usr/include/qt4/QtGui/QPainter
 qpainter.h
@@ -672,6 +738,10 @@ qpalette.h
 qpixmap.h
 /usr/include/qt4/QtGui/qpixmap.h
 
+/usr/include/qt4/QtGui/QVBoxLayout
+qboxlayout.h
+/usr/include/qt4/QtGui/qboxlayout.h
+
 /usr/include/qt4/QtGui/QWidget
 qwidget.h
 /usr/include/qt4/QtGui/qwidget.h
@@ -679,6 +749,32 @@ qwidget.h
 /usr/include/qt4/QtGui/QX11Info
 qx11info_x11.h
 /usr/include/qt4/QtGui/qx11info_x11.h
+
+/usr/include/qt4/QtGui/qaction.h
+QtGui/qkeysequence.h
+-
+QtCore/qstring.h
+-
+QtGui/qwidget.h
+-
+QtCore/qvariant.h
+-
+QtGui/qicon.h
+-
+QtGui/qactiongroup.h
+-
+
+/usr/include/qt4/QtGui/qactiongroup.h
+QtGui/qaction.h
+-
+
+/usr/include/qt4/QtGui/qboxlayout.h
+QtGui/qlayout.h
+-
+QtGui/qwidget.h
+-
+limits.h
+-
 
 /usr/include/qt4/QtGui/qbrush.h
 QtCore/qpair.h
@@ -776,6 +872,24 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
+/usr/include/qt4/QtGui/qgridlayout.h
+QtGui/qlayout.h
+-
+QtGui/qwidget.h
+-
+limits.h
+-
+
+/usr/include/qt4/QtGui/qicon.h
+QtCore/qglobal.h
+-
+QtCore/qsize.h
+-
+QtCore/qlist.h
+-
+QtGui/qpixmap.h
+-
+
 /usr/include/qt4/QtGui/qimage.h
 QtGui/qtransform.h
 -
@@ -794,6 +908,32 @@ QtCore/qstring.h
 QtCore/qnamespace.h
 -
 QtCore/qstring.h
+-
+
+/usr/include/qt4/QtGui/qlayout.h
+QtCore/qobject.h
+-
+QtGui/qlayoutitem.h
+-
+QtGui/qsizepolicy.h
+-
+QtCore/qrect.h
+-
+QtCore/qmargins.h
+-
+limits.h
+-
+QtGui/qboxlayout.h
+-
+QtGui/qgridlayout.h
+-
+
+/usr/include/qt4/QtGui/qlayoutitem.h
+QtGui/qsizepolicy.h
+-
+QtCore/qrect.h
+-
+limits.h
 -
 
 /usr/include/qt4/QtGui/qmacdefines_mac.h

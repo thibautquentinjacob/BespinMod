@@ -360,6 +360,31 @@ CommonOperations:
         drawTitleShadow(painter, widget);
     if ( isARGB && (windowDecoration & Rounded) )
         shapeCorners( painter, widget->rect(), masks.windowShape );
+    
+    
+        //     My mess
+       painter->setPen(QPen(QColor(0,0,0,150), 1));
+//        QRectF leftRectangleBlack( 0, 0, 12, 12 );
+//        p.drawArc( leftRectangleBlack, 100*16, 100*16 );
+//        p.drawLine(0, 7, 0, height() );
+//        p.drawLine(6, 0, width()-6, 0 );
+//        p.setPen(QPen(QColor(255,255,255,150), 1));
+//        QRectF leftRectangleWhite( 1, 1, 12, 12 );
+//        p.drawArc( leftRectangleWhite, 100*16, 100*16 );
+//        p.drawLine(1, 7, 1, height() );
+//        p.drawLine(7, 1, width()-7, 1 );
+       painter->drawRoundedRect( 0, 0, widget->width(), widget->height(), 5, 5 );
+       
+       painter->setPen(QPen(QColor(255, 255, 255, 150), 1));
+       painter->drawRoundedRect( 1, 1, widget->width()-1, widget->height()-1, 5, 5 );
+//        QRectF RightRectangleBlack( width()-12, 0, 11, 20 );
+//        p.drawArc( RightRectangleBlack, -10*16, 80*16 );
+//        p.drawLine(width()-1, 7, width()-1, height() );
+//        p.setPen(QPen(QColor(255,255,255,150), 1));
+//        QRectF RightRectangleWhite( width()-13, 1, 10, 7 );
+//        p.drawArc( RightRectangleWhite, -10*16, 80*16 );
+//        p.drawLine(width()-2, 7, width()-2, height() );
+    
 }
 
 void
@@ -450,8 +475,6 @@ Style::drawTitleBar(const QStyleOptionComplex * option,
 //    else
 //       PAINT_WINDOW_BUTTON(SC_TitleBarSysMenu, SP_TitleBarMenuButton)
    }
-   painter->setPen(QPen(QColor(255,0,0,255), 1));
-        painter->drawLine(3, 5, 100, 5 );
 #undef PAINT_WINDOW_BUTTON
 }
 

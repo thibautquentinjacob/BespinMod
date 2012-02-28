@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thibaut/Downloads/cloudcity
+CMAKE_SOURCE_DIR = /home/thibaut/BespinMod/cloudcity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thibaut/Downloads/cloudcity/build
+CMAKE_BINARY_DIR = /home/thibaut/BespinMod/cloudcity/build
 
 # Include any dependencies generated for this target.
 include XBar/CMakeFiles/plasma_applet_xbar.dir/depend.make
@@ -48,17 +48,17 @@ include XBar/CMakeFiles/plasma_applet_xbar.dir/flags.make
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: XBar/CMakeFiles/plasma_applet_xbar.dir/flags.make
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: XBar/plasma_applet_xbar_automoc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o"
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o -c /home/thibaut/Downloads/cloudcity/build/XBar/plasma_applet_xbar_automoc.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o -c /home/thibaut/BespinMod/cloudcity/build/XBar/plasma_applet_xbar_automoc.cpp
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.i"
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/build/XBar/plasma_applet_xbar_automoc.cpp > CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.i
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/build/XBar/plasma_applet_xbar_automoc.cpp > CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.i
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.s"
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/build/XBar/plasma_applet_xbar_automoc.cpp -o CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.s
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/build/XBar/plasma_applet_xbar_automoc.cpp -o CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.s
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o.requires:
 .PHONY : XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o.requires
@@ -71,17 +71,17 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o.provides.bui
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: XBar/CMakeFiles/plasma_applet_xbar.dir/flags.make
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: ../XBar/menubar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o"
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/plasma_applet_xbar.dir/menubar.o -c /home/thibaut/Downloads/cloudcity/XBar/menubar.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/plasma_applet_xbar.dir/menubar.o -c /home/thibaut/BespinMod/cloudcity/XBar/menubar.cpp
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plasma_applet_xbar.dir/menubar.i"
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/XBar/menubar.cpp > CMakeFiles/plasma_applet_xbar.dir/menubar.i
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/XBar/menubar.cpp > CMakeFiles/plasma_applet_xbar.dir/menubar.i
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plasma_applet_xbar.dir/menubar.s"
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/XBar/menubar.cpp -o CMakeFiles/plasma_applet_xbar.dir/menubar.s
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/XBar/menubar.cpp -o CMakeFiles/plasma_applet_xbar.dir/menubar.s
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o.requires:
 .PHONY : XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o.requires
@@ -94,17 +94,17 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o.provides.build: XBar/CMakeFiles
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: XBar/CMakeFiles/plasma_applet_xbar.dir/flags.make
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: ../XBar/xbar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/Downloads/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thibaut/BespinMod/cloudcity/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o"
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/plasma_applet_xbar.dir/xbar.o -c /home/thibaut/Downloads/cloudcity/XBar/xbar.cpp
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/plasma_applet_xbar.dir/xbar.o -c /home/thibaut/BespinMod/cloudcity/XBar/xbar.cpp
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plasma_applet_xbar.dir/xbar.i"
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/Downloads/cloudcity/XBar/xbar.cpp > CMakeFiles/plasma_applet_xbar.dir/xbar.i
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/thibaut/BespinMod/cloudcity/XBar/xbar.cpp > CMakeFiles/plasma_applet_xbar.dir/xbar.i
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plasma_applet_xbar.dir/xbar.s"
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/Downloads/cloudcity/XBar/xbar.cpp -o CMakeFiles/plasma_applet_xbar.dir/xbar.s
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/thibaut/BespinMod/cloudcity/XBar/xbar.cpp -o CMakeFiles/plasma_applet_xbar.dir/xbar.s
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o.requires:
 .PHONY : XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o.requires
@@ -143,7 +143,7 @@ lib/plasma_applet_xbar.so: /usr/lib/i386-linux-gnu/libQtCore.so
 lib/plasma_applet_xbar.so: XBar/CMakeFiles/plasma_applet_xbar.dir/build.make
 lib/plasma_applet_xbar.so: XBar/CMakeFiles/plasma_applet_xbar.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module ../lib/plasma_applet_xbar.so"
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plasma_applet_xbar.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plasma_applet_xbar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 XBar/CMakeFiles/plasma_applet_xbar.dir/build: lib/plasma_applet_xbar.so
@@ -155,10 +155,10 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/requires: XBar/CMakeFiles/plasma_applet_x
 .PHONY : XBar/CMakeFiles/plasma_applet_xbar.dir/requires
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/clean:
-	cd /home/thibaut/Downloads/cloudcity/build/XBar && $(CMAKE_COMMAND) -P CMakeFiles/plasma_applet_xbar.dir/cmake_clean.cmake
+	cd /home/thibaut/BespinMod/cloudcity/build/XBar && $(CMAKE_COMMAND) -P CMakeFiles/plasma_applet_xbar.dir/cmake_clean.cmake
 .PHONY : XBar/CMakeFiles/plasma_applet_xbar.dir/clean
 
 XBar/CMakeFiles/plasma_applet_xbar.dir/depend:
-	cd /home/thibaut/Downloads/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/Downloads/cloudcity /home/thibaut/Downloads/cloudcity/XBar /home/thibaut/Downloads/cloudcity/build /home/thibaut/Downloads/cloudcity/build/XBar /home/thibaut/Downloads/cloudcity/build/XBar/CMakeFiles/plasma_applet_xbar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thibaut/BespinMod/cloudcity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thibaut/BespinMod/cloudcity /home/thibaut/BespinMod/cloudcity/XBar /home/thibaut/BespinMod/cloudcity/build /home/thibaut/BespinMod/cloudcity/build/XBar /home/thibaut/BespinMod/cloudcity/build/XBar/CMakeFiles/plasma_applet_xbar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : XBar/CMakeFiles/plasma_applet_xbar.dir/depend
 
