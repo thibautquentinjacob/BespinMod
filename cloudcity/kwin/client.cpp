@@ -33,6 +33,7 @@
 #include <QVBoxLayout>
 #include <QX11Info>
 #include <QtDebug>
+#include <QStatusBar>
 
 #include <kdeversion.h>
 #include <klocale.h>
@@ -329,6 +330,8 @@ Client::eventFilter(QObject *o, QEvent *e)
 #endif
 
         QPainter p(widget());
+        p.setPen(QColor(255,0,0,255));
+        p.drawLine( 0, height() - 30, width(), height() - 30 );
         p.setClipRegion(clip);
         // WORKAROUND a bug in QPaintEngine + QPainter::setRedirected
         if (dirty[isActive()])
@@ -593,6 +596,9 @@ inline static void shrink(QFont &fnt, float factor)
 void
 Client::repaint(QPainter &p, bool paintTitle)
 {
+  
+  QStatusBar *sb;
+  this->installEventFilter( sb );
     if (!Factory::initialized())
         return;
 
@@ -805,20 +811,36 @@ Client::repaint(QPainter &p, bool paintTitle)
       const Gradients::Type gradient = gType[isActive()];
       //     My mess
       p.setRenderHint( QPainter::Antialiasing, true );
-      p.setPen(QPen(QColor(0,0,0,255), 5));
+      p.setPen(QPen(QColor(0,0,0,140), 2));
       p.drawRoundedRect( 0, 0, width(), height(), 8, 8 );
       
-      p.setPen(QPen(QColor(242, 242, 242, 255), 1));
-      p.drawRoundedRect( 1, 1, width()-2, height()-2, 8, 8 );
-      p.setRenderHint( QPainter::Antialiasing, false );
+
       
-      QRect rect2 = QRect( 1, 1, top.width() - 3, top.height() );
+      QRect rect2 = QRect( 1, 1, top.width() - 3, top.height()+3 );
       if (gradient != Gradients::None) {
         //            p.fillRect(rect2, Gradients::brush(bg, unoHeight, Qt::Vertical, gradient));
         p.setBrush( Gradients::brush(bg, unoHeight, Qt::Vertical, gradient) );
         p.setPen( QPen( Qt::NoPen ) );              // do not draw outline
         p.drawRoundedRect( rect2, 8, 8 );   // draw filled rectangle
       }
+      
+            p.setPen(QPen(QColor(255, 255, 255, 100), 1));
+      p.drawRoundedRect( 2, 2, width()-4, height()-2, 8, 8 );
+      p.setRenderHint( QPainter::Antialiasing, false );
+      
+//        p.setRenderHint( QPainter::Antialiasing, true );
+//       p.setPen(QPen(QColor(0,0,0,150), 2));
+//       p.drawRoundedRect( 0, 0, width(), height(), 8, 8 );
+//       
+//       
+//       QRect rect2 = QRect( 1, 1, top.width() - 3, top.height()+3 );
+//       p.setBrush( brush );
+//       p.setPen( QPen( Qt::NoPen ) );              // do not draw outline
+//       p.drawRoundedRect( rect2, 8, 8 );   // draw filled rectangle
+//       
+//       p.setPen(QPen(QColor(255, 255, 255, 100), 1));
+//       p.drawRoundedRect( 2, 2, width()-4, height()-2, 8, 8 );
+//       p.setRenderHint( QPainter::Antialiasing, false );
       
     }
 
@@ -953,7 +975,7 @@ Client::repaint(QPainter &p, bool paintTitle)
             p.setBrush(fill);
 #endif
             p.setRenderHint( QPainter::Antialiasing );
-            p.drawPath(buttonCorner);
+//             p.drawPath(buttonCorner);
         }
 
         if ((bg2 != bg) && (myBaseSize > 2 || myEdgeSize > 2 || gType[isActive()]))
@@ -963,8 +985,9 @@ Client::repaint(QPainter &p, bool paintTitle)
             p.setPen(QPen(bg2,3));
             if ( myBaseSize > 2 )
             {
-                if ( myEdgeSize > 2 )
-                    p.drawRect(1,1,width()-2,height()-2);
+                if ( myEdgeSize > 2 ) {
+// 		  p.drawRect(1,1,width()-2,height()-2);
+		}
                 else if (Factory::verticalTitle())
                 {
                     p.drawLine(1,0,1,height());
@@ -972,14 +995,14 @@ Client::repaint(QPainter &p, bool paintTitle)
                 }
                 else
                 {
-                    p.drawLine(0,1,width(),1);
-                    p.drawLine(0,height()-2,width(),height()-2);
+//                     p.drawLine(0,1,width(),1);
+//                     p.drawLine(0,height()-2,width(),height()-2);
                 }
             }
             else if (Factory::verticalTitle())
                 p.drawLine(1,0,1,height());
-            else
-                p.drawLine(0,1,width(),1);
+//             else
+//                 p.drawLine(0,1,width(),1);
         }
         else if (myBaseSize && myEdgeSize)
         {   // static bool KWindowSystem::compositingActive();
@@ -999,14 +1022,38 @@ Client::repaint(QPainter &p, bool paintTitle)
             p.setBrush(Qt::NoBrush);
             int v = Colors::value(bg);
             p.setPen(QPen(Colors::mid(bg,Qt::white,300-v,v),3));
-            p.drawPath(path);
+//             p.drawPath(path);
 
             p.setPen(Colors::mid(bg, color(ColorFont, true),5,2));
-            p.drawPath(path);
+//             p.drawPath(path);
         }
+        
+      const Gradients::Type gradient = gType[isActive()];
+      QLinearGradient linearGrad(QPointF(0, 0), QPointF(0, 22));
+      linearGrad.setColorAt(0, QColor(240,240,240,255));
+      linearGrad.setColorAt(1, QColor(180,180,180,255));
+      QBrush brush(linearGrad);
+      //     My mess
+      p.setRenderHint( QPainter::Antialiasing, true );
+      p.setPen(QPen(QColor(0,0,0,150), 2));
+      p.drawRoundedRect( 0, 0, width(), height(), 8, 8 );
+      
+      
+      QRect rect2 = QRect( 1, 1, top.width() - 3, top.height()+3 );
+      p.setBrush( brush );
+      p.setPen( QPen( Qt::NoPen ) );              // do not draw outline
+      p.drawRoundedRect( rect2, 8, 8 );   // draw filled rectangle
+      
+      p.setPen(QPen(QColor(255, 255, 255, 100), 1));
+      p.drawRoundedRect( 2, 2, width()-4, height()-2, 8, 8 );
+      p.setRenderHint( QPainter::Antialiasing, false );
+      
+      p.setPen(QPen(QColor(255, 255, 255, 100), 1));
+      p.drawLine(1,21,width()-2,21);
+      p.setPen(QPen(QColor(0,0,0,50), 1));
+      p.drawLine(1,22,width()-2,22);
+        
     }
-    p.setPen(QColor(255,0,0,255));
-    p.drawLine( 0, height() - 30, width(), height() - 30 );
     
 }
 

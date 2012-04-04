@@ -1,0 +1,10 @@
+/usr/lib/i386-linux-gnu/qt4/plugins/styles/libbespin.so
+/usr/share/kde4/apps/kstyle/themes/bespin.themerc
+/usr/lib/libQtBespin.so
+/usr/bin/bespin
+/usr/lib/kde4/kstyle_bespin_config.so
+/usr/lib/kde4/kwin3_bespin.so
+/usr/share/kde4/apps/kwin/bespin.desktop
+/usr/lib/kde4/kwin_bespin_config.so
+/usr/lib/kde4/plasma_applet_xbar.so
+/usr/share/kde4/services/plasma-applet-xbar.desktop

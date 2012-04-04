@@ -12,6 +12,10 @@ QWeakPointer
 QPointer
 -
 
+/home/thibaut/BespinMod/cloudcity/animator/aprogress.h
+basic.h
+/home/thibaut/BespinMod/cloudcity/animator/basic.h
+
 /home/thibaut/BespinMod/cloudcity/animator/basic.h
 QBasicTimer
 -
@@ -19,10 +23,6 @@ QMap
 -
 ../bepointer.h
 /home/thibaut/BespinMod/cloudcity/animator/../bepointer.h
-
-/home/thibaut/BespinMod/cloudcity/animator/hover.h
-basic.h
-/home/thibaut/BespinMod/cloudcity/animator/basic.h
 
 /home/thibaut/BespinMod/cloudcity/bespin.h
 QCommonStyle
@@ -102,27 +102,15 @@ bespin.h
 makros.h
 /home/thibaut/BespinMod/cloudcity/makros.h
 
-/home/thibaut/BespinMod/cloudcity/hacks.h
-QObject
--
+/home/thibaut/BespinMod/cloudcity/makros.h
 
-/home/thibaut/BespinMod/cloudcity/input.cpp
-QApplication
--
-QComboBox
--
-QToolBar
+/home/thibaut/BespinMod/cloudcity/progress.cpp
+QAbstractItemView
 -
 draw.h
 /home/thibaut/BespinMod/cloudcity/draw.h
-hacks.h
-/home/thibaut/BespinMod/cloudcity/hacks.h
-animator/hover.h
-/home/thibaut/BespinMod/cloudcity/animator/hover.h
-QtDebug
--
-
-/home/thibaut/BespinMod/cloudcity/makros.h
+animator/aprogress.h
+/home/thibaut/BespinMod/cloudcity/animator/aprogress.h
 
 /home/thibaut/BespinMod/cloudcity/types.h
 
@@ -155,10 +143,6 @@ qhash.h
 /usr/include/qt4/QtCore/QMap
 qmap.h
 /usr/include/qt4/QtCore/qmap.h
-
-/usr/include/qt4/QtCore/QObject
-qobject.h
-/usr/include/qt4/QtCore/qobject.h
 
 /usr/include/qt4/QtCore/QPoint
 qpoint.h
@@ -207,6 +191,8 @@ QtCore/qbasicatomic.h
 /usr/include/qt4/QtCore/qatomic_arch.h
 QtCore/qglobal.h
 /usr/include/qt4/QtCore/QtCore/qglobal.h
+QtCore/qatomic_integrity.h
+/usr/include/qt4/QtCore/QtCore/qatomic_integrity.h
 QtCore/qatomic_vxworks.h
 /usr/include/qt4/QtCore/QtCore/qatomic_vxworks.h
 QtCore/qatomic_alpha.h
@@ -249,10 +235,24 @@ QtCore/qatomic_sh.h
 /usr/include/qt4/QtCore/QtCore/qatomic_sh.h
 QtCore/qatomic_sh4a.h
 /usr/include/qt4/QtCore/QtCore/qatomic_sh4a.h
+QtCore/qatomic_generic.h
+/usr/include/qt4/QtCore/QtCore/qatomic_generic.h
 
 /usr/include/qt4/QtCore/qatomic_arm.h
+QtCore/qatomic_armv7.h
+/usr/include/qt4/QtCore/QtCore/qatomic_armv7.h
+QtCore/qatomic_armv6.h
+/usr/include/qt4/QtCore/QtCore/qatomic_armv6.h
+QtCore/qatomic_armv5.h
+/usr/include/qt4/QtCore/QtCore/qatomic_armv5.h
+
+/usr/include/qt4/QtCore/qatomic_armv5.h
 
 /usr/include/qt4/QtCore/qatomic_armv6.h
+
+/usr/include/qt4/QtCore/qatomic_armv7.h
+QtCore/qatomic_armv6.h
+/usr/include/qt4/QtCore/QtCore/qatomic_armv6.h
 
 /usr/include/qt4/QtCore/qatomic_avr32.h
 
@@ -270,6 +270,10 @@ asm/fixed_code.h
 ia64intrin.h
 -
 ia64/sys/inline.h
+-
+
+/usr/include/qt4/QtCore/qatomic_integrity.h
+INTEGRITY.h
 -
 
 /usr/include/qt4/QtCore/qatomic_macosx.h
@@ -336,12 +340,6 @@ QtCore/qatomic_arch.h
 QtCore/qglobal.h
 -
 
-/usr/include/qt4/QtCore/qbuffer.h
-QtCore/qiodevice.h
--
-QtCore/qbytearray.h
--
-
 /usr/include/qt4/QtCore/qbytearray.h
 QtCore/qatomic.h
 -
@@ -350,6 +348,8 @@ QtCore/qnamespace.h
 string.h
 -
 stdarg.h
+-
+QtCore/qstring.h
 -
 
 /usr/include/qt4/QtCore/qchar.h
@@ -364,16 +364,6 @@ QtCore/qatomic.h
 limits.h
 -
 new
--
-
-/usr/include/qt4/QtCore/qcoreapplication.h
-QtCore/qobject.h
--
-QtCore/qcoreevent.h
--
-QtCore/qeventloop.h
--
-QtCore/qstringlist.h
 -
 
 /usr/include/qt4/QtCore/qcoreevent.h
@@ -414,16 +404,24 @@ QtCore/qset.h
 QtCore/qcontiguouscache.h
 -
 
-/usr/include/qt4/QtCore/qeventloop.h
-QtCore/qobject.h
--
-
 /usr/include/qt4/QtCore/qfeatures.h
+
+/usr/include/qt4/QtCore/qfile.h
+QtCore/qiodevice.h
+-
+QtCore/qstring.h
+-
+stdio.h
+-
+f32file.h
+-
 
 /usr/include/qt4/QtCore/qglobal.h
 stddef.h
 -
 QtCore/qconfig.h
+-
+algorithm
 -
 AvailabilityMacros.h
 -
@@ -483,6 +481,10 @@ iterator
 -
 list
 -
+iterator
+-
+initializer_list
+-
 new
 -
 limits.h
@@ -491,6 +493,8 @@ string.h
 -
 
 /usr/include/qt4/QtCore/qlocale.h
+QtCore/qvariant.h
+-
 QtCore/qstring.h
 -
 QtCore/qobjectdefs.h
@@ -621,8 +625,6 @@ Qt3Support/q3cstring.h
 -
 string
 -
-string
--
 stdarg.h
 -
 QtCore/qstringbuilder.h
@@ -630,6 +632,8 @@ QtCore/qstringbuilder.h
 
 /usr/include/qt4/QtCore/qstringbuilder.h
 QtCore/qstring.h
+-
+QtCore/qbytearray.h
 -
 QtCore/qmap.h
 -
@@ -717,14 +721,16 @@ stdlib.h
 -
 string.h
 -
+initializer_list
+-
 QtCore/QPointF
 -
 QtCore/QPoint
 -
 
-/usr/include/qt4/QtGui/QApplication
-qapplication.h
-/usr/include/qt4/QtGui/qapplication.h
+/usr/include/qt4/QtGui/QAbstractItemView
+qabstractitemview.h
+/usr/include/qt4/QtGui/qabstractitemview.h
 
 /usr/include/qt4/QtGui/QBitmap
 qbitmap.h
@@ -737,10 +743,6 @@ qbrush.h
 /usr/include/qt4/QtGui/QColor
 qcolor.h
 /usr/include/qt4/QtGui/qcolor.h
-
-/usr/include/qt4/QtGui/QComboBox
-qcombobox.h
-/usr/include/qt4/QtGui/qcombobox.h
 
 /usr/include/qt4/QtGui/QCommonStyle
 qcommonstyle.h
@@ -758,13 +760,13 @@ qpalette.h
 qpixmap.h
 /usr/include/qt4/QtGui/qpixmap.h
 
+/usr/include/qt4/QtGui/QPlatformWindow
+qplatformwindow_qpa.h
+/usr/include/qt4/QtGui/qplatformwindow_qpa.h
+
 /usr/include/qt4/QtGui/QStyleOption
 qstyleoption.h
 /usr/include/qt4/QtGui/qstyleoption.h
-
-/usr/include/qt4/QtGui/QToolBar
-qtoolbar.h
-/usr/include/qt4/QtGui/qtoolbar.h
 
 /usr/include/qt4/QtGui/QX11Info
 qx11info_x11.h
@@ -776,6 +778,20 @@ QtCore/qobject.h
 QtGui/qstyleoption.h
 -
 
+/usr/include/qt4/QtGui/qabstractitemview.h
+QtGui/qabstractscrollarea.h
+-
+QtCore/qabstractitemmodel.h
+-
+QtGui/qitemselectionmodel.h
+-
+QtGui/qabstractitemdelegate.h
+-
+
+/usr/include/qt4/QtGui/qabstractscrollarea.h
+QtGui/qframe.h
+-
+
 /usr/include/qt4/QtGui/qabstractslider.h
 QtGui/qwidget.h
 -
@@ -784,28 +800,6 @@ QtGui/qwidget.h
 QtGui/qwidget.h
 -
 QtGui/qvalidator.h
--
-
-/usr/include/qt4/QtGui/qapplication.h
-QtCore/qcoreapplication.h
--
-QtGui/qwindowdefs.h
--
-QtCore/qpoint.h
--
-QtCore/qsize.h
--
-QtGui/qcursor.h
--
-QtGui/qdesktopwidget.h
--
-QtGui/qwidget.h
--
-QtGui/qpalette.h
--
-QtGui/qrgb.h
--
-QtGui/qtransportauth_qws.h
 -
 
 /usr/include/qt4/QtGui/qbitmap.h
@@ -840,16 +834,6 @@ QtCore/qnamespace.h
 QtCore/qstringlist.h
 -
 
-/usr/include/qt4/QtGui/qcombobox.h
-QtGui/qwidget.h
--
-QtGui/qabstractitemdelegate.h
--
-QtCore/qabstractitemmodel.h
--
-QtCore/qvariant.h
--
-
 /usr/include/qt4/QtGui/qcommonstyle.h
 QtGui/qstyle.h
 -
@@ -858,10 +842,6 @@ QtGui/qstyle.h
 QtCore/qpoint.h
 -
 QtGui/qwindowdefs.h
--
-
-/usr/include/qt4/QtGui/qdesktopwidget.h
-QtGui/qwidget.h
 -
 
 /usr/include/qt4/QtGui/qdrag.h
@@ -902,6 +882,8 @@ QtCore/qvariant.h
 QtCore/qmap.h
 -
 QtCore/qset.h
+-
+QtCore/qfile.h
 -
 
 /usr/include/qt4/QtGui/qfont.h
@@ -952,6 +934,16 @@ QtCore/qbytearray.h
 QtCore/qrect.h
 -
 QtCore/qstring.h
+-
+
+/usr/include/qt4/QtGui/qitemselectionmodel.h
+QtCore/qset.h
+-
+QtCore/qvector.h
+-
+QtCore/qlist.h
+-
+QtCore/qabstractitemmodel.h
 -
 
 /usr/include/qt4/QtGui/qkeysequence.h
@@ -1070,6 +1062,20 @@ QtGui/qimage.h
 QtGui/qtransform.h
 -
 
+/usr/include/qt4/QtGui/qplatformwindow_qpa.h
+QtCore/qscopedpointer.h
+-
+QtCore/qrect.h
+-
+QtCore/qstring.h
+-
+QtGui/qwindowdefs.h
+-
+
+/usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
+QtGui/QPlatformWindow
+-
+
 /usr/include/qt4/QtGui/qpolygon.h
 QtCore/qvector.h
 -
@@ -1162,10 +1168,6 @@ QtCore/qchar.h
 QtCore/qmetatype.h
 -
 
-/usr/include/qt4/QtGui/qtoolbar.h
-QtGui/qwidget.h
--
-
 /usr/include/qt4/QtGui/qtransform.h
 QtGui/qmatrix.h
 -
@@ -1182,22 +1184,6 @@ QtCore/qline.h
 QtCore/qpoint.h
 -
 QtCore/qrect.h
--
-
-/usr/include/qt4/QtGui/qtransportauth_qws.h
-QtCore/qglobal.h
--
-QtCore/qobject.h
--
-QtCore/qhash.h
--
-QtCore/qstring.h
--
-QtCore/qbuffer.h
--
-QtCore/qpointer.h
--
-sys/types.h
 -
 
 /usr/include/qt4/QtGui/qvalidator.h
@@ -1236,6 +1222,8 @@ QtGui/qbrush.h
 QtGui/qcursor.h
 -
 QtGui/qkeysequence.h
+-
+QtGui/qplatformwindowformat_qpa.h
 -
 QtGui/qevent.h
 -

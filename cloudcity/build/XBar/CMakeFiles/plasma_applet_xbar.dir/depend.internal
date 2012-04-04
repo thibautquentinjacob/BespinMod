@@ -20,13 +20,16 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -51,6 +54,7 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -102,6 +106,7 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o
  /usr/include/qt4/QtGui/QIcon
  /usr/include/qt4/QtGui/QMenu
  /usr/include/qt4/QtGui/QPainter
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyle
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QStyleOptionMenuItem
@@ -141,6 +146,8 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -173,13 +180,16 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -200,6 +210,7 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o
  /usr/include/qt4/QtCore/qcoreevent.h
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -232,6 +243,7 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o
  /usr/include/qt4/QtCore/qvariant.h
  /usr/include/qt4/QtCore/qvector.h
  /usr/include/qt4/QtGui/QGraphicsWidget
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/qabstractslider.h
  /usr/include/qt4/QtGui/qabstractspinbox.h
@@ -257,6 +269,8 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -318,13 +332,16 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -421,6 +438,7 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o
  /usr/include/qt4/QtGui/QMessageBox
  /usr/include/qt4/QtGui/QPaintEvent
  /usr/include/qt4/QtGui/QPainter
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyle
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QStyleOptionGraphicsItem
@@ -468,6 +486,8 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h

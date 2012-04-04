@@ -23,6 +23,8 @@
 #include "animator/hover.h"
 #include "blib/FX.h"
 
+#include <QtDebug>
+
 static int step = 0;
 static bool connected = false;
 
@@ -74,7 +76,8 @@ Style::drawToolBar(const QStyleOption *option, QPainter *painter, const QWidget 
         }
 		// Bricolage    
 		painter->setRenderHint(QPainter::Antialiasing, true);
-		painter->setPen(QPen(Qt::white, 1));
+// 		painter->setPen(QPen(Qt::white, 1));
+		painter->setPen(QPen(QColor(255, 255, 255, 150), 1));
 		painter->drawLine(0, RECT.height()-1, RECT.width(), RECT.height()-1);
 //                 painter->drawLine(0, RECT.height()-1, 0, 0);
 //                 painter->drawLine(RECT.width(), RECT.height()-1, RECT.width(), 0);
@@ -97,13 +100,6 @@ Style::drawToolBar(const QStyleOption *option, QPainter *painter, const QWidget 
             painter->fillRect(RECT, Gradients::structure(FCOLOR(Window), false));
         drawWindowFrame(option, painter, widget);
     }
-		// Bricolage
-// 		painter->setRenderHint(QPainter::Antialiasing, true);
-// 		painter->setPen(QPen(Qt::white, 1));
-// 		painter->drawLine(0, RECT.height()-1, RECT.width(), RECT.height()-1);
-// 		painter->setPen(QPen(Qt::black, 1));
-// 		painter->drawLine(0, RECT.height(), RECT.width(), RECT.height());
-    
 }
 
 void
@@ -270,7 +266,7 @@ Style::drawToolButtonShape(const QStyleOption *option, QPainter *painter, const 
         {
             if (config.btn.tool.frame == Inlay) {
                 const QColor sc = config.UNO.toolbar ? tb->palette().color(tb->backgroundRole()) : windowColor(widget);
-                masks.rect[1].render(rect, painter, Gradients::Sunken, Qt::Vertical, sc);
+                masks.rect[true].render(rect, painter, Gradients::Sunken, Qt::Vertical, sc);
                 const int f3 = F(3);
                 if (round)
                     rect.adjustConditionally(F(4), f3, -F(4), -f3);
@@ -402,6 +398,13 @@ Style::drawToolButtonLabel(const QStyleOption *option, QPainter *painter, const 
     QColor text = PAL.color(role);
     if (connected && (option->state & State_On))
         text = CCOLOR(btn.tool.active, Fg);
+
+    if (hasArrow)
+    {
+        painter->setPen(text);
+        const int f5 = F(5);
+        drawSolidArrow(Navi::Direction(toolbutton->arrowType), RECT.adjusted(f5,f5,-f5,-f5), painter);
+    }
 
     if (justText)
     {   // the most simple way

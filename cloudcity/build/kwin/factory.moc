@@ -1,8 +1,8 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'factory.h'
 **
-** Created: Tue Feb 7 20:35:20 2012
-**      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
+** Created: Sat Mar 17 15:30:54 2012
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,8 +10,8 @@
 #include "../../kwin/factory.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'factory.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 62
-#error "This file was generated using the moc from 4.7.4. It"
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,7 +20,7 @@ QT_BEGIN_MOC_NAMESPACE
 static const uint qt_meta_data_Bespin__Factory[] = {
 
  // content:
-       5,       // revision
+       6,       // revision
        0,       // classname
        0,    0, // classinfo
        3,   14, // methods
@@ -43,9 +43,27 @@ static const char qt_meta_stringdata_Bespin__Factory[] = {
     "updateCompositingState(bool)\0"
 };
 
+void Bespin::Factory::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        Factory *_t = static_cast<Factory *>(_o);
+        switch (_id) {
+        case 0: _t->cleanUp(); break;
+        case 1: _t->postInit(); break;
+        case 2: _t->updateCompositingState((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Bespin::Factory::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
 const QMetaObject Bespin::Factory::staticMetaObject = {
     { &QObject::staticMetaObject, qt_meta_stringdata_Bespin__Factory,
-      qt_meta_data_Bespin__Factory, 0 }
+      qt_meta_data_Bespin__Factory, &staticMetaObjectExtraData }
 };
 
 #ifdef Q_NO_DATA_RELOCATION
@@ -73,12 +91,8 @@ int Bespin::Factory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        switch (_id) {
-        case 0: cleanUp(); break;
-        case 1: postInit(); break;
-        case 2: updateCompositingState((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        default: ;
-        }
+        if (_id < 3)
+            qt_static_metacall(this, _c, _id, _a);
         _id -= 3;
     }
     return _id;

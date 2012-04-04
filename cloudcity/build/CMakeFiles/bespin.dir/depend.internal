@@ -21,13 +21,16 @@ CMakeFiles/bespin.dir/animator/aprogress.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -51,6 +54,7 @@ CMakeFiles/bespin.dir/animator/aprogress.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -85,6 +89,7 @@ CMakeFiles/bespin.dir/animator/aprogress.o
  /usr/include/qt4/QtCore/qtextstream.h
  /usr/include/qt4/QtCore/qvariant.h
  /usr/include/qt4/QtCore/qvector.h
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QProgressBar
  /usr/include/qt4/QtGui/qbrush.h
  /usr/include/qt4/QtGui/qcolor.h
@@ -104,6 +109,8 @@ CMakeFiles/bespin.dir/animator/aprogress.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qprogressbar.h
  /usr/include/qt4/QtGui/qregion.h
@@ -133,13 +140,16 @@ CMakeFiles/bespin.dir/animator/basic.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -163,6 +173,7 @@ CMakeFiles/bespin.dir/animator/basic.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -197,6 +208,7 @@ CMakeFiles/bespin.dir/animator/basic.o
  /usr/include/qt4/QtCore/qtextstream.h
  /usr/include/qt4/QtCore/qvariant.h
  /usr/include/qt4/QtCore/qvector.h
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QWidget
  /usr/include/qt4/QtGui/qbrush.h
  /usr/include/qt4/QtGui/qcolor.h
@@ -215,6 +227,8 @@ CMakeFiles/bespin.dir/animator/basic.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -246,13 +260,16 @@ CMakeFiles/bespin.dir/animator/hover.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -274,6 +291,7 @@ CMakeFiles/bespin.dir/animator/hover.o
  /usr/include/qt4/QtCore/qcoreevent.h
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -306,6 +324,7 @@ CMakeFiles/bespin.dir/animator/hover.o
  /usr/include/qt4/QtCore/qvariant.h
  /usr/include/qt4/QtCore/qvector.h
  /usr/include/qt4/QtGui/QAbstractScrollArea
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QScrollBar
  /usr/include/qt4/QtGui/QWidget
  /usr/include/qt4/QtGui/qabstractscrollarea.h
@@ -328,6 +347,8 @@ CMakeFiles/bespin.dir/animator/hover.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -357,13 +378,16 @@ CMakeFiles/bespin.dir/animator/hovercomplex.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -385,6 +409,7 @@ CMakeFiles/bespin.dir/animator/hovercomplex.o
  /usr/include/qt4/QtCore/qcoreevent.h
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -416,6 +441,7 @@ CMakeFiles/bespin.dir/animator/hovercomplex.o
  /usr/include/qt4/QtCore/qstringmatcher.h
  /usr/include/qt4/QtCore/qvariant.h
  /usr/include/qt4/QtCore/qvector.h
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyle
  /usr/include/qt4/QtGui/QWidget
  /usr/include/qt4/QtGui/qbrush.h
@@ -436,6 +462,8 @@ CMakeFiles/bespin.dir/animator/hovercomplex.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -464,13 +492,16 @@ CMakeFiles/bespin.dir/animator/hoverindex.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -492,6 +523,7 @@ CMakeFiles/bespin.dir/animator/hoverindex.o
  /usr/include/qt4/QtCore/qcoreevent.h
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -523,6 +555,7 @@ CMakeFiles/bespin.dir/animator/hoverindex.o
  /usr/include/qt4/QtCore/qstringmatcher.h
  /usr/include/qt4/QtCore/qvariant.h
  /usr/include/qt4/QtCore/qvector.h
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QWidget
  /usr/include/qt4/QtGui/qbrush.h
  /usr/include/qt4/QtGui/qcolor.h
@@ -541,6 +574,8 @@ CMakeFiles/bespin.dir/animator/hoverindex.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -565,13 +600,16 @@ CMakeFiles/bespin.dir/animator/moc_aprogress.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -620,13 +658,16 @@ CMakeFiles/bespin.dir/animator/moc_basic.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -676,13 +717,16 @@ CMakeFiles/bespin.dir/animator/moc_hover.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -731,13 +775,16 @@ CMakeFiles/bespin.dir/animator/moc_hoverindex.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -792,13 +839,16 @@ CMakeFiles/bespin.dir/animator/moc_tab.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -886,13 +936,16 @@ CMakeFiles/bespin.dir/animator/tab.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -920,6 +973,7 @@ CMakeFiles/bespin.dir/animator/tab.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -960,6 +1014,7 @@ CMakeFiles/bespin.dir/animator/tab.o
  /usr/include/qt4/QtGui/QPaintEvent
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QScrollBar
  /usr/include/qt4/QtGui/QStackedWidget
  /usr/include/qt4/QtGui/QStyleOption
@@ -990,6 +1045,8 @@ CMakeFiles/bespin.dir/animator/tab.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -1050,13 +1107,16 @@ CMakeFiles/bespin.dir/bespin.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -1085,6 +1145,7 @@ CMakeFiles/bespin.dir/bespin.o
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfactoryinterface.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -1152,6 +1213,7 @@ CMakeFiles/bespin.dir/bespin.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QPushButton
  /usr/include/qt4/QtGui/QScrollBar
  /usr/include/qt4/QtGui/QStyleOption
@@ -1203,6 +1265,8 @@ CMakeFiles/bespin.dir/bespin.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qpushbutton.h
  /usr/include/qt4/QtGui/qregion.h
@@ -1261,13 +1325,16 @@ CMakeFiles/bespin.dir/buttons.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -1294,6 +1361,7 @@ CMakeFiles/bespin.dir/buttons.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -1339,6 +1407,7 @@ CMakeFiles/bespin.dir/buttons.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QStyleOptionButton
  /usr/include/qt4/QtGui/QX11Info
@@ -1375,6 +1444,8 @@ CMakeFiles/bespin.dir/buttons.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -1423,13 +1494,16 @@ CMakeFiles/bespin.dir/docks.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -1456,6 +1530,7 @@ CMakeFiles/bespin.dir/docks.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -1500,6 +1575,7 @@ CMakeFiles/bespin.dir/docks.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QStyleOptionDockWidget
  /usr/include/qt4/QtGui/QX11Info
@@ -1532,6 +1608,8 @@ CMakeFiles/bespin.dir/docks.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -1579,13 +1657,16 @@ CMakeFiles/bespin.dir/frames.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -1609,6 +1690,7 @@ CMakeFiles/bespin.dir/frames.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -1653,6 +1735,7 @@ CMakeFiles/bespin.dir/frames.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QStyleOptionFrameV3
  /usr/include/qt4/QtGui/QTableView
@@ -1674,9 +1757,11 @@ CMakeFiles/bespin.dir/frames.o
  /usr/include/qt4/QtGui/qdrawutil.h
  /usr/include/qt4/QtGui/qevent.h
  /usr/include/qt4/QtGui/qfont.h
+ /usr/include/qt4/QtGui/qfontdatabase.h
  /usr/include/qt4/QtGui/qfontinfo.h
  /usr/include/qt4/QtGui/qfontmetrics.h
  /usr/include/qt4/QtGui/qframe.h
+ /usr/include/qt4/QtGui/qglyphrun.h
  /usr/include/qt4/QtGui/qicon.h
  /usr/include/qt4/QtGui/qimage.h
  /usr/include/qt4/QtGui/qitemselectionmodel.h
@@ -1691,7 +1776,10 @@ CMakeFiles/bespin.dir/frames.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
+ /usr/include/qt4/QtGui/qrawfont.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
  /usr/include/qt4/QtGui/qrubberband.h
@@ -1742,13 +1830,16 @@ CMakeFiles/bespin.dir/genpixmaps.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -1772,6 +1863,7 @@ CMakeFiles/bespin.dir/genpixmaps.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -1812,6 +1904,7 @@ CMakeFiles/bespin.dir/genpixmaps.o
  /usr/include/qt4/QtGui/QCommonStyle
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QX11Info
  /usr/include/qt4/QtGui/qabstractslider.h
@@ -1840,6 +1933,8 @@ CMakeFiles/bespin.dir/genpixmaps.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -1882,13 +1977,16 @@ CMakeFiles/bespin.dir/hacks.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -1914,6 +2012,7 @@ CMakeFiles/bespin.dir/hacks.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -1977,6 +2076,7 @@ CMakeFiles/bespin.dir/hacks.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QScrollBar
  /usr/include/qt4/QtGui/QStatusBar
  /usr/include/qt4/QtGui/QStyle
@@ -2030,6 +2130,8 @@ CMakeFiles/bespin.dir/hacks.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -2080,13 +2182,16 @@ CMakeFiles/bespin.dir/indicators.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -2110,6 +2215,7 @@ CMakeFiles/bespin.dir/indicators.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -2151,6 +2257,7 @@ CMakeFiles/bespin.dir/indicators.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QX11Info
  /usr/include/qt4/QtGui/qabstractslider.h
@@ -2179,6 +2286,8 @@ CMakeFiles/bespin.dir/indicators.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -2240,13 +2349,16 @@ CMakeFiles/bespin.dir/init.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -2323,6 +2435,7 @@ CMakeFiles/bespin.dir/init.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QWidget
  /usr/include/qt4/QtGui/QX11Info
@@ -2354,6 +2467,8 @@ CMakeFiles/bespin.dir/init.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -2408,13 +2523,16 @@ CMakeFiles/bespin.dir/input.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -2441,6 +2559,7 @@ CMakeFiles/bespin.dir/input.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -2485,6 +2604,7 @@ CMakeFiles/bespin.dir/input.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QToolBar
  /usr/include/qt4/QtGui/QX11Info
@@ -2518,6 +2638,8 @@ CMakeFiles/bespin.dir/input.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -2557,13 +2679,16 @@ CMakeFiles/bespin.dir/macmenu.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -2589,6 +2714,7 @@ CMakeFiles/bespin.dir/macmenu.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -2642,6 +2768,7 @@ CMakeFiles/bespin.dir/macmenu.o
  /usr/include/qt4/QtGui/QApplication
  /usr/include/qt4/QtGui/QLayout
  /usr/include/qt4/QtGui/QMenuBar
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QWindowStateChangeEvent
  /usr/include/qt4/QtGui/qaction.h
  /usr/include/qt4/QtGui/qactiongroup.h
@@ -2671,6 +2798,8 @@ CMakeFiles/bespin.dir/macmenu.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -2713,13 +2842,16 @@ CMakeFiles/bespin.dir/menus.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -2743,6 +2875,7 @@ CMakeFiles/bespin.dir/menus.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -2788,6 +2921,7 @@ CMakeFiles/bespin.dir/menus.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QX11Info
  /usr/include/qt4/QtGui/qabstractslider.h
@@ -2821,6 +2955,8 @@ CMakeFiles/bespin.dir/menus.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -2862,13 +2998,16 @@ CMakeFiles/bespin.dir/moc_bespin.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -2892,6 +3031,7 @@ CMakeFiles/bespin.dir/moc_bespin.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -2931,6 +3071,7 @@ CMakeFiles/bespin.dir/moc_bespin.o
  /usr/include/qt4/QtGui/QColor
  /usr/include/qt4/QtGui/QCommonStyle
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QX11Info
  /usr/include/qt4/QtGui/qabstractslider.h
@@ -2956,6 +3097,8 @@ CMakeFiles/bespin.dir/moc_bespin.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -2983,13 +3126,16 @@ CMakeFiles/bespin.dir/moc_hacks.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -3036,13 +3182,16 @@ CMakeFiles/bespin.dir/moc_macmenu-dbus.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -3102,13 +3251,16 @@ CMakeFiles/bespin.dir/moc_macmenu.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -3155,13 +3307,16 @@ CMakeFiles/bespin.dir/moc_visualframe.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -3182,6 +3337,7 @@ CMakeFiles/bespin.dir/moc_visualframe.o
  /usr/include/qt4/QtCore/qcoreevent.h
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -3214,6 +3370,7 @@ CMakeFiles/bespin.dir/moc_visualframe.o
  /usr/include/qt4/QtCore/qvariant.h
  /usr/include/qt4/QtCore/qvector.h
  /usr/include/qt4/QtGui/QFrame
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QWidget
  /usr/include/qt4/QtGui/qbrush.h
  /usr/include/qt4/QtGui/qcolor.h
@@ -3233,6 +3390,8 @@ CMakeFiles/bespin.dir/moc_visualframe.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -3268,13 +3427,16 @@ CMakeFiles/bespin.dir/pixelmetric.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -3298,6 +3460,7 @@ CMakeFiles/bespin.dir/pixelmetric.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -3338,6 +3501,7 @@ CMakeFiles/bespin.dir/pixelmetric.o
  /usr/include/qt4/QtGui/QCommonStyle
  /usr/include/qt4/QtGui/QFrame
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QSlider
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QStyleOptionTabWidgetFrame
@@ -3367,6 +3531,8 @@ CMakeFiles/bespin.dir/pixelmetric.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -3430,13 +3596,16 @@ CMakeFiles/bespin.dir/polish.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -3465,6 +3634,7 @@ CMakeFiles/bespin.dir/polish.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -3524,6 +3694,7 @@ CMakeFiles/bespin.dir/polish.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QPushButton
  /usr/include/qt4/QtGui/QScrollArea
  /usr/include/qt4/QtGui/QSplitterHandle
@@ -3583,6 +3754,8 @@ CMakeFiles/bespin.dir/polish.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qpushbutton.h
  /usr/include/qt4/QtGui/qregion.h
@@ -3596,6 +3769,8 @@ CMakeFiles/bespin.dir/polish.o
  /usr/include/qt4/QtGui/qstyleoption.h
  /usr/include/qt4/QtGui/qtabbar.h
  /usr/include/qt4/QtGui/qtabwidget.h
+ /usr/include/qt4/QtGui/qtextcursor.h
+ /usr/include/qt4/QtGui/qtextformat.h
  /usr/include/qt4/QtGui/qtextoption.h
  /usr/include/qt4/QtGui/qtoolbar.h
  /usr/include/qt4/QtGui/qtooltip.h
@@ -3642,13 +3817,16 @@ CMakeFiles/bespin.dir/progress.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -3672,6 +3850,7 @@ CMakeFiles/bespin.dir/progress.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -3715,6 +3894,7 @@ CMakeFiles/bespin.dir/progress.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QX11Info
  /usr/include/qt4/QtGui/qabstractitemdelegate.h
@@ -3747,6 +3927,8 @@ CMakeFiles/bespin.dir/progress.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -3791,13 +3973,16 @@ CMakeFiles/bespin.dir/qsubcmetrics.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -3824,6 +4009,7 @@ CMakeFiles/bespin.dir/qsubcmetrics.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -3869,6 +4055,7 @@ CMakeFiles/bespin.dir/qsubcmetrics.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QStyleOptionTab
  /usr/include/qt4/QtGui/QTabBar
@@ -3906,6 +4093,8 @@ CMakeFiles/bespin.dir/qsubcmetrics.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -3964,13 +4153,16 @@ CMakeFiles/bespin.dir/scrollareas.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -3997,6 +4189,7 @@ CMakeFiles/bespin.dir/scrollareas.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -4041,6 +4234,7 @@ CMakeFiles/bespin.dir/scrollareas.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyle
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QX11Info
@@ -4073,6 +4267,8 @@ CMakeFiles/bespin.dir/scrollareas.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -4117,13 +4313,16 @@ CMakeFiles/bespin.dir/sizefromcontents.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -4147,6 +4346,7 @@ CMakeFiles/bespin.dir/sizefromcontents.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -4187,6 +4387,7 @@ CMakeFiles/bespin.dir/sizefromcontents.o
  /usr/include/qt4/QtGui/QColor
  /usr/include/qt4/QtGui/QCommonStyle
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QStyleOptionComboBox
  /usr/include/qt4/QtGui/QStyleOptionMenuItem
@@ -4216,6 +4417,8 @@ CMakeFiles/bespin.dir/sizefromcontents.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -4266,13 +4469,16 @@ CMakeFiles/bespin.dir/slider.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -4296,6 +4502,7 @@ CMakeFiles/bespin.dir/slider.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -4338,6 +4545,7 @@ CMakeFiles/bespin.dir/slider.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyle
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QX11Info
@@ -4367,6 +4575,8 @@ CMakeFiles/bespin.dir/slider.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -4410,13 +4620,16 @@ CMakeFiles/bespin.dir/stdpix.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -4444,6 +4657,7 @@ CMakeFiles/bespin.dir/stdpix.o
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfactoryinterface.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -4491,6 +4705,7 @@ CMakeFiles/bespin.dir/stdpix.o
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPen
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QStyleOptionTitleBar
  /usr/include/qt4/QtGui/QX11Info
@@ -4525,6 +4740,8 @@ CMakeFiles/bespin.dir/stdpix.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -4576,13 +4793,16 @@ CMakeFiles/bespin.dir/stylehint.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -4606,6 +4826,7 @@ CMakeFiles/bespin.dir/stylehint.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -4649,6 +4870,7 @@ CMakeFiles/bespin.dir/stylehint.o
  /usr/include/qt4/QtGui/QMenuBar
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QStyleOptionTab
  /usr/include/qt4/QtGui/QTabBar
@@ -4681,6 +4903,8 @@ CMakeFiles/bespin.dir/stylehint.o
  /usr/include/qt4/QtGui/qpainterpath.h
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -4730,13 +4954,16 @@ CMakeFiles/bespin.dir/tabbing.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -4760,6 +4987,7 @@ CMakeFiles/bespin.dir/tabbing.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -4802,6 +5030,7 @@ CMakeFiles/bespin.dir/tabbing.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QToolButton
  /usr/include/qt4/QtGui/QX11Info
@@ -4832,6 +5061,8 @@ CMakeFiles/bespin.dir/tabbing.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -4885,13 +5116,16 @@ CMakeFiles/bespin.dir/toolbars.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -4915,6 +5149,7 @@ CMakeFiles/bespin.dir/toolbars.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -4958,6 +5193,7 @@ CMakeFiles/bespin.dir/toolbars.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QToolBar
  /usr/include/qt4/QtGui/QToolButton
@@ -4990,6 +5226,8 @@ CMakeFiles/bespin.dir/toolbars.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -5036,13 +5274,16 @@ CMakeFiles/bespin.dir/views.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -5069,6 +5310,7 @@ CMakeFiles/bespin.dir/views.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -5113,6 +5355,7 @@ CMakeFiles/bespin.dir/views.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QPushButton
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QTreeView
@@ -5150,6 +5393,8 @@ CMakeFiles/bespin.dir/views.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qpushbutton.h
  /usr/include/qt4/QtGui/qregion.h
@@ -5188,13 +5433,16 @@ CMakeFiles/bespin.dir/visualframe.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -5220,6 +5468,7 @@ CMakeFiles/bespin.dir/visualframe.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -5260,6 +5509,7 @@ CMakeFiles/bespin.dir/visualframe.o
  /usr/include/qt4/QtGui/QMouseEvent
  /usr/include/qt4/QtGui/QPaintEvent
  /usr/include/qt4/QtGui/QPainter
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyle
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QWheelEvent
@@ -5289,6 +5539,8 @@ CMakeFiles/bespin.dir/visualframe.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
@@ -5335,13 +5587,16 @@ CMakeFiles/bespin.dir/window.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -5368,6 +5623,7 @@ CMakeFiles/bespin.dir/window.o
  /usr/include/qt4/QtCore/qdebug.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -5412,6 +5668,7 @@ CMakeFiles/bespin.dir/window.o
  /usr/include/qt4/QtGui/QPainter
  /usr/include/qt4/QtGui/QPalette
  /usr/include/qt4/QtGui/QPixmap
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QStyleOption
  /usr/include/qt4/QtGui/QWidget
  /usr/include/qt4/QtGui/QX11Info
@@ -5443,6 +5700,8 @@ CMakeFiles/bespin.dir/window.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h

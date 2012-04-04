@@ -19,13 +19,16 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomi
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_alpha.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_arch.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_arm.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_armv5.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_armv6.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_armv7.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_avr32.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_bfin.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_bootstrap.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_generic.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_i386.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_ia64.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_integrity.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_macosx.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_mips.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -50,6 +53,7 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qdatas
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qdebug.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qeventloop.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qfeatures.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qfile.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qglobal.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qhash.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtCore/qiodevice.h
@@ -101,6 +105,7 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/QGraphi
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/QIcon
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/QMenu
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/QPainter
+XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/QPlatformWindow
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/QStyle
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/QStyleOption
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/QStyleOptionMenuItem
@@ -140,6 +145,8 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/qpainte
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/qpalette.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/qpen.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/qpixmap.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/qpolygon.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/qregion.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/menubar.o: /usr/include/qt4/QtGui/qrgb.h
@@ -172,13 +179,16 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/includ
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_alpha.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_arch.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_arm.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_armv5.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_armv6.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_armv7.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_avr32.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_bfin.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_bootstrap.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_generic.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_i386.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_ia64.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_integrity.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_macosx.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_mips.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -199,6 +209,7 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/includ
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qcoreevent.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qdatastream.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qfeatures.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qfile.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qglobal.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qhash.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qiodevice.h
@@ -231,6 +242,7 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/includ
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qvariant.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtCore/qvector.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/QGraphicsWidget
+XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/QPlatformWindow
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/QStyleOption
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/qabstractslider.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/qabstractspinbox.h
@@ -256,6 +268,8 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/includ
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/qpainterpath.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/qpalette.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/qpixmap.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/qpolygon.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/qregion.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/plasma_applet_xbar_automoc.o: /usr/include/qt4/QtGui/qrgb.h
@@ -317,13 +331,16 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_alpha.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_arch.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_arm.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_armv5.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_armv6.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_armv7.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_avr32.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_bfin.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_bootstrap.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_generic.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_i386.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_ia64.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_integrity.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_macosx.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_mips.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -420,6 +437,7 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/QMenu
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/QMessageBox
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/QPaintEvent
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/QPainter
+XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/QPlatformWindow
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/QStyle
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/QStyleOption
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/QStyleOptionGraphicsItem
@@ -467,6 +485,8 @@ XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/qpainterpa
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/qpalette.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/qpen.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/qpixmap.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/qpolygon.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/qregion.h
 XBar/CMakeFiles/plasma_applet_xbar.dir/xbar.o: /usr/include/qt4/QtGui/qrgb.h

@@ -98,7 +98,7 @@ MacMenu::manage(QMenuBar *menu)
 bool 
 MacMenu::manages(const QMenuBar *menu)
 {
-    return instance && instance->usingMacMenu && instance->items.contains(const_cast<QMenuBar*>(menu));
+    return isActive() && instance->items.contains(const_cast<QMenuBar*>(menu));
 }
 
 void
@@ -124,13 +124,7 @@ MacMenu::_release(QObject *o)
     if (!menu) return;
 
     items.removeAll(menu);
-    menu->removeEventFilter(this);
-    QWidget *dad = menu->parentWidget();
-    if (dad && dad->layout())
-        dad->layout()->setMenuBar(menu);
-    menu->setMaximumSize(QWIDGETSIZE_MAX, QWIDGETSIZE_MAX);
-    menu->adjustSize();
-//    menu->updateGeometry();
+    deactivate(menu);
 }
 
 void
@@ -155,7 +149,7 @@ MacMenu::activate(QMenuBar *menu)
     // and WOWWWW - no more per window menubars...
     menu->setFixedSize(0,0);
     //NOTICE i used to set the menu's parent->layout()->setMenuBar(0) to get rid of the free space
-    // but this leeds to side effects (e.g. kcalc won't come up anymore...)
+    // but this leads to side effects (e.g. kcalc won't come up anymore...)
     // so now the stylehint for the free space below checks the menubar height and returns
     // a negative value so that final result will be 1 px heigh...
     menu->updateGeometry();
@@ -247,12 +241,14 @@ void
 MacMenu::deactivate(QMenuBar *menu)
 {
     menu->removeEventFilter(this);
-    QWidget *dad = menu->parentWidget();
-    if (dad && dad->layout())
-        dad->layout()->setMenuBar(menu);
+    const bool wasShown = menu->isVisible();
     menu->setMaximumSize(QWIDGETSIZE_MAX, QWIDGETSIZE_MAX);
+    if (QWidget *dad = menu->parentWidget())
+    if (dad->layout())
+        dad->layout()->setMenuBar(menu);
+    menu->setVisible(wasShown);
     menu->adjustSize();
-    //             menu->updateGeometry();
+//     menu->updateGeometry();
 }
 
 void

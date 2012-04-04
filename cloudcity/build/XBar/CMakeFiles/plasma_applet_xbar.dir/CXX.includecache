@@ -419,6 +419,8 @@ QtCore/qbasicatomic.h
 /usr/include/qt4/QtCore/qatomic_arch.h
 QtCore/qglobal.h
 /usr/include/qt4/QtCore/QtCore/qglobal.h
+QtCore/qatomic_integrity.h
+/usr/include/qt4/QtCore/QtCore/qatomic_integrity.h
 QtCore/qatomic_vxworks.h
 /usr/include/qt4/QtCore/QtCore/qatomic_vxworks.h
 QtCore/qatomic_alpha.h
@@ -461,10 +463,24 @@ QtCore/qatomic_sh.h
 /usr/include/qt4/QtCore/QtCore/qatomic_sh.h
 QtCore/qatomic_sh4a.h
 /usr/include/qt4/QtCore/QtCore/qatomic_sh4a.h
+QtCore/qatomic_generic.h
+/usr/include/qt4/QtCore/QtCore/qatomic_generic.h
 
 /usr/include/qt4/QtCore/qatomic_arm.h
+QtCore/qatomic_armv7.h
+/usr/include/qt4/QtCore/QtCore/qatomic_armv7.h
+QtCore/qatomic_armv6.h
+/usr/include/qt4/QtCore/QtCore/qatomic_armv6.h
+QtCore/qatomic_armv5.h
+/usr/include/qt4/QtCore/QtCore/qatomic_armv5.h
+
+/usr/include/qt4/QtCore/qatomic_armv5.h
 
 /usr/include/qt4/QtCore/qatomic_armv6.h
+
+/usr/include/qt4/QtCore/qatomic_armv7.h
+QtCore/qatomic_armv6.h
+/usr/include/qt4/QtCore/QtCore/qatomic_armv6.h
 
 /usr/include/qt4/QtCore/qatomic_avr32.h
 
@@ -482,6 +498,10 @@ asm/fixed_code.h
 ia64intrin.h
 -
 ia64/sys/inline.h
+-
+
+/usr/include/qt4/QtCore/qatomic_integrity.h
+INTEGRITY.h
 -
 
 /usr/include/qt4/QtCore/qatomic_macosx.h
@@ -562,6 +582,8 @@ QtCore/qnamespace.h
 string.h
 -
 stdarg.h
+-
+QtCore/qstring.h
 -
 
 /usr/include/qt4/QtCore/qchar.h
@@ -647,11 +669,15 @@ QtCore/qstring.h
 -
 stdio.h
 -
+f32file.h
+-
 
 /usr/include/qt4/QtCore/qglobal.h
 stddef.h
 -
 QtCore/qconfig.h
+-
+algorithm
 -
 AvailabilityMacros.h
 -
@@ -711,6 +737,10 @@ iterator
 -
 list
 -
+iterator
+-
+initializer_list
+-
 new
 -
 limits.h
@@ -719,6 +749,8 @@ string.h
 -
 
 /usr/include/qt4/QtCore/qlocale.h
+QtCore/qvariant.h
+-
 QtCore/qstring.h
 -
 QtCore/qobjectdefs.h
@@ -861,8 +893,6 @@ Qt3Support/q3cstring.h
 -
 string
 -
-string
--
 stdarg.h
 -
 QtCore/qstringbuilder.h
@@ -870,6 +900,8 @@ QtCore/qstringbuilder.h
 
 /usr/include/qt4/QtCore/qstringbuilder.h
 QtCore/qstring.h
+-
+QtCore/qbytearray.h
 -
 QtCore/qmap.h
 -
@@ -956,6 +988,8 @@ vector
 stdlib.h
 -
 string.h
+-
+initializer_list
 -
 QtCore/QPointF
 -
@@ -1192,6 +1226,10 @@ qevent.h
 qpainter.h
 /usr/include/qt4/QtGui/qpainter.h
 
+/usr/include/qt4/QtGui/QPlatformWindow
+qplatformwindow_qpa.h
+/usr/include/qt4/QtGui/qplatformwindow_qpa.h
+
 /usr/include/qt4/QtGui/QStyle
 qstyle.h
 /usr/include/qt4/QtGui/qstyle.h
@@ -1354,6 +1392,8 @@ QtCore/qvariant.h
 QtCore/qmap.h
 -
 QtCore/qset.h
+-
+QtCore/qfile.h
 -
 
 /usr/include/qt4/QtGui/qfont.h
@@ -1537,6 +1577,8 @@ QtGui/qaction.h
 -
 QtGui/qpixmap.h
 -
+windef.h
+-
 
 /usr/include/qt4/QtGui/qmessagebox.h
 QtGui/qdialog.h
@@ -1628,6 +1670,20 @@ QtCore/qsharedpointer.h
 QtGui/qimage.h
 -
 QtGui/qtransform.h
+-
+
+/usr/include/qt4/QtGui/qplatformwindow_qpa.h
+QtCore/qscopedpointer.h
+-
+QtCore/qrect.h
+-
+QtCore/qstring.h
+-
+QtGui/qwindowdefs.h
+-
+
+/usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
+QtGui/QPlatformWindow
 -
 
 /usr/include/qt4/QtGui/qpolygon.h
@@ -1796,6 +1852,8 @@ QtGui/qbrush.h
 QtGui/qcursor.h
 -
 QtGui/qkeysequence.h
+-
+QtGui/qplatformwindowformat_qpa.h
 -
 QtGui/qevent.h
 -

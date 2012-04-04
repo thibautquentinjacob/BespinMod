@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,7 +13,7 @@
    height="128"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.48.2 r9819"
    version="1.0"
    sodipodi:docname="vlc.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
@@ -33,17 +34,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="20.647427"
-     inkscape:cy="128.73494"
+     inkscape:zoom="0.70000001"
+     inkscape:cx="28.939082"
+     inkscape:cy="58.467219"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
      showguides="false"
      inkscape:window-width="1440"
      inkscape:window-height="850"
-     inkscape:window-x="-4"
-     inkscape:window-y="-2">
+     inkscape:window-x="72"
+     inkscape:window-y="151"
+     inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
        id="grid2383"
@@ -64,26 +66,23 @@
   <g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect2383"
-       width="127.59822"
-       height="19.04673"
-       x="0.35714287"
-       y="108.90863" />
-    <path
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 50.75 0.5 L 37.25 45.71875 L 91.0625 45.71875 L 77.5625 0.5 L 50.75 0.5 z M 25.3125 85.625 L 15.4375 118.71875 L 112.875 118.71875 L 103 85.625 L 25.3125 85.625 z "
-       id="path2395" />
-  </g>
+     id="layer1" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      style="opacity:0.76">
     <path
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 91.128807,45.699527 L 37.316307,45.699527 L 25.378807,85.629451 L 103.06631,85.629451 L 91.128807,45.699527 z"
-       id="path2393" />
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.33"
+       d="m 64,16 c -26.50967,0 -48,21.490332 -48,48 0,26.509668 21.49033,48 48,48 26.50967,0 48,-21.490332 48,-48 C 112,37.490332 90.50967,16 64,16 z"
+       id="path3830"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.66"
+       d="M 23 0 C 10.258 0 2.0714252e-17 10.258 0 23 L 0 105 C 0 117.742 10.258 128 23 128 L 105 128 C 117.742 128 128 117.742 128 105 L 128 23 C 128 10.258 117.742 2.0714252e-17 105 0 L 23 0 z M 64 16 C 90.50967 16 112 37.490332 112 64 C 112 90.509668 90.50967 112 64 112 C 37.49033 112 16 90.509668 16 64 C 16 37.490332 37.49033 16 64 16 z "
+       id="rect3020" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="M 64 16 C 37.490332 16 16 37.490332 16 64 C 16 90.509668 37.490332 112 64 112 C 90.509668 112 112 90.509668 112 64 C 112 37.490332 90.509668 16 64 16 z M 64 28 C 83.882251 28 100 44.117749 100 64 C 100 83.882251 83.882251 100 64 100 C 44.117749 100 28 83.882251 28 64 C 28 44.117749 44.117749 28 64 28 z M 64 36 C 48.536027 36 36 48.536027 36 64 C 36 79.463973 48.536027 92 64 92 C 79.463973 92 92 79.463973 92 64 C 92 48.536027 79.463973 36 64 36 z M 64 48 C 72.836556 48 80 55.163444 80 64 C 80 72.836556 72.836556 80 64 80 C 55.163444 80 48 72.836556 48 64 C 48 55.163444 55.163444 48 64 48 z M 64 56 C 59.581722 56 56 59.581722 56 64 C 56 68.418278 59.581722 72 64 72 C 68.418278 72 72 68.418278 72 64 C 72 59.581722 68.418278 56 64 56 z "
+       id="path3790" />
   </g>
 </svg>

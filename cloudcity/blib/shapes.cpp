@@ -43,31 +43,10 @@ Shapes::close(const QRectF &bound, Style style)
         break;
     default:
     case Round:
-    {
-      //         path.addEllipse(bound);
-      //         path.addEllipse(bound.adjusted(s3, s3, -s3, -s3));
-      //         path.addEllipse(bound.adjusted(9, 9, -9, -9));
-//       path.moveTo(QPointF( 0, 0 ));
-//       QPolygonF polygon;
-//       polygon << QPointF(0, 0) << QPointF(1, 0) << QPointF(1, 1) << QPointF(2, 1) 
-//       << QPointF(2, 0) << QPointF(3, 0) << QPointF(3, 1) << QPointF(2, 1)
-//       << QPointF(2, 2) << QPointF(3, 2) << QPointF(3, 3) << QPointF(1, 3)
-//       << QPointF(2, 2) << QPointF(1, 2) << QPointF(1, 3) << QPointF(0, 3)
-//       << QPointF(0, 2) << QPointF(1, 2) << QPointF(1, 1) << QPointF(0, 1);
-//       path.addPolygon( polygon );
-//       path.addRect( 0, 0, 8, 8 );
-//       path.closeSubpath();
-//       path.addRect( 16, 0, 24, 8 );
-//       path.addRect( 8, 8, 16, 16 );
-//       path.closeSubpath();
-//       path.addRect( 0, 16, 8, 24 );
-//       path.closeSubpath();
-//       path.addRect( 16, 16, 24, 24 );
-//       path.closeSubpath();
-//             path.addRect( 0, 0, 10, 0 );
-            path.addEllipse( QPointF(-5.0,-5.0), 15, 15 );
-      break;
-    }
+
+        //path.addEllipse(bound);
+        //path.addEllipse(bound.adjusted(s3, s3, -s3, -s3));
+        break;
     case TheRob:
         path.addEllipse(bound);
         path.addEllipse(bound.adjusted(s8,s8,-s8,-s8));
@@ -96,10 +75,9 @@ Shapes::min(const QRectF &bound, Style style)
         break;
     default:
     case Round:
-      //         path.moveTo(bound.center());
-      //         path.arcTo(bound, 180, 180);
-      //         path.closeSubpath();
-      path.addRect( 0, 0, 10, 0 );
+       // path.moveTo(bound.center());
+       // path.arcTo(bound, 180, 180);
+       // path.closeSubpath();
         break;
     case TheRob:
         path.moveTo(bound.center());
@@ -155,23 +133,10 @@ Shapes::max(const QRectF &bound, Style style)
     }
     default:
     case Round:
-      {
-        //         path.moveTo(bound.center());
-        //         path.arcTo(bound, 0, 180);
-        //         path.closeSubpath();
-//         QPolygonF polygon;
-//         polygon << QPointF(-5, 5) << QPointF(5, 5) << QPointF(5, -5) 
-//         << QPointF(9, -5) << QPointF(9, 5) << QPointF(19, 5) 
-//         << QPointF(19, 9) << QPointF(9, 9) << QPointF(9, 19) 
-//         << QPointF(5, 19) << QPointF(5, 9) << QPointF(-5, 9);
-//         path.addPolygon( polygon );
-// path.moveTo(QPointF( 0, 0 ));
-// path.addRect( 4, 0, 4, 14 );
-// path.moveTo(QPointF( 0, 0 ));
-// path.addRect( 0, 4, 14, 4 );
-      path.addRect( 0, 0, 10, 0 );
+        //path.moveTo(bound.center());
+        //path.arcTo(bound, 0, 180);
+        //path.closeSubpath();
         break;
-      }
     case TheRob:
         path.moveTo(bound.center());
         path.arcTo(bound, 0, 180);

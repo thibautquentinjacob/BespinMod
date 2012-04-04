@@ -19,13 +19,16 @@ config/CMakeFiles/kstyle_bespin_config.dir/bconfig.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -99,6 +102,7 @@ config/CMakeFiles/kstyle_bespin_config.dir/bconfig.o
  /usr/include/qt4/QtGui/QGroupBox
  /usr/include/qt4/QtGui/QLineEdit
  /usr/include/qt4/QtGui/QMessageBox
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QSpinBox
  /usr/include/qt4/QtGui/QTextBrowser
  /usr/include/qt4/QtGui/QTextEdit
@@ -123,9 +127,11 @@ config/CMakeFiles/kstyle_bespin_config.dir/bconfig.o
  /usr/include/qt4/QtGui/qevent.h
  /usr/include/qt4/QtGui/qfiledialog.h
  /usr/include/qt4/QtGui/qfont.h
+ /usr/include/qt4/QtGui/qfontdatabase.h
  /usr/include/qt4/QtGui/qfontinfo.h
  /usr/include/qt4/QtGui/qfontmetrics.h
  /usr/include/qt4/QtGui/qframe.h
+ /usr/include/qt4/QtGui/qglyphrun.h
  /usr/include/qt4/QtGui/qgridlayout.h
  /usr/include/qt4/QtGui/qgroupbox.h
  /usr/include/qt4/QtGui/qicon.h
@@ -143,7 +149,10 @@ config/CMakeFiles/kstyle_bespin_config.dir/bconfig.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
+ /usr/include/qt4/QtGui/qrawfont.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
  /usr/include/qt4/QtGui/qrubberband.h
@@ -192,13 +201,16 @@ config/CMakeFiles/kstyle_bespin_config.dir/config.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -283,6 +295,7 @@ config/CMakeFiles/kstyle_bespin_config.dir/config.o
  /usr/include/qt4/QtGui/QLineEdit
  /usr/include/qt4/QtGui/QListWidget
  /usr/include/qt4/QtGui/QPainter
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QPushButton
  /usr/include/qt4/QtGui/QSlider
  /usr/include/qt4/QtGui/QSpacerItem
@@ -320,10 +333,12 @@ config/CMakeFiles/kstyle_bespin_config.dir/config.o
  /usr/include/qt4/QtGui/qevent.h
  /usr/include/qt4/QtGui/qfiledialog.h
  /usr/include/qt4/QtGui/qfont.h
+ /usr/include/qt4/QtGui/qfontdatabase.h
  /usr/include/qt4/QtGui/qfontinfo.h
  /usr/include/qt4/QtGui/qfontmetrics.h
  /usr/include/qt4/QtGui/qformlayout.h
  /usr/include/qt4/QtGui/qframe.h
+ /usr/include/qt4/QtGui/qglyphrun.h
  /usr/include/qt4/QtGui/qgridlayout.h
  /usr/include/qt4/QtGui/qgroupbox.h
  /usr/include/qt4/QtGui/qheaderview.h
@@ -346,8 +361,11 @@ config/CMakeFiles/kstyle_bespin_config.dir/config.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qpushbutton.h
+ /usr/include/qt4/QtGui/qrawfont.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
  /usr/include/qt4/QtGui/qrubberband.h
@@ -396,13 +414,16 @@ config/CMakeFiles/kstyle_bespin_config.dir/kdeini.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -469,13 +490,16 @@ config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o
  /usr/include/qt4/QtCore/qatomic_alpha.h
  /usr/include/qt4/QtCore/qatomic_arch.h
  /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
  /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
  /usr/include/qt4/QtCore/qatomic_avr32.h
  /usr/include/qt4/QtCore/qatomic_bfin.h
  /usr/include/qt4/QtCore/qatomic_bootstrap.h
  /usr/include/qt4/QtCore/qatomic_generic.h
  /usr/include/qt4/QtCore/qatomic_i386.h
  /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
  /usr/include/qt4/QtCore/qatomic_macosx.h
  /usr/include/qt4/QtCore/qatomic_mips.h
  /usr/include/qt4/QtCore/qatomic_parisc.h
@@ -499,6 +523,7 @@ config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o
  /usr/include/qt4/QtCore/qdatastream.h
  /usr/include/qt4/QtCore/qeventloop.h
  /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qfile.h
  /usr/include/qt4/QtCore/qglobal.h
  /usr/include/qt4/QtCore/qhash.h
  /usr/include/qt4/QtCore/qiodevice.h
@@ -548,6 +573,7 @@ config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o
  /usr/include/qt4/QtGui/QLayout
  /usr/include/qt4/QtGui/QLineEdit
  /usr/include/qt4/QtGui/QListWidget
+ /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QPushButton
  /usr/include/qt4/QtGui/QSlider
  /usr/include/qt4/QtGui/QSpacerItem
@@ -580,10 +606,12 @@ config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o
  /usr/include/qt4/QtGui/qdrag.h
  /usr/include/qt4/QtGui/qevent.h
  /usr/include/qt4/QtGui/qfont.h
+ /usr/include/qt4/QtGui/qfontdatabase.h
  /usr/include/qt4/QtGui/qfontinfo.h
  /usr/include/qt4/QtGui/qfontmetrics.h
  /usr/include/qt4/QtGui/qformlayout.h
  /usr/include/qt4/QtGui/qframe.h
+ /usr/include/qt4/QtGui/qglyphrun.h
  /usr/include/qt4/QtGui/qgridlayout.h
  /usr/include/qt4/QtGui/qgroupbox.h
  /usr/include/qt4/QtGui/qheaderview.h
@@ -605,8 +633,11 @@ config/CMakeFiles/kstyle_bespin_config.dir/kstyle_bespin_config_automoc.o
  /usr/include/qt4/QtGui/qpalette.h
  /usr/include/qt4/QtGui/qpen.h
  /usr/include/qt4/QtGui/qpixmap.h
+ /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+ /usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
  /usr/include/qt4/QtGui/qpolygon.h
  /usr/include/qt4/QtGui/qpushbutton.h
+ /usr/include/qt4/QtGui/qrawfont.h
  /usr/include/qt4/QtGui/qregion.h
  /usr/include/qt4/QtGui/qrgb.h
  /usr/include/qt4/QtGui/qrubberband.h

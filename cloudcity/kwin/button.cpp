@@ -134,8 +134,6 @@ Button::init(bool leftMenu, bool fColors, int variant)
     shape[Close] = Shapes::close(bound, style);
     shape[Min] = Shapes::min(bound, style);
     shape[Max] = Shapes::max(bound, style);
-//     shape[Min] = Shapes::close(bound, style);
-//     shape[Max] = Shapes::close(bound, style);
     shape[Restore] = Shapes::restore(bound, style);
     shape[Stick] = Shapes::stick(bound, style);
     shape[Unstick] = Shapes::unstick(bound, style);
@@ -419,7 +417,7 @@ Button::paintEvent(QPaintEvent *)
     p.scale ( fs*fx, fs*fy );
 //    p.rotate(60*hoverLevel); // too annoying, especially for fast zoom in...
     p.setPen( QPen( Qt::NoPen ) );
-    p.setBrush( QColor( 254, 254, 254, 255 ));
+    p.setBrush( QColor( 254, 254, 254, 100 ));
     p.drawEllipse( QPoint( width()-5, height() ), 40, 40 );
     p.setBrush( QColor( 59, 59, 59, 255 ));
     p.drawEllipse( QPoint( width()-5, 2 ), 40, 40 );
